@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "LIS3MDL_magnetometer")(type "Legacy")(uri "${KIPRJMOD}/LIS3MDL_magnetometer.lib")(options "")(descr ""))
+)
