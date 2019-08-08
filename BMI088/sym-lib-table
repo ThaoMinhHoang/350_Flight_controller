@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "BMI088-rescue")(type "Legacy")(uri "${KIPRJMOD}/BMI088-rescue.lib")(options "")(descr ""))
+  (lib (name BMI088-rescue)(type Legacy)(uri ${KIPRJMOD}/BMI088-rescue.lib)(options "")(descr ""))
 )
