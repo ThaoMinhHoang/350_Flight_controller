@@ -128,6 +128,29 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FlightController_EG5350CT
+#
+DEF FlightController_EG5350CT U 0 40 Y Y 1 F N
+F0 "U" 300 400 50 H V C CNN
+F1 "FlightController_EG5350CT" 0 400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -50 50 0 0 0 o Normal 0 C C
+T 0 0 50 50 0 0 0 o Normal 0 C C
+S -150 150 150 -150 0 1 0 N
+P 2 0 1 0 -150 -100 150 -100 N
+P 2 0 1 0 0 -100 0 -50 N
+P 2 0 1 0 0 100 0 50 N
+P 2 0 1 0 150 100 -150 100 N
+P 4 0 1 0 50 50 50 -50 50 0 100 0 N
+X 1 1 -250 -100 100 R 50 50 1 1 I
+X 2 2 250 -100 100 L 50 50 1 1 I
+X 3 3 -250 100 100 R 50 50 1 1 I
+X 4 4 250 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Flight_Controller-rescue_BMI088-Symbol_Library
 #
 DEF Flight_Controller-rescue_BMI088-Symbol_Library U 0 40 Y Y 1 F N
