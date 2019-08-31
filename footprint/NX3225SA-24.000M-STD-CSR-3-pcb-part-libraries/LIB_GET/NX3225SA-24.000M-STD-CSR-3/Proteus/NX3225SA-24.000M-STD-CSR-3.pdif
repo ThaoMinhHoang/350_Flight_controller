@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NX3225SA-24.000M-STD-CSR-3"
+   (description "NDK 24MHz Crystal Unit SMD 4-Pin 3.2 x 2.5 x 0.55mm")
+   (family "OSC")
+   (package "NX3225SA12000MHZSTDCSR1")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/NX3225SA-24.000M-STD-CSR-3.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "344-NX3225SA24MSTSR3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=344-NX3225SA24MSTSR3")
+   (attribute "Manufacturer_Name" "NDK")
+   (attribute "Manufacturer_Part_Number" "NX3225SA-24.000M-STD-CSR-3")
+   (gate
+    (symbol "NX3225SA-24.000M-STD-CSR-3")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "NX3225SA-24.000M-STD-CSR-3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NX3225SA12000MHZSTDCSR1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.4)
+      (pt 2.8 2.4)
+      (pt 2.8 -2.4)
+      (pt -2.8 -2.4)
+      (pt -2.8 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.2 -1.8)
+      (arc (pt -1.200 -1.800) (pt -1.200 -1.900) (pt -1.000 -1.700) (start 180.0) (sweep 180.0))
+      (pt -1 -1.8)
+      (arc (pt -1.000 -1.800) (pt -1.200 -1.900) (pt -1.000 -1.700) (start 180.0) (sweep .0))
+      (pt -1.2 -1.8))))
+   (leg 1 (pt -1.100 -0.800) (padstack 0))
+   (leg 2 (pt 1.100 -0.800) (padstack 0))
+   (leg 3 (pt 1.100 0.800) (padstack 0))
+   (leg 4 (pt -1.100 0.800) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 1.400 0 0 0.000))
+   )
+   (model "NX3225SA-24.000M-STD-CSR-3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

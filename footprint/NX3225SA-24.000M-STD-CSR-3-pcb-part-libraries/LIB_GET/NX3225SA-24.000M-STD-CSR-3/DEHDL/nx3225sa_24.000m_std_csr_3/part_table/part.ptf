@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NX3225SA_24.000M_STD_CSR_3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NDK", "NX3225SA-24.000M-STD-CSR-3" (!) = "", "NX3225SA12000MHZSTDCSR1", "Other", "344-NX3225SA24MSTSR3", "https://www.mouser.com/Search/Refine.aspx?Keyword=344-NX3225SA24MSTSR3", "NDK 24MHz Crystal Unit SMD 4-Pin 3.2 x 2.5 x 0.55mm", "https://componentsearchengine.com/Datasheets/1/NX3225SA-24.000M-STD-CSR-3.pdf", "0.6 mm"
+END_PART
+
+END.

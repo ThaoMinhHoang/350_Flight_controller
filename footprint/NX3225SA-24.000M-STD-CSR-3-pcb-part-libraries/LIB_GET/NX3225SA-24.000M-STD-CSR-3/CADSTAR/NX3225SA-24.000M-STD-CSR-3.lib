@@ -1,0 +1,16 @@
+.NX3225SA-24.000M-STD-CSR-3 :1 ;NDK 24MHz Crystal Unit SMD 4-Pin 3.2 x 2.5 x 0.55mm
+NX3225SA12000MHZSTDCSR1
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="GND_1" 3="CRYSTAL_2" 4="GND_2"
+*MXP 4
+*DFN NX3225SA-24.000M-STD-CSR-3
+~!Mouser Part Number (344-NX3225SA24MSTSR3)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=344-NX3225SA24MSTSR3)
+~!Manufacturer_Name (NDK)
+~!Manufacturer_Part_Number (NX3225SA-24.000M-STD-CSR-3)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/NX3225SA-24.000M-STD-CSR-3.pdf)
+~!Height (0.6mm)
+~!3D_Model (NX3225SA-24.000M-STD-CSR-3)
+NX3225SA-24.000M-STD-CSR-3
+1.1!U 2.1!U 3.1!U 4.1!U 

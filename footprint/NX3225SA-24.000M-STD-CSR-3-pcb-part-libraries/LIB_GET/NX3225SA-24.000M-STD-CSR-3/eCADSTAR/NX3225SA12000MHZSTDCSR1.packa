@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NX3225SA-24_000M-STD-CSR-3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-03-05-15:09:03)
+    (mountForm default
+        (footprintRef "NX3225SA12000MHZSTDCSR1")
+        (spec "System")
+    )
+)

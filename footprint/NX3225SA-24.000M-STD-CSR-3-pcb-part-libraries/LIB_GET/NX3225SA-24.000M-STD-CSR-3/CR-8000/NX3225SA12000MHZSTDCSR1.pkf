@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NX3225SA12000MHZSTDCSR1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NX3225SA12000MHZSTDCSR1")
+        (spec "default")
+    )
+)

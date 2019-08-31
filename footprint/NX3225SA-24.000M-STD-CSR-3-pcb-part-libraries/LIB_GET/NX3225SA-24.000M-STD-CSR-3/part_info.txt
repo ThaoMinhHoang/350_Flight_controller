@@ -1,0 +1,9 @@
+Manufacturer=NDK
+PartNumber=NX3225SA-24.000M-STD-CSR-3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-04-08 08:41:44
+Downloaded=2019-08-31 04:14:27
+3D=Y
