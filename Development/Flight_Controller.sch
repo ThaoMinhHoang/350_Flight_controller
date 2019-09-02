@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Flight_Controller-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C7
+L Device:C C?
 U 1 1 5D453649
 P 1800 2725
-F 0 "C7" V 1750 2825 50  0000 C CNN
+F 0 "C?" V 1750 2825 50  0000 C CNN
 F 1 "100nF" V 1950 2725 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 2575 50  0001 C CNN
+F 2 "" H 1838 2575 50  0001 C CNN
 F 3 "~" H 1800 2725 50  0001 C CNN
 	1    1800 2725
 	0    1    1    0   
@@ -37,12 +37,12 @@ F 3 "" H 1400 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:MIC5330-SSYML-FlightController-PowerSupply-rescue U2
+L Flight_Controller-rescue:MIC5330-SSYML-FlightController-PowerSupply-rescue U?
 U 1 1 5D4519DD
 P 2500 2625
-F 0 "U2" H 2800 2975 50  0000 C CNN
+F 0 "U?" H 2800 2975 50  0000 C CNN
 F 1 "MIC5330-SSYML" H 2500 2225 50  0000 C CNN
-F 2 "MIC5330-SSYML-TR:MIC5330-SSYML-TR" H 2450 2975 50  0001 C CNN
+F 2 "" H 2450 2975 50  0001 C CNN
 F 3 "" H 2450 2975 50  0001 C CNN
 	1    2500 2625
 	1    0    0    -1  
@@ -71,12 +71,12 @@ Wire Wire Line
 Wire Wire Line
 	1100 3175 1100 2425
 $Comp
-L Device:C C9
+L Device:C C?
 U 1 1 5D4765EE
 P 1800 5075
-F 0 "C9" V 1750 5175 50  0000 C CNN
+F 0 "C?" V 1750 5175 50  0000 C CNN
 F 1 "100nF" V 1950 5075 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 4925 50  0001 C CNN
+F 2 "" H 1838 4925 50  0001 C CNN
 F 3 "~" H 1800 5075 50  0001 C CNN
 	1    1800 5075
 	0    1    1    0   
@@ -93,12 +93,12 @@ F 3 "" H 1400 5075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:MIC5330-SPYML-FlightController-PowerSupply-rescue U4
+L Flight_Controller-rescue:MIC5330-SPYML-FlightController-PowerSupply-rescue U?
 U 1 1 5D476620
 P 2500 4975
-F 0 "U4" H 2800 5325 50  0000 C CNN
+F 0 "U?" H 2800 5325 50  0000 C CNN
 F 1 "MIC5330-SPYML" H 2500 4575 50  0000 C CNN
-F 2 "MIC5330-SSYML-TR:MIC5330-SSYML-TR" H 2450 5325 50  0001 C CNN
+F 2 "" H 2450 5325 50  0001 C CNN
 F 3 "" H 2450 5325 50  0001 C CNN
 	1    2500 4975
 	1    0    0    -1  
@@ -128,12 +128,12 @@ Wire Wire Line
 	2000 5475 2050 5475
 Connection ~ 2050 5475
 $Comp
-L Device:C C8
+L Device:C C?
 U 1 1 5D49B123
 P 1800 3925
-F 0 "C8" V 1750 4025 50  0000 C CNN
+F 0 "C?" V 1750 4025 50  0000 C CNN
 F 1 "100nF" V 1950 3925 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 3775 50  0001 C CNN
+F 2 "" H 1838 3775 50  0001 C CNN
 F 3 "~" H 1800 3925 50  0001 C CNN
 	1    1800 3925
 	0    1    1    0   
@@ -150,12 +150,12 @@ F 3 "" H 1400 3925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:MIC5330-SSYML-FlightController-PowerSupply-rescue U3
+L Flight_Controller-rescue:MIC5330-SSYML-FlightController-PowerSupply-rescue U?
 U 1 1 5D49B141
 P 2500 3825
-F 0 "U3" H 2800 4175 50  0000 C CNN
+F 0 "U?" H 2800 4175 50  0000 C CNN
 F 1 "MIC5330-SSYML" H 2500 3425 50  0000 C CNN
-F 2 "MIC5330-SSYML-TR:MIC5330-SSYML-TR" H 2450 4175 50  0001 C CNN
+F 2 "" H 2450 4175 50  0001 C CNN
 F 3 "" H 2450 4175 50  0001 C CNN
 	1    2500 3825
 	1    0    0    -1  
@@ -210,23 +210,23 @@ VDD_5V_IN
 Wire Wire Line
 	1950 3625 2050 3625
 $Comp
-L Diode:1N5822 D1
+L Diode:1N5822 D?
 U 1 1 5D4C222F
 P 7525 2525
-F 0 "D1" H 7525 2741 50  0000 C CNN
+F 0 "D?" H 7525 2741 50  0000 C CNN
 F 1 "1N5822" H 7525 2650 50  0000 C CNN
-F 2 "" H 7525 2350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 7525 2350 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 7525 2525 50  0001 C CNN
 	1    7525 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R?
 U 1 1 5D4C372A
 P 7075 2525
-F 0 "R4" V 6868 2525 50  0000 C CNN
+F 0 "R?" V 6868 2525 50  0000 C CNN
 F 1 "220R" V 6959 2525 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7005 2525 50  0001 C CNN
+F 2 "" V 7005 2525 50  0001 C CNN
 F 3 "~" H 7075 2525 50  0001 C CNN
 	1    7075 2525
 	0    1    1    0   
@@ -262,23 +262,23 @@ Wire Wire Line
 Text GLabel 6825 3425 0    50   Input ~ 0
 MCU_3V3
 $Comp
-L Device:R R5
+L Device:R R?
 U 1 1 5D472C1F
 P 7175 3425
-F 0 "R5" V 6968 3425 50  0000 C CNN
+F 0 "R?" V 6968 3425 50  0000 C CNN
 F 1 "0R" V 7059 3425 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7105 3425 50  0001 C CNN
+F 2 "" V 7105 3425 50  0001 C CNN
 F 3 "~" H 7175 3425 50  0001 C CNN
 	1    7175 3425
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C35
+L Device:C C?
 U 1 1 5D47334C
 P 7675 3725
-F 0 "C35" V 7625 3825 50  0000 C CNN
+F 0 "C?" V 7625 3825 50  0000 C CNN
 F 1 "100nF" V 7825 3725 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7713 3575 50  0001 C CNN
+F 2 "" H 7713 3575 50  0001 C CNN
 F 3 "~" H 7675 3725 50  0001 C CNN
 	1    7675 3725
 	1    0    0    -1  
@@ -310,12 +310,12 @@ Wire Wire Line
 Text GLabel 10875 2325 0    50   Input ~ 0
 VDD_5V_IN
 $Comp
-L Device:R R12
+L Device:R R?
 U 1 1 5D4A3FBE
 P 10275 2525
-F 0 "R12" V 10068 2525 50  0000 C CNN
+F 0 "R?" V 10068 2525 50  0000 C CNN
 F 1 "1K" V 10159 2525 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10205 2525 50  0001 C CNN
+F 2 "" V 10205 2525 50  0001 C CNN
 F 3 "~" H 10275 2525 50  0001 C CNN
 	1    10275 2525
 	0    1    1    0   
@@ -323,12 +323,12 @@ $EndComp
 Wire Wire Line
 	10875 2325 11125 2325
 $Comp
-L Device:R R8
+L Device:R R?
 U 1 1 5D4ACD3E
 P 9875 2625
-F 0 "R8" V 9668 2625 50  0000 C CNN
+F 0 "R?" V 9668 2625 50  0000 C CNN
 F 1 "1K" V 9759 2625 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9805 2625 50  0001 C CNN
+F 2 "" V 9805 2625 50  0001 C CNN
 F 3 "~" H 9875 2625 50  0001 C CNN
 	1    9875 2625
 	0    1    1    0   
@@ -373,10 +373,10 @@ Connection ~ 10975 2825
 Wire Wire Line
 	10975 2825 10825 2825
 $Comp
-L Connector_Generic:Conn_01x06 J1
+L Connector_Generic:Conn_01x06 J?
 U 1 1 5D49F97F
 P 11425 2525
-F 0 "J1" H 11505 2517 50  0000 L CNN
+F 0 "J?" H 11505 2517 50  0000 L CNN
 F 1 "POWER1" H 11505 2426 50  0000 L CNN
 F 2 "" H 11425 2525 50  0001 C CNN
 F 3 "~" H 11425 2525 50  0001 C CNN
@@ -384,10 +384,10 @@ F 3 "~" H 11425 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:BMI088-Symbol_Library U6
+L Flight_Controller-rescue:BMI088-Symbol_Library U?
 U 1 1 5D622A24
 P 6100 9500
-F 0 "U6" H 6100 10265 50  0000 C CNN
+F 0 "U?" H 6100 10265 50  0000 C CNN
 F 1 "BMI088" H 6100 10174 50  0000 C CNN
 F 2 "" H 6100 9500 50  0001 C CNN
 F 3 "" H 6100 9500 50  0001 C CNN
@@ -395,10 +395,10 @@ F 3 "" H 6100 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:ICM20689-Symbol_Library U1
+L Flight_Controller-rescue:ICM20689-Symbol_Library U?
 U 1 1 5D627142
 P 2450 12000
-F 0 "U1" H 3144 12021 50  0000 L CNN
+F 0 "U?" H 3144 12021 50  0000 L CNN
 F 1 "ICM20689" H 3144 11930 50  0000 L CNN
 F 2 "" H 2900 12550 50  0001 C CNN
 F 3 "" H 2900 12550 50  0001 C CNN
@@ -406,10 +406,10 @@ F 3 "" H 2900 12550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:IST8310-Symbol_Library U7
+L Flight_Controller-rescue:IST8310-Symbol_Library U?
 U 1 1 5D6799FE
 P 6250 11750
-F 0 "U7" H 6325 12115 50  0000 C CNN
+F 0 "U?" H 6325 12115 50  0000 C CNN
 F 1 "IST8310" H 6325 12024 50  0000 C CNN
 F 2 "" H 6950 12150 50  0001 C CNN
 F 3 "" H 6950 12150 50  0001 C CNN
@@ -439,12 +439,12 @@ F 3 "" H 6700 12350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C32
+L Device:C_Small C?
 U 1 1 5D682E31
 P 7300 12250
-F 0 "C32" V 7071 12250 50  0000 C CNN
+F 0 "C?" V 7071 12250 50  0000 C CNN
 F 1 "4.7uF" V 7162 12250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7300 12250 50  0001 C CNN
+F 2 "" H 7300 12250 50  0001 C CNN
 F 3 "~" H 7300 12250 50  0001 C CNN
 	1    7300 12250
 	0    1    1    0   
@@ -529,12 +529,12 @@ SPI1_DRDY2_BMI055_GYRO
 Text GLabel 7000 9650 2    50   Input ~ 0
 IMU_VDD_3V0
 $Comp
-L Device:C_Small C31
+L Device:C_Small C?
 U 1 1 5D8FF891
 P 6950 9900
-F 0 "C31" H 6858 9854 50  0000 R CNN
+F 0 "C?" H 6858 9854 50  0000 R CNN
 F 1 "100nF" H 6858 9945 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6950 9900 50  0001 C CNN
+F 2 "" H 6950 9900 50  0001 C CNN
 F 3 "~" H 6950 9900 50  0001 C CNN
 	1    6950 9900
 	-1   0    0    1   
@@ -546,12 +546,12 @@ SPI1_MISO_SENSOR1
 Text GLabel 7850 9550 2    50   Input ~ 0
 IMU_VDD_3V0
 $Comp
-L Device:C_Small C37
+L Device:C_Small C?
 U 1 1 5D943A6B
 P 7750 9900
-F 0 "C37" H 7658 9854 50  0000 R CNN
+F 0 "C?" H 7658 9854 50  0000 R CNN
 F 1 "100nF" H 7658 9945 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7750 9900 50  0001 C CNN
+F 2 "" H 7750 9900 50  0001 C CNN
 F 3 "~" H 7750 9900 50  0001 C CNN
 	1    7750 9900
 	-1   0    0    1   
@@ -577,12 +577,12 @@ Connection ~ 2300 12950
 Wire Wire Line
 	2300 12950 2300 13150
 $Comp
-L Device:C_Small C10
+L Device:C_Small C?
 U 1 1 5D99EB18
 P 2000 12950
-F 0 "C10" V 2229 12950 50  0000 C CNN
+F 0 "C?" V 2229 12950 50  0000 C CNN
 F 1 "100nF" V 2138 12950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 12950 50  0001 C CNN
+F 2 "" H 2000 12950 50  0001 C CNN
 F 3 "~" H 2000 12950 50  0001 C CNN
 	1    2000 12950
 	0    -1   -1   0   
@@ -614,12 +614,12 @@ $EndComp
 Text GLabel 2400 13150 3    50   Input ~ 0
 SPI1_MISO_SENSOR1
 $Comp
-L Device:C_Small C11
+L Device:C_Small C?
 U 1 1 5D9CD4C9
 P 2500 13000
-F 0 "C11" H 2592 13046 50  0000 L CNN
+F 0 "C?" H 2592 13046 50  0000 L CNN
 F 1 "470nF" H 2592 12955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2500 13000 50  0001 C CNN
+F 2 "" H 2500 13000 50  0001 C CNN
 F 3 "~" H 2500 13000 50  0001 C CNN
 	1    2500 13000
 	1    0    0    -1  
@@ -686,26 +686,26 @@ On-board sensors
 Text Notes 9025 1400 0    197  ~ 0
 Power management
 $Comp
-L Device:C C42
+L Device:C C?
 U 1 1 5D526A4F
-P 16550 9100
-F 0 "C42" V 16298 9100 50  0000 C CNN
-F 1 "8pF" V 16389 9100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 16588 8950 50  0001 C CNN
-F 3 "~" H 16550 9100 50  0001 C CNN
-	1    16550 9100
-	-1   0    0    1   
+P 16700 9450
+F 0 "C?" V 16448 9450 50  0000 C CNN
+F 1 "8pF" V 16539 9450 50  0000 C CNN
+F 2 "" H 16738 9300 50  0001 C CNN
+F 3 "~" H 16700 9450 50  0001 C CNN
+	1    16700 9450
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C43
+L Device:C C?
 U 1 1 5D52889F
-P 16550 9950
-F 0 "C43" V 16298 9950 50  0000 C CNN
-F 1 "8pF" V 16389 9950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 16588 9800 50  0001 C CNN
-F 3 "~" H 16550 9950 50  0001 C CNN
-	1    16550 9950
-	-1   0    0    1   
+P 16700 9950
+F 0 "C?" V 16448 9950 50  0000 C CNN
+F 1 "27pF" V 16539 9950 50  0000 C CNN
+F 2 "" H 16738 9800 50  0001 C CNN
+F 3 "~" H 16700 9950 50  0001 C CNN
+	1    16700 9950
+	0    1    1    0   
 $EndComp
 Text GLabel 3175 2575 2    50   Input ~ 0
 TF_3V3
@@ -716,23 +716,23 @@ MCU_3V3
 Text GLabel 5050 2100 1    50   Input ~ 0
 TF_3V3
 $Comp
-L Device:C C20
+L Device:C C?
 U 1 1 5D534193
 P 4575 2500
-F 0 "C20" V 4525 2400 50  0000 C CNN
+F 0 "C?" V 4525 2400 50  0000 C CNN
 F 1 "47uF" V 4425 2500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4613 2350 50  0001 C CNN
+F 2 "" H 4613 2350 50  0001 C CNN
 F 3 "~" H 4575 2500 50  0001 C CNN
 	1    4575 2500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C23
+L Device:C C?
 U 1 1 5D534D3A
 P 5050 2500
-F 0 "C23" V 5000 2400 50  0000 C CNN
+F 0 "C?" V 5000 2400 50  0000 C CNN
 F 1 "47uF" V 4900 2500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 2350 50  0001 C CNN
+F 2 "" H 5088 2350 50  0001 C CNN
 F 3 "~" H 5050 2500 50  0001 C CNN
 	1    5050 2500
 	-1   0    0    1   
@@ -764,9 +764,9 @@ F 3 "" H 5050 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4575 2150 4575 2350
+	4575 2150 4575 2300
 Wire Wire Line
-	4575 2650 4575 2825
+	4575 2650 4575 2700
 Wire Wire Line
 	5050 2650 5050 2825
 Wire Wire Line
@@ -791,12 +791,12 @@ F 3 "" H 4575 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L Device:C C?
 U 1 1 5D537494
 P 4575 3925
-F 0 "C21" V 4525 3825 50  0000 C CNN
+F 0 "C?" V 4525 3825 50  0000 C CNN
 F 1 "47uF" V 4425 3925 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4613 3775 50  0001 C CNN
+F 2 "" H 4613 3775 50  0001 C CNN
 F 3 "~" H 4575 3925 50  0001 C CNN
 	1    4575 3925
 	-1   0    0    1   
@@ -813,12 +813,12 @@ F 3 "" H 5050 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C24
+L Device:C C?
 U 1 1 5D537496
 P 5050 3925
-F 0 "C24" V 5000 3825 50  0000 C CNN
+F 0 "C?" V 5000 3825 50  0000 C CNN
 F 1 "47uF" V 4900 3925 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 3775 50  0001 C CNN
+F 2 "" H 5088 3775 50  0001 C CNN
 F 3 "~" H 5050 3925 50  0001 C CNN
 	1    5050 3925
 	-1   0    0    1   
@@ -849,23 +849,23 @@ F 3 "" H 5050 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C25
+L Device:C C?
 U 1 1 5D53C538
 P 5050 5325
-F 0 "C25" V 5000 5225 50  0000 C CNN
+F 0 "C?" V 5000 5225 50  0000 C CNN
 F 1 "47uF" V 4900 5325 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 5175 50  0001 C CNN
+F 2 "" H 5088 5175 50  0001 C CNN
 F 3 "~" H 5050 5325 50  0001 C CNN
 	1    5050 5325
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C22
+L Device:C C?
 U 1 1 5D53C539
 P 4575 5325
-F 0 "C22" V 4525 5225 50  0000 C CNN
+F 0 "C?" V 4525 5225 50  0000 C CNN
 F 1 "47uF" V 4425 5325 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4613 5175 50  0001 C CNN
+F 2 "" H 4613 5175 50  0001 C CNN
 F 3 "~" H 4575 5325 50  0001 C CNN
 	1    4575 5325
 	-1   0    0    1   
@@ -887,6 +887,8 @@ Text GLabel 5050 5050 1    50   Input ~ 0
 IMU_VDD_3V0
 Wire Wire Line
 	5050 5050 5050 5175
+Wire Wire Line
+	2950 4775 3175 4775
 Wire Wire Line
 	2950 4925 3175 4925
 Wire Wire Line
@@ -912,23 +914,23 @@ Wire Wire Line
 Text GLabel 6825 4475 0    50   Input ~ 0
 MCU_3V3
 $Comp
-L Device:R R6
+L Device:R R?
 U 1 1 5D67904E
 P 7175 4475
-F 0 "R6" V 6968 4475 50  0000 C CNN
+F 0 "R?" V 6968 4475 50  0000 C CNN
 F 1 "0R" V 7059 4475 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7105 4475 50  0001 C CNN
+F 2 "" V 7105 4475 50  0001 C CNN
 F 3 "~" H 7175 4475 50  0001 C CNN
 	1    7175 4475
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C36
+L Device:C C?
 U 1 1 5D679058
 P 7675 4775
-F 0 "C36" V 7625 4875 50  0000 C CNN
+F 0 "C?" V 7625 4875 50  0000 C CNN
 F 1 "100nF" V 7825 4775 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7713 4625 50  0001 C CNN
+F 2 "" H 7713 4625 50  0001 C CNN
 F 3 "~" H 7675 4775 50  0001 C CNN
 	1    7675 4775
 	1    0    0    -1  
@@ -957,23 +959,23 @@ F 3 "" H 7675 5025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7675 4925 7675 5025
-Text GLabel 10050 5100 2    50   Input ~ 0
+Text GLabel 7200 1700 2    50   Input ~ 0
 MCU_3V3
 Wire Wire Line
-	10050 5100 9700 5100
-Text GLabel 10050 4900 2    50   Input ~ 0
+	7200 1700 6850 1700
+Text GLabel 7200 1500 2    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	10050 4900 9700 4900
+	7200 1500 6850 1500
 $Comp
-L Flight_Controller-rescue:EG5350CT-FlightController U8
+L Flight_Controller-rescue:EG5350CT-FlightController U?
 U 1 1 5DB37AEC
-P 9450 5000
-F 0 "U8" H 9450 5325 50  0000 C CNN
-F 1 "TL3305AF160QG" H 9450 5234 50  0000 C CNN
-F 2 "SamacSys_Parts:TL3305AF160QG" H 9450 5000 50  0001 C CNN
-F 3 "" H 9450 5000 50  0001 C CNN
-	1    9450 5000
+P 6600 1600
+F 0 "U?" H 6600 1925 50  0000 C CNN
+F 1 "EG5350CT" H 6600 1834 50  0000 C CNN
+F 2 "" H 6600 1600 50  0001 C CNN
+F 3 "" H 6600 1600 50  0001 C CNN
+	1    6600 1600
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -983,12 +985,12 @@ Wire Notes Line
 Wire Notes Line
 	950  14300 8900 14300
 $Comp
-L Flight_Controller-rescue:Conn_3_1-flightController C15
+L Flight_Controller-rescue:Conn_3_1-flightController C?
 U 1 1 5D31FA04
 P 2750 18900
-AR Path="/5D31FA04" Ref="C15"  Part="1" 
+AR Path="/5D31FA04" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31FA04" Ref="C?"  Part="1" 
-F 0 "C15" H 2828 19051 50  0000 L CNN
+F 0 "C?" H 2828 19051 50  0000 L CNN
 F 1 "Conn_3_1" H 2828 18960 50  0000 L CNN
 F 2 "" H 3400 19500 50  0001 C CNN
 F 3 "" H 3400 19500 50  0001 C CNN
@@ -996,12 +998,12 @@ F 3 "" H 3400 19500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_3_1-flightController C5
+L Flight_Controller-rescue:Conn_3_1-flightController C?
 U 1 1 5D31FA0A
 P 1700 18900
-AR Path="/5D31FA0A" Ref="C5"  Part="1" 
+AR Path="/5D31FA0A" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31FA0A" Ref="C?"  Part="1" 
-F 0 "C5" H 1778 19051 50  0000 L CNN
+F 0 "C?" H 1778 19051 50  0000 L CNN
 F 1 "Conn_3_1" H 1778 18960 50  0000 L CNN
 F 2 "" H 2350 19500 50  0001 C CNN
 F 3 "" H 2350 19500 50  0001 C CNN
@@ -1009,12 +1011,12 @@ F 3 "" H 2350 19500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_7_1-flightController C6
+L Flight_Controller-rescue:Conn_7_1-flightController C?
 U 1 1 5D31FA16
 P 1700 19850
-AR Path="/5D31FA16" Ref="C6"  Part="1" 
+AR Path="/5D31FA16" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31FA16" Ref="C?"  Part="1" 
-F 0 "C6" H 1778 19801 50  0000 L CNN
+F 0 "C?" H 1778 19801 50  0000 L CNN
 F 1 "Conn_7_1" H 1778 19710 50  0000 L CNN
 F 2 "" H 2350 20450 50  0001 C CNN
 F 3 "" H 2350 20450 50  0001 C CNN
@@ -1066,38 +1068,6 @@ F 1 "GND" H 2605 19877 50  0000 C CNN
 F 2 "" H 2600 20050 50  0001 C CNN
 F 3 "" H 2600 20050 50  0001 C CNN
 	1    2600 20050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5D3FF779
-P 7600 18550
-AR Path="/5D3FF779" Ref="#PWR0127"  Part="1" 
-AR Path="/5D337B84/5D3FF779" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0127" H 7600 18300 50  0001 C CNN
-F 1 "GND" H 7605 18377 50  0000 C CNN
-F 2 "" H 7600 18550 50  0001 C CNN
-F 3 "" H 7600 18550 50  0001 C CNN
-	1    7600 18550
-	-1   0    0    -1  
-$EndComp
-Text GLabel 7600 18450 2    50   Input ~ 0
-USB_DP
-Text GLabel 7600 18350 2    50   Input ~ 0
-USB_DM
-Text GLabel 7600 18250 2    50   Input ~ 0
-VBUS
-$Comp
-L power:GND #PWR0128
-U 1 1 5D3A7672
-P 7300 17700
-AR Path="/5D3A7672" Ref="#PWR0128"  Part="1" 
-AR Path="/5D337B84/5D3A7672" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0128" H 7300 17450 50  0001 C CNN
-F 1 "GND" H 7305 17527 50  0000 C CNN
-F 2 "" H 7300 17700 50  0001 C CNN
-F 3 "" H 7300 17700 50  0001 C CNN
-	1    7300 17700
 	1    0    0    -1  
 $EndComp
 Text GLabel 3950 15900 2    50   Input ~ 0
@@ -1171,8 +1141,6 @@ Text GLabel 3950 18200 2    50   Input ~ 0
 USART3_CTS_TELEM2
 Text Notes 2700 19600 0    50   ~ 0
 DSM/SBUS RC
-Text Notes 7400 16750 0    50   ~ 0
-I/O PWM OUT
 Text Notes 2700 18650 0    50   ~ 0
 SBUS OUT
 Text Notes 11600 19250 0    50   ~ 0
@@ -1180,12 +1148,12 @@ GPS MODULE
 Text Notes 3850 16600 2    50   ~ 0
 CAP & ADC IN
 $Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C14
+L Flight_Controller-rescue:Conn_4_1-flightController C?
 U 1 1 5D31FA28
 P 2750 17950
-AR Path="/5D31FA28" Ref="C14"  Part="1" 
+AR Path="/5D31FA28" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31FA28" Ref="C?"  Part="1" 
-F 0 "C14" H 2828 18051 50  0000 L CNN
+F 0 "C?" H 2828 18051 50  0000 L CNN
 F 1 "Conn_4_1" H 2828 17960 50  0000 L CNN
 F 2 "" H 3400 18550 50  0001 C CNN
 F 3 "" H 3400 18550 50  0001 C CNN
@@ -1193,25 +1161,12 @@ F 3 "" H 3400 18550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C33
-U 1 1 5D31FA1C
-P 7450 17000
-AR Path="/5D31FA1C" Ref="C33"  Part="1" 
-AR Path="/5D337B84/5D31FA1C" Ref="C?"  Part="1" 
-F 0 "C33" H 7528 16801 50  0000 L CNN
-F 1 "Conn_10_1" H 7528 16710 50  0000 L CNN
-F 2 "" H 8100 17600 50  0001 C CNN
-F 3 "" H 8100 17600 50  0001 C CNN
-	1    7450 17000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_8_1-flightController C18
+L Flight_Controller-rescue:Conn_8_1-flightController C?
 U 1 1 5D31F9FE
 P 3800 16850
-AR Path="/5D31F9FE" Ref="C18"  Part="1" 
+AR Path="/5D31F9FE" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9FE" Ref="C?"  Part="1" 
-F 0 "C18" H 3878 16751 50  0000 L CNN
+F 0 "C?" H 3878 16751 50  0000 L CNN
 F 1 "Conn_8_1" H 3878 16660 50  0000 L CNN
 F 2 "" H 4450 17450 50  0001 C CNN
 F 3 "" H 4450 17450 50  0001 C CNN
@@ -1219,12 +1174,12 @@ F 3 "" H 4450 17450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_5_1-flightController C16
+L Flight_Controller-rescue:Conn_5_1-flightController C?
 U 1 1 5D31F9F2
 P 2750 19850
-AR Path="/5D31F9F2" Ref="C16"  Part="1" 
+AR Path="/5D31F9F2" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9F2" Ref="C?"  Part="1" 
-F 0 "C16" H 2828 19901 50  0000 L CNN
+F 0 "C?" H 2828 19901 50  0000 L CNN
 F 1 "Conn_5_1" H 2828 19810 50  0000 L CNN
 F 2 "" H 3400 20450 50  0001 C CNN
 F 3 "" H 3400 20450 50  0001 C CNN
@@ -1241,8 +1196,6 @@ Text Notes 1650 17700 0    50   ~ 0
 CAN1
 Text Notes 3850 15650 2    50   ~ 0
 I2CA
-Text Notes 7500 18200 2    50   ~ 0
-USB
 Text Notes 1650 16650 0    50   ~ 0
 I2CB
 Text Notes 1650 15650 0    50   ~ 0
@@ -1250,12 +1203,12 @@ UART
 Text Notes 3850 17850 2    50   ~ 0
 TELEM2
 $Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C4
+L Flight_Controller-rescue:Conn_4_1-flightController C?
 U 1 1 5D31F9E0
 P 1700 17950
-AR Path="/5D31F9E0" Ref="C4"  Part="1" 
+AR Path="/5D31F9E0" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9E0" Ref="C?"  Part="1" 
-F 0 "C4" H 1778 18051 50  0000 L CNN
+F 0 "C?" H 1778 18051 50  0000 L CNN
 F 1 "Conn_4_1" H 1778 17960 50  0000 L CNN
 F 2 "" H 2350 18550 50  0001 C CNN
 F 3 "" H 2350 18550 50  0001 C CNN
@@ -1263,12 +1216,12 @@ F 3 "" H 2350 18550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C17
+L Flight_Controller-rescue:Conn_4_1-flightController C?
 U 1 1 5D31F9DA
 P 3800 15900
-AR Path="/5D31F9DA" Ref="C17"  Part="1" 
+AR Path="/5D31F9DA" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9DA" Ref="C?"  Part="1" 
-F 0 "C17" H 3878 16001 50  0000 L CNN
+F 0 "C?" H 3878 16001 50  0000 L CNN
 F 1 "Conn_4_1" H 3878 15910 50  0000 L CNN
 F 2 "" H 4450 16500 50  0001 C CNN
 F 3 "" H 4450 16500 50  0001 C CNN
@@ -1276,25 +1229,12 @@ F 3 "" H 4450 16500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C34
-U 1 1 5D31F9D4
-P 7450 18450
-AR Path="/5D31F9D4" Ref="C34"  Part="1" 
-AR Path="/5D337B84/5D31F9D4" Ref="C?"  Part="1" 
-F 0 "C34" H 7528 18551 50  0000 L CNN
-F 1 "Conn_4_1" H 7528 18460 50  0000 L CNN
-F 2 "" H 8100 19050 50  0001 C CNN
-F 3 "" H 8100 19050 50  0001 C CNN
-	1    7450 18450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C3
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9CE
 P 1700 16900
-AR Path="/5D31F9CE" Ref="C3"  Part="1" 
+AR Path="/5D31F9CE" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9CE" Ref="C?"  Part="1" 
-F 0 "C3" H 1778 16901 50  0000 L CNN
+F 0 "C?" H 1778 16901 50  0000 L CNN
 F 1 "Conn_6_1" H 1778 16810 50  0000 L CNN
 F 2 "" H 2350 17500 50  0001 C CNN
 F 3 "" H 2350 17500 50  0001 C CNN
@@ -1302,12 +1242,12 @@ F 3 "" H 2350 17500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C19
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9C8
 P 3800 18100
-AR Path="/5D31F9C8" Ref="C19"  Part="1" 
+AR Path="/5D31F9C8" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9C8" Ref="C?"  Part="1" 
-F 0 "C19" H 3878 18101 50  0000 L CNN
+F 0 "C?" H 3878 18101 50  0000 L CNN
 F 1 "Conn_6_1" H 3878 18010 50  0000 L CNN
 F 2 "" H 4450 18700 50  0001 C CNN
 F 3 "" H 4450 18700 50  0001 C CNN
@@ -1315,12 +1255,12 @@ F 3 "" H 4450 18700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C13
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9BC
 P 2750 16900
-AR Path="/5D31F9BC" Ref="C13"  Part="1" 
+AR Path="/5D31F9BC" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9BC" Ref="C?"  Part="1" 
-F 0 "C13" H 2828 16901 50  0000 L CNN
+F 0 "C?" H 2828 16901 50  0000 L CNN
 F 1 "Conn_6_1" H 2828 16810 50  0000 L CNN
 F 2 "" H 3400 17500 50  0001 C CNN
 F 3 "" H 3400 17500 50  0001 C CNN
@@ -1328,12 +1268,12 @@ F 3 "" H 3400 17500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C12
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9B6
 P 2750 15900
-AR Path="/5D31F9B6" Ref="C12"  Part="1" 
+AR Path="/5D31F9B6" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9B6" Ref="C?"  Part="1" 
-F 0 "C12" H 2828 15901 50  0000 L CNN
+F 0 "C?" H 2828 15901 50  0000 L CNN
 F 1 "Conn_6_1" H 2828 15810 50  0000 L CNN
 F 2 "" H 3400 16500 50  0001 C CNN
 F 3 "" H 3400 16500 50  0001 C CNN
@@ -1341,12 +1281,12 @@ F 3 "" H 3400 16500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C2
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9B0
 P 1700 15900
-AR Path="/5D31F9B0" Ref="C2"  Part="1" 
+AR Path="/5D31F9B0" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9B0" Ref="C?"  Part="1" 
-F 0 "C2" H 1778 15901 50  0000 L CNN
+F 0 "C?" H 1778 15901 50  0000 L CNN
 F 1 "Conn_6_1" H 1778 15810 50  0000 L CNN
 F 2 "" H 2350 16500 50  0001 C CNN
 F 3 "" H 2350 16500 50  0001 C CNN
@@ -1358,48 +1298,48 @@ Ports
 $Comp
 L power:GND #PWR0132
 U 1 1 5D380182
-P 6200 20300
+P 3950 19300
 AR Path="/5D380182" Ref="#PWR0132"  Part="1" 
 AR Path="/5D337B84/5D380182" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0132" H 6200 20050 50  0001 C CNN
-F 1 "GND" H 6205 20127 50  0000 C CNN
-F 2 "" H 6200 20300 50  0001 C CNN
-F 3 "" H 6200 20300 50  0001 C CNN
-	1    6200 20300
-	1    0    0    -1  
+F 0 "#PWR0132" H 3950 19050 50  0001 C CNN
+F 1 "GND" H 3955 19127 50  0000 C CNN
+F 2 "" H 3950 19300 50  0001 C CNN
+F 3 "" H 3950 19300 50  0001 C CNN
+	1    3950 19300
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C30
+L Flight_Controller-rescue:Conn_6_1-flightController C?
 U 1 1 5D31F9AA
-P 6350 20000
-AR Path="/5D31F9AA" Ref="C30"  Part="1" 
+P 3800 19000
+AR Path="/5D31F9AA" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31F9AA" Ref="C?"  Part="1" 
-F 0 "C30" H 6428 20001 50  0000 L CNN
-F 1 "Conn_6_1" H 6428 19910 50  0000 L CNN
-F 2 "" H 7000 20600 50  0001 C CNN
-F 3 "" H 7000 20600 50  0001 C CNN
-	1    6350 20000
-	1    0    0    -1  
+F 0 "C?" H 3878 19001 50  0000 L CNN
+F 1 "Conn_6_1" H 3878 18910 50  0000 L CNN
+F 2 "" H 4450 19600 50  0001 C CNN
+F 3 "" H 4450 19600 50  0001 C CNN
+	1    3800 19000
+	-1   0    0    -1  
 $EndComp
-Text GLabel 6200 20200 0    50   Input ~ 0
+Text GLabel 3950 19200 2    50   Input ~ 0
 USART2_RTS_TELEM1
-Text GLabel 6200 20100 0    50   Input ~ 0
+Text GLabel 3950 19100 2    50   Input ~ 0
 USART2_CTS_TELEM1
-Text GLabel 6200 20000 0    50   Input ~ 0
+Text GLabel 3950 19000 2    50   Input ~ 0
 USART2_RX_TELEM1
-Text GLabel 6200 19900 0    50   Input ~ 0
+Text GLabel 3950 18900 2    50   Input ~ 0
 USART2_TX_TELEM1
-Text Notes 6300 19750 0    50   ~ 0
+Text Notes 3850 18800 2    50   ~ 0
 TELEM1
 Wire Wire Line
 	5950 12050 5850 12050
 $Comp
-L Device:R R2
+L Device:R R?
 U 1 1 5D5F9894
 P 5700 12050
-F 0 "R2" V 5493 12050 50  0000 C CNN
+F 0 "R?" V 5493 12050 50  0000 C CNN
 F 1 "1K" V 5584 12050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5630 12050 50  0001 C CNN
+F 2 "" V 5630 12050 50  0001 C CNN
 F 3 "~" H 5700 12050 50  0001 C CNN
 	1    5700 12050
 	0    1    1    0   
@@ -1420,12 +1360,12 @@ $EndComp
 Wire Wire Line
 	5950 12150 5850 12150
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5D68447F
 P 5700 12150
-F 0 "R3" V 5800 12150 50  0000 C CNN
+F 0 "R?" V 5800 12150 50  0000 C CNN
 F 1 "1K" V 5900 12150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5630 12150 50  0001 C CNN
+F 2 "" V 5630 12150 50  0001 C CNN
 F 3 "~" H 5700 12150 50  0001 C CNN
 	1    5700 12150
 	0    1    1    0   
@@ -1435,12 +1375,12 @@ Wire Wire Line
 Text GLabel 5400 12150 0    50   Input ~ 0
 IMU_3V3
 $Comp
-L Device:C_Small C38
+L Device:C_Small C?
 U 1 1 5D6B2AC8
 P 7750 11850
-F 0 "C38" V 7550 11900 50  0000 R CNN
+F 0 "C?" V 7550 11900 50  0000 R CNN
 F 1 "100nF" V 7650 12000 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7750 11850 50  0001 C CNN
+F 2 "" H 7750 11850 50  0001 C CNN
 F 3 "~" H 7750 11850 50  0001 C CNN
 	1    7750 11850
 	0    1    1    0   
@@ -1469,12 +1409,12 @@ Wire Wire Line
 Wire Wire Line
 	8200 12550 8200 12600
 $Comp
-L Device:C_Small C39
+L Device:C_Small C?
 U 1 1 5D9383E5
 P 7950 12700
-F 0 "C39" V 7721 12700 50  0000 C CNN
+F 0 "C?" V 7721 12700 50  0000 C CNN
 F 1 "2.2uF" V 7812 12700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7950 12700 50  0001 C CNN
+F 2 "" H 7950 12700 50  0001 C CNN
 F 3 "~" H 7950 12700 50  0001 C CNN
 	1    7950 12700
 	1    0    0    -1  
@@ -1485,12 +1425,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 11950 7850 12550
 $Comp
-L Device:C_Small C40
+L Device:C_Small C?
 U 1 1 5DA25588
 P 8200 12700
-F 0 "C40" V 7971 12700 50  0000 C CNN
+F 0 "C?" V 7971 12700 50  0000 C CNN
 F 1 "100nF" V 8062 12700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8200 12700 50  0001 C CNN
+F 2 "" H 8200 12700 50  0001 C CNN
 F 3 "~" H 8200 12700 50  0001 C CNN
 	1    8200 12700
 	-1   0    0    -1  
@@ -1522,10 +1462,10 @@ F 3 "" H 8200 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
+L Device:L L?
 U 1 1 5DBFD902
 P 6700 12900
-F 0 "L1" V 6890 12900 50  0000 C CNN
+F 0 "L?" V 6890 12900 50  0000 C CNN
 F 1 "L" V 6799 12900 50  0000 C CNN
 F 2 "" H 6700 12900 50  0001 C CNN
 F 3 "~" H 6700 12900 50  0001 C CNN
@@ -1576,23 +1516,23 @@ Wire Wire Line
 Wire Wire Line
 	5500 13550 5600 13550
 $Comp
-L Device:C_Small C26
+L Device:C_Small C?
 U 1 1 5E2B1DDA
 P 5700 13350
-F 0 "C26" V 5471 13350 50  0000 C CNN
+F 0 "C?" V 5471 13350 50  0000 C CNN
 F 1 "2.2uF" V 5562 13350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5700 13350 50  0001 C CNN
+F 2 "" H 5700 13350 50  0001 C CNN
 F 3 "~" H 5700 13350 50  0001 C CNN
 	1    5700 13350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C27
+L Device:C_Small C?
 U 1 1 5E2B2AE5
 P 5700 13550
-F 0 "C27" V 5471 13550 50  0000 C CNN
+F 0 "C?" V 5471 13550 50  0000 C CNN
 F 1 "0.1uF" V 5562 13550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5700 13550 50  0001 C CNN
+F 2 "" H 5700 13550 50  0001 C CNN
 F 3 "~" H 5700 13550 50  0001 C CNN
 	1    5700 13550
 	0    1    -1   0   
@@ -1620,12 +1560,12 @@ F 3 "" H 6000 13450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C28
+L Device:C_Small C?
 U 1 1 5E382566
 P 5700 13900
-F 0 "C28" V 5471 13900 50  0000 C CNN
+F 0 "C?" V 5471 13900 50  0000 C CNN
 F 1 "220nF" V 5562 13900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5700 13900 50  0001 C CNN
+F 2 "" H 5700 13900 50  0001 C CNN
 F 3 "~" H 5700 13900 50  0001 C CNN
 	1    5700 13900
 	0    1    -1   0   
@@ -1648,12 +1588,12 @@ Connection ~ 2400 11150
 Wire Wire Line
 	2400 11150 2400 11100
 $Comp
-L Device:R R1
+L Device:R R?
 U 1 1 5E459DCF
 P 2650 11150
-F 0 "R1" V 2443 11150 50  0000 C CNN
+F 0 "R?" V 2443 11150 50  0000 C CNN
 F 1 "10K" V 2534 11150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 11150 50  0001 C CNN
+F 2 "" V 2580 11150 50  0001 C CNN
 F 3 "~" H 2650 11150 50  0001 C CNN
 	1    2650 11150
 	0    1    1    0   
@@ -1678,10 +1618,10 @@ Wire Notes Line
 Text Notes 14250 1350 0    197  ~ 0
 FRAM
 $Comp
-L Flight_Controller-rescue:FM25V02-G-flightController U9
+L Flight_Controller-rescue:FM25V02-G-flightController U?
 U 1 1 5E5743E4
 P 13450 2450
-F 0 "U9" H 13450 2875 50  0000 C CNN
+F 0 "U?" H 13450 2875 50  0000 C CNN
 F 1 "FM25V02-G" H 13450 2784 50  0000 C CNN
 F 2 "" H 13450 3100 50  0001 C CNN
 F 3 "" H 13450 3100 50  0001 C CNN
@@ -1712,12 +1652,12 @@ SPI2_SCK_FRAM
 Text GLabel 13800 2550 2    50   Input ~ 0
 SPI2_MOSI_FRAM
 $Comp
-L Device:R R14
+L Device:R R?
 U 1 1 5E659D8B
 P 14500 2200
-F 0 "R14" V 14293 2200 50  0000 C CNN
+F 0 "R?" V 14293 2200 50  0000 C CNN
 F 1 "1K" V 14384 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14430 2200 50  0001 C CNN
+F 2 "" V 14430 2200 50  0001 C CNN
 F 3 "~" H 14500 2200 50  0001 C CNN
 	1    14500 2200
 	-1   0    0    1   
@@ -1730,50 +1670,6 @@ Wire Notes Line
 	15050 1050 15050 3400
 Wire Notes Line
 	12200 3400 12200 1050
-$Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C29
-U 1 1 5D31FA22
-P 6350 17000
-AR Path="/5D31FA22" Ref="C29"  Part="1" 
-AR Path="/5D337B84/5D31FA22" Ref="C?"  Part="1" 
-F 0 "C29" H 6428 16801 50  0000 L CNN
-F 1 "Conn_10_1" H 6428 16710 50  0000 L CNN
-F 2 "" H 7000 17600 50  0001 C CNN
-F 3 "" H 7000 17600 50  0001 C CNN
-	1    6350 17000
-	1    0    0    -1  
-$EndComp
-Text Notes 6300 16750 0    50   ~ 0
-FMU PWM OUT
-Text GLabel 6200 17100 0    50   Input ~ 0
-FMU_CH3
-Text GLabel 6200 17200 0    50   Input ~ 0
-FMU_CH4
-Text GLabel 6200 17300 0    50   Input ~ 0
-FMU_CH5
-Text GLabel 6200 17400 0    50   Input ~ 0
-FMU_CH6
-Text GLabel 6200 17500 0    50   Input ~ 0
-FMU_CH7
-Text GLabel 6200 17600 0    50   Input ~ 0
-FMU_CH8
-$Comp
-L power:GND #PWR0140
-U 1 1 5D38FC37
-P 6200 17700
-AR Path="/5D38FC37" Ref="#PWR0140"  Part="1" 
-AR Path="/5D337B84/5D38FC37" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0140" H 6200 17450 50  0001 C CNN
-F 1 "GND" H 6205 17527 50  0000 C CNN
-F 2 "" H 6200 17700 50  0001 C CNN
-F 3 "" H 6200 17700 50  0001 C CNN
-	1    6200 17700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6200 17000 0    50   Input ~ 0
-FMU_CH2
-Text GLabel 6200 16900 0    50   Input ~ 0
-FMU_CH1
 Wire Notes Line
 	8450 15350 8450 20750
 Wire Notes Line
@@ -1811,23 +1707,23 @@ Wire Wire Line
 Wire Wire Line
 	22200 14550 23100 14550
 $Comp
-L Device:R R20
+L Device:R R?
 U 1 1 5DED4D98
 P 23400 14700
-F 0 "R20" V 23193 14700 50  0000 C CNN
+F 0 "R?" V 23193 14700 50  0000 C CNN
 F 1 "10K" V 23284 14700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 23330 14700 50  0001 C CNN
+F 2 "" V 23330 14700 50  0001 C CNN
 F 3 "~" H 23400 14700 50  0001 C CNN
 	1    23400 14700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R19
+L Device:R R?
 U 1 1 5DED2DE3
 P 23400 14550
-F 0 "R19" V 23193 14550 50  0000 C CNN
+F 0 "R?" V 23193 14550 50  0000 C CNN
 F 1 "0R" V 23284 14550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 23330 14550 50  0001 C CNN
+F 2 "" V 23330 14550 50  0001 C CNN
 F 3 "~" H 23400 14550 50  0001 C CNN
 	1    23400 14550
 	0    1    1    0   
@@ -1835,16 +1731,14 @@ $EndComp
 Wire Wire Line
 	22750 14650 22200 14650
 Wire Wire Line
-	22250 15000 22150 15000
-Wire Wire Line
-	22550 15000 22650 15000
+	22250 15200 22150 15200
 $Comp
-L MCU_ST_STM32F7:STM32F765IITx U10
+L MCU_ST_STM32F7:STM32F765IITx U?
 U 1 1 5D31F89E
 P 20700 10650
-AR Path="/5D31F89E" Ref="U10"  Part="1" 
+AR Path="/5D31F89E" Ref="U?"  Part="1" 
 AR Path="/5D3376D7/5D31F89E" Ref="U?"  Part="1" 
-F 0 "U10" H 19500 6200 50  0000 R CNN
+F 0 "U?" H 19500 6200 50  0000 R CNN
 F 1 "STM32F765IIT6" H 19950 6300 50  0000 R CNN
 F 2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" H 19400 6350 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 20700 10650 50  0001 C CNN
@@ -1878,62 +1772,46 @@ Wire Wire Line
 Wire Wire Line
 	24500 14400 24500 14350
 $Comp
-L Device:R R22
+L Device:R R?
 U 1 1 5DC7F004
 P 24500 14550
-F 0 "R22" V 24293 14550 50  0000 C CNN
+F 0 "R?" V 24293 14550 50  0000 C CNN
 F 1 "10K" V 24384 14550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 24430 14550 50  0001 C CNN
+F 2 "" V 24430 14550 50  0001 C CNN
 F 3 "~" H 24500 14550 50  0001 C CNN
 	1    24500 14550
 	-1   0    0    1   
 $EndComp
-Connection ~ 22650 15000
 Wire Wire Line
 	22650 14750 22200 14750
-Wire Wire Line
-	22650 15000 22650 14750
 Connection ~ 23300 14050
 Wire Wire Line
-	22650 15750 22650 15500
-$Comp
-L power:GND #PWR0143
-U 1 1 5DAE60E0
-P 22650 15750
-F 0 "#PWR0143" H 22650 15500 50  0001 C CNN
-F 1 "GND" H 22655 15577 50  0000 C CNN
-F 2 "" H 22650 15750 50  0001 C CNN
-F 3 "" H 22650 15750 50  0001 C CNN
-	1    22650 15750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	22650 15000 22650 15200
+	22650 15850 22650 15650
 Wire Wire Line
 	23300 14000 23300 14050
 $Comp
-L Device:R R16
+L Device:R R?
 U 1 1 5DA2535D
-P 22400 15000
-F 0 "R16" V 22193 15000 50  0000 C CNN
-F 1 "10K" V 22284 15000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 22330 15000 50  0001 C CNN
-F 3 "~" H 22400 15000 50  0001 C CNN
-	1    22400 15000
+P 22400 15200
+F 0 "R?" V 22193 15200 50  0000 C CNN
+F 1 "10K" V 22284 15200 50  0000 C CNN
+F 2 "" V 22330 15200 50  0001 C CNN
+F 3 "~" H 22400 15200 50  0001 C CNN
+	1    22400 15200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C51
+L Device:C C?
 U 1 1 5DA22480
-P 22650 15350
-F 0 "C51" V 22600 15250 50  0000 C CNN
-F 1 "100nF" V 22500 15350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 22688 15200 50  0001 C CNN
-F 3 "~" H 22650 15350 50  0001 C CNN
-	1    22650 15350
+P 22650 15500
+F 0 "C?" V 22600 15400 50  0000 C CNN
+F 1 "100nF" V 22500 15500 50  0000 C CNN
+F 2 "" H 22688 15350 50  0001 C CNN
+F 3 "~" H 22650 15500 50  0001 C CNN
+	1    22650 15500
 	1    0    0    -1  
 $EndComp
-Text GLabel 22150 15000 0    50   Input ~ 0
+Text GLabel 22150 15200 0    50   Input ~ 0
 MCU_3V3
 Connection ~ 21900 16250
 Wire Wire Line
@@ -1977,87 +1855,87 @@ Connection ~ 20400 16250
 Wire Wire Line
 	20100 16250 20400 16250
 $Comp
-L Device:C C50
+L Device:C C?
 U 1 1 5D91CFB8
 P 21900 16400
-F 0 "C50" V 21850 16300 50  0000 C CNN
+F 0 "C?" V 21850 16300 50  0000 C CNN
 F 1 "100nF" V 21750 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 21938 16250 50  0001 C CNN
+F 2 "" H 21938 16250 50  0001 C CNN
 F 3 "~" H 21900 16400 50  0001 C CNN
 	1    21900 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C49
+L Device:C C?
 U 1 1 5D91C5A1
 P 21600 16400
-F 0 "C49" V 21550 16300 50  0000 C CNN
+F 0 "C?" V 21550 16300 50  0000 C CNN
 F 1 "100nF" V 21450 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 21638 16250 50  0001 C CNN
+F 2 "" H 21638 16250 50  0001 C CNN
 F 3 "~" H 21600 16400 50  0001 C CNN
 	1    21600 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C48
+L Device:C C?
 U 1 1 5D91C02F
 P 21300 16400
-F 0 "C48" V 21250 16300 50  0000 C CNN
+F 0 "C?" V 21250 16300 50  0000 C CNN
 F 1 "100nF" V 21150 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 21338 16250 50  0001 C CNN
+F 2 "" H 21338 16250 50  0001 C CNN
 F 3 "~" H 21300 16400 50  0001 C CNN
 	1    21300 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C44
+L Device:C C?
 U 1 1 5D867B28
 P 20100 16400
-F 0 "C44" V 20050 16300 50  0000 C CNN
+F 0 "C?" V 20050 16300 50  0000 C CNN
 F 1 "100nF" V 19950 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 20138 16250 50  0001 C CNN
+F 2 "" H 20138 16250 50  0001 C CNN
 F 3 "~" H 20100 16400 50  0001 C CNN
 	1    20100 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C45
+L Device:C C?
 U 1 1 5D86754B
 P 20400 16400
-F 0 "C45" V 20350 16300 50  0000 C CNN
+F 0 "C?" V 20350 16300 50  0000 C CNN
 F 1 "100nF" V 20250 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 20438 16250 50  0001 C CNN
+F 2 "" H 20438 16250 50  0001 C CNN
 F 3 "~" H 20400 16400 50  0001 C CNN
 	1    20400 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C46
+L Device:C C?
 U 1 1 5D867184
 P 20700 16400
-F 0 "C46" V 20650 16300 50  0000 C CNN
+F 0 "C?" V 20650 16300 50  0000 C CNN
 F 1 "100nF" V 20550 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 20738 16250 50  0001 C CNN
+F 2 "" H 20738 16250 50  0001 C CNN
 F 3 "~" H 20700 16400 50  0001 C CNN
 	1    20700 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C47
+L Device:C C?
 U 1 1 5D865BAD
 P 21000 16400
-F 0 "C47" V 20950 16300 50  0000 C CNN
+F 0 "C?" V 20950 16300 50  0000 C CNN
 F 1 "100nF" V 20850 16400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 21038 16250 50  0001 C CNN
+F 2 "" H 21038 16250 50  0001 C CNN
 F 3 "~" H 21000 16400 50  0001 C CNN
 	1    21000 16400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0144
+L power:GND #PWR0143
 U 1 1 5D8407E4
 P 22750 14650
-F 0 "#PWR0144" H 22750 14400 50  0001 C CNN
+F 0 "#PWR0143" H 22750 14400 50  0001 C CNN
 F 1 "GND" H 22755 14477 50  0000 C CNN
 F 2 "" H 22750 14650 50  0001 C CNN
 F 3 "" H 22750 14650 50  0001 C CNN
@@ -2069,10 +1947,10 @@ Wire Wire Line
 Wire Wire Line
 	23600 14050 23300 14050
 $Comp
-L power:GND #PWR0145
+L power:GND #PWR0144
 U 1 1 5D7B7E1E
 P 23800 14150
-F 0 "#PWR0145" H 23800 13900 50  0001 C CNN
+F 0 "#PWR0144" H 23800 13900 50  0001 C CNN
 F 1 "GND" H 23805 13977 50  0000 C CNN
 F 2 "" H 23800 14150 50  0001 C CNN
 F 3 "" H 23800 14150 50  0001 C CNN
@@ -2080,10 +1958,10 @@ F 3 "" H 23800 14150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0146
+L power:GND #PWR0145
 U 1 1 5D7B5B5B
 P 23600 14050
-F 0 "#PWR0146" H 23600 13800 50  0001 C CNN
+F 0 "#PWR0145" H 23600 13800 50  0001 C CNN
 F 1 "GND" H 23605 13877 50  0000 C CNN
 F 2 "" H 23600 14050 50  0001 C CNN
 F 3 "" H 23600 14050 50  0001 C CNN
@@ -2095,23 +1973,23 @@ Wire Wire Line
 Wire Wire Line
 	22200 14050 23000 14050
 $Comp
-L Device:C C53
+L Device:C C?
 U 1 1 5D77150D
 P 23500 14150
-F 0 "C53" V 23450 14050 50  0000 C CNN
+F 0 "C?" V 23450 14050 50  0000 C CNN
 F 1 "2.2uF" V 23350 14150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 23538 14000 50  0001 C CNN
+F 2 "" H 23538 14000 50  0001 C CNN
 F 3 "~" H 23500 14150 50  0001 C CNN
 	1    23500 14150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C52
+L Device:C C?
 U 1 1 5D76FDB0
 P 23150 14050
-F 0 "C52" V 23100 13950 50  0000 C CNN
+F 0 "C?" V 23100 13950 50  0000 C CNN
 F 1 "2.2uF" V 23000 14050 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 23188 13900 50  0001 C CNN
+F 2 "" H 23188 13900 50  0001 C CNN
 F 3 "~" H 23150 14050 50  0001 C CNN
 	1    23150 14050
 	0    -1   -1   0   
@@ -2119,10 +1997,10 @@ $EndComp
 Text GLabel 24650 14350 2    50   Input ~ 0
 BOOT0
 $Comp
-L power:GND #PWR0147
+L power:GND #PWR0146
 U 1 1 5D76D87B
 P 21200 5750
-F 0 "#PWR0147" H 21200 5500 50  0001 C CNN
+F 0 "#PWR0146" H 21200 5500 50  0001 C CNN
 F 1 "GND" H 21205 5577 50  0000 C CNN
 F 2 "" H 21200 5750 50  0001 C CNN
 F 3 "" H 21200 5750 50  0001 C CNN
@@ -2153,10 +2031,10 @@ Wire Wire Line
 Wire Wire Line
 	20000 5700 20100 5700
 $Comp
-L power:GND #PWR0148
+L power:GND #PWR0147
 U 1 1 5D5CE59F
 P 20000 5700
-F 0 "#PWR0148" H 20000 5450 50  0001 C CNN
+F 0 "#PWR0147" H 20000 5450 50  0001 C CNN
 F 1 "GND" H 20005 5527 50  0000 C CNN
 F 2 "" H 20000 5700 50  0001 C CNN
 F 3 "" H 20000 5700 50  0001 C CNN
@@ -2310,9 +2188,9 @@ Text GLabel 22750 12550 2    50   Input ~ 0
 SPI2_SCK_FRAM
 Text GLabel 22750 12650 2    50   Input ~ 0
 nARMED
-Text GLabel 23500 9950 2    50   Input ~ 0
+Text GLabel 23400 9950 2    50   Input ~ 0
 HW_REV_DRIVE
-Text GLabel 23500 10050 2    50   Input ~ 0
+Text GLabel 23400 10050 2    50   Input ~ 0
 CAN1_TX
 Text GLabel 22750 10450 2    50   Input ~ 0
 FMU_CH8
@@ -2350,7 +2228,7 @@ Text GLabel 22750 9050 2    50   Input ~ 0
 VDD_5V_WIFI_EN
 Text GLabel 22750 9150 2    50   Input ~ 0
 VDD_5V_RC_EN
-Text GLabel 22750 9650 2    50   Input ~ 0
+Text GLabel 22600 9650 2    50   Input ~ 0
 HW_VER_DRIVE
 Text GLabel 22750 6450 2    50   Input ~ 0
 I2C4_SDA_EXTERNAL2
@@ -2535,7 +2413,7 @@ Wire Wire Line
 Wire Wire Line
 	22200 10450 22750 10450
 Wire Wire Line
-	22200 9650 22750 9650
+	22200 9650 22600 9650
 Wire Wire Line
 	22200 9150 22750 9150
 Wire Wire Line
@@ -2769,10 +2647,10 @@ SPI4_SCK_SENSOR2
 Wire Wire Line
 	19300 7750 18850 7750
 $Comp
-L Flight_Controller-rescue:MS5611-01BA U5
+L Flight_Controller-rescue:MS5611-01BA U?
 U 1 1 5D63FB8E
 P 2650 9200
-F 0 "U5" H 2775 9675 50  0000 C CNN
+F 0 "U?" H 2775 9675 50  0000 C CNN
 F 1 "MS5611-01BA" H 2775 9584 50  0000 C CNN
 F 2 "" H 2150 9700 50  0001 C CNN
 F 3 "" H 2150 9700 50  0001 C CNN
@@ -2789,10 +2667,10 @@ Wire Wire Line
 	2150 9150 2100 9150
 Connection ~ 2150 9150
 $Comp
-L power:GND #PWR0149
+L power:GND #PWR0148
 U 1 1 5D6CFD36
 P 2100 9150
-F 0 "#PWR0149" H 2100 8900 50  0001 C CNN
+F 0 "#PWR0148" H 2100 8900 50  0001 C CNN
 F 1 "GND" V 2105 9022 50  0000 R CNN
 F 2 "" H 2100 9150 50  0001 C CNN
 F 3 "" H 2100 9150 50  0001 C CNN
@@ -2813,12 +2691,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 8950 1700 9000
 $Comp
-L Device:C_Small C1
+L Device:C_Small C?
 U 1 1 5D7628BF
 P 1700 9100
-F 0 "C1" V 1471 9100 50  0000 C CNN
+F 0 "C?" V 1471 9100 50  0000 C CNN
 F 1 "100nF" V 1562 9100 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1700 9100 50  0001 C CNN
+F 2 "" H 1700 9100 50  0001 C CNN
 F 3 "~" H 1700 9100 50  0001 C CNN
 	1    1700 9100
 	1    0    0    -1  
@@ -2826,10 +2704,10 @@ $EndComp
 Wire Wire Line
 	1700 9200 1700 9250
 $Comp
-L power:GND #PWR0150
+L power:GND #PWR0149
 U 1 1 5D793EE5
 P 1700 9250
-F 0 "#PWR0150" H 1700 9000 50  0001 C CNN
+F 0 "#PWR0149" H 1700 9000 50  0001 C CNN
 F 1 "GND" V 1705 9122 50  0000 R CNN
 F 2 "" H 1700 9250 50  0001 C CNN
 F 3 "" H 1700 9250 50  0001 C CNN
@@ -2839,10 +2717,10 @@ $EndComp
 Text GLabel 1700 8900 1    50   Input ~ 0
 IMU_VDD_3V0
 $Comp
-L Connector_Generic:Conn_01x06 J2
+L Connector_Generic:Conn_01x06 J?
 U 1 1 5D4C2392
 P 11450 3550
-F 0 "J2" H 11530 3542 50  0000 L CNN
+F 0 "J?" H 11530 3542 50  0000 L CNN
 F 1 "POWER2" H 11530 3451 50  0000 L CNN
 F 2 "" H 11450 3550 50  0001 C CNN
 F 3 "~" H 11450 3550 50  0001 C CNN
@@ -2862,10 +2740,10 @@ Wire Wire Line
 	11050 3850 11000 3850
 Connection ~ 11050 3850
 $Comp
-L power:GND #PWR0151
+L power:GND #PWR0150
 U 1 1 5DAE9A7C
 P 11000 3850
-F 0 "#PWR0151" H 11000 3600 50  0001 C CNN
+F 0 "#PWR0150" H 11000 3600 50  0001 C CNN
 F 1 "GND" H 11005 3677 50  0000 C CNN
 F 2 "" H 11000 3850 50  0001 C CNN
 F 3 "" H 11000 3850 50  0001 C CNN
@@ -2875,12 +2753,12 @@ $EndComp
 Wire Wire Line
 	10150 3650 11250 3650
 $Comp
-L Device:R R9
+L Device:R R?
 U 1 1 5DC1865D
 P 10000 3650
-F 0 "R9" V 9793 3650 50  0000 C CNN
+F 0 "R?" V 9793 3650 50  0000 C CNN
 F 1 "10K" V 9884 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9930 3650 50  0001 C CNN
+F 2 "" V 9930 3650 50  0001 C CNN
 F 3 "~" H 10000 3650 50  0001 C CNN
 	1    10000 3650
 	0    1    1    0   
@@ -2890,12 +2768,12 @@ BAT2_V
 Text GLabel 10450 3550 0    50   Input ~ 0
 BAT2_I
 $Comp
-L Device:R R13
+L Device:R R?
 U 1 1 5DC18B7C
 P 10600 3550
-F 0 "R13" V 10393 3550 50  0000 C CNN
+F 0 "R?" V 10393 3550 50  0000 C CNN
 F 1 "10K" V 10484 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10530 3550 50  0001 C CNN
+F 2 "" V 10530 3550 50  0001 C CNN
 F 3 "~" H 10600 3550 50  0001 C CNN
 	1    10600 3550
 	0    1    1    0   
@@ -2925,13 +2803,61 @@ Text GLabel 20100 5550 1    50   Input ~ 0
 VSSA
 Wire Wire Line
 	20100 5550 20100 5700
+$Comp
+L Device:Crystal Y?
+U 1 1 5DB3619F
+P 17100 9700
+F 0 "Y?" H 17100 9968 50  0000 C CNN
+F 1 "Crystal" H 17100 9877 50  0000 C CNN
+F 2 "" H 17100 9700 50  0001 C CNN
+F 3 "~" H 17100 9700 50  0001 C CNN
+	1    17100 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17450 9450 17100 9450
+Wire Wire Line
+	17100 9850 17100 9950
+Wire Wire Line
+	17100 9550 17100 9450
+Wire Wire Line
+	17100 9450 16850 9450
+Connection ~ 17100 9450
+Wire Wire Line
+	16850 9950 17100 9950
+$Comp
+L power:GND #PWR0151
+U 1 1 5DEA3443
+P 16450 9450
+F 0 "#PWR0151" H 16450 9200 50  0001 C CNN
+F 1 "GND" H 16455 9277 50  0000 C CNN
+F 2 "" H 16450 9450 50  0001 C CNN
+F 3 "" H 16450 9450 50  0001 C CNN
+	1    16450 9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16550 9450 16450 9450
+$Comp
+L power:GND #PWR0152
+U 1 1 5DF0404D
+P 16450 9950
+F 0 "#PWR0152" H 16450 9700 50  0001 C CNN
+F 1 "GND" H 16455 9777 50  0000 C CNN
+F 2 "" H 16450 9950 50  0001 C CNN
+F 3 "" H 16450 9950 50  0001 C CNN
+	1    16450 9950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16450 9950 16550 9950
 Text Notes 17250 10100 3    50   ~ 0
 Not finished
 Text Notes 23450 15450 3    50   ~ 0
 Need to double check
 Text Notes 20750 4700 3    50   ~ 0
 Need to double check
-Text GLabel 6200 19800 0    50   Input ~ 0
+Text GLabel 3950 18800 2    50   Input ~ 0
 VDD_5V_IN
 Text GLabel 3950 17900 2    50   Input ~ 0
 VDD_5V_IN
@@ -2942,12 +2868,12 @@ BUZZER_1
 Text GLabel 10450 20050 3    50   Input ~ 0
 IO1_3V3
 $Comp
-L Device:R R10
+L Device:R R?
 U 1 1 5D767299
 P 10200 19800
-F 0 "R10" V 10300 19800 50  0000 C CNN
+F 0 "R?" V 10300 19800 50  0000 C CNN
 F 1 "100" V 10400 19800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 19800 50  0001 C CNN
+F 2 "" V 10130 19800 50  0001 C CNN
 F 3 "~" H 10200 19800 50  0001 C CNN
 	1    10200 19800
 	0    1    -1   0   
@@ -2955,12 +2881,12 @@ $EndComp
 Wire Wire Line
 	11500 20000 11000 20000
 $Comp
-L power:GND #PWR0152
+L power:GND #PWR0153
 U 1 1 5D382D95
 P 11500 20200
-AR Path="/5D382D95" Ref="#PWR0152"  Part="1" 
+AR Path="/5D382D95" Ref="#PWR0153"  Part="1" 
 AR Path="/5D337B84/5D382D95" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0152" H 11500 19950 50  0001 C CNN
+F 0 "#PWR0153" H 11500 19950 50  0001 C CNN
 F 1 "GND" H 11505 20027 50  0000 C CNN
 F 2 "" H 11500 20200 50  0001 C CNN
 F 3 "" H 11500 20200 50  0001 C CNN
@@ -2968,12 +2894,12 @@ F 3 "" H 11500 20200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C41
+L Flight_Controller-rescue:Conn_10_1-flightController C?
 U 1 1 5D31FA10
 P 11650 19500
-AR Path="/5D31FA10" Ref="C41"  Part="1" 
+AR Path="/5D31FA10" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5D31FA10" Ref="C?"  Part="1" 
-F 0 "C41" H 11728 19301 50  0000 L CNN
+F 0 "C?" H 11728 19301 50  0000 L CNN
 F 1 "Conn_10_1" H 11728 19210 50  0000 L CNN
 F 2 "" H 12300 20100 50  0001 C CNN
 F 3 "" H 12300 20100 50  0001 C CNN
@@ -2987,12 +2913,12 @@ SAFETY_IN
 Wire Wire Line
 	11500 19900 10350 19900
 $Comp
-L Device:R R11
+L Device:R R?
 U 1 1 5D88FA54
 P 10200 19900
-F 0 "R11" V 10300 19900 50  0000 C CNN
+F 0 "R?" V 10300 19900 50  0000 C CNN
 F 1 "100" V 10400 19900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 19900 50  0001 C CNN
+F 2 "" V 10130 19900 50  0001 C CNN
 F 3 "~" H 10200 19900 50  0001 C CNN
 	1    10200 19900
 	0    1    1    0   
@@ -3009,23 +2935,23 @@ Connection ~ 9800 19800
 Wire Wire Line
 	9800 19800 10050 19800
 $Comp
-L Device:R R7
+L Device:R R?
 U 1 1 5D985630
 P 9450 19800
-F 0 "R7" V 9550 19800 50  0000 C CNN
+F 0 "R?" V 9550 19800 50  0000 C CNN
 F 1 "1K5" V 9650 19800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9380 19800 50  0001 C CNN
+F 2 "" V 9380 19800 50  0001 C CNN
 F 3 "~" H 9450 19800 50  0001 C CNN
 	1    9450 19800
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0153
+L power:GND #PWR0154
 U 1 1 5D985B1F
 P 8900 19800
-AR Path="/5D985B1F" Ref="#PWR0153"  Part="1" 
+AR Path="/5D985B1F" Ref="#PWR0154"  Part="1" 
 AR Path="/5D337B84/5D985B1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 8900 19550 50  0001 C CNN
+F 0 "#PWR0154" H 8900 19550 50  0001 C CNN
 F 1 "GND" H 8905 19627 50  0000 C CNN
 F 2 "" H 8900 19800 50  0001 C CNN
 F 3 "" H 8900 19800 50  0001 C CNN
@@ -3035,12 +2961,12 @@ $EndComp
 Wire Wire Line
 	9300 19800 8900 19800
 $Comp
-L Device:R R23
+L Device:R R?
 U 1 1 5DA1D8AF
 P 24850 6650
-F 0 "R23" V 24643 6650 50  0000 C CNN
+F 0 "R?" V 24643 6650 50  0000 C CNN
 F 1 "10K" V 24734 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 24780 6650 50  0001 C CNN
+F 2 "" V 24780 6650 50  0001 C CNN
 F 3 "~" H 24850 6650 50  0001 C CNN
 	1    24850 6650
 	0    -1   -1   0   
@@ -3054,12 +2980,12 @@ nVDD_5V_HIPOWER_OC
 Wire Wire Line
 	24700 6650 22200 6650
 $Comp
-L Device:R R15
+L Device:R R?
 U 1 1 5DB1A3A9
 P 17700 6450
-F 0 "R15" V 17493 6450 50  0000 C CNN
+F 0 "R?" V 17493 6450 50  0000 C CNN
 F 1 "10K" V 17584 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 17630 6450 50  0001 C CNN
+F 2 "" V 17630 6450 50  0001 C CNN
 F 3 "~" H 17700 6450 50  0001 C CNN
 	1    17700 6450
 	0    1    1    0   
@@ -3073,10 +2999,10 @@ Wire Wire Line
 Text Label 18050 6450 0    50   ~ 0
 nVDD_5V_PERIPH_OC
 $Comp
-L power:GND #PWR0154
+L power:GND #PWR0155
 U 1 1 5DCE191A
 P 24350 9250
-F 0 "#PWR0154" H 24350 9000 50  0001 C CNN
+F 0 "#PWR0155" H 24350 9000 50  0001 C CNN
 F 1 "GND" H 24355 9077 50  0000 C CNN
 F 2 "" H 24350 9250 50  0001 C CNN
 F 3 "" H 24350 9250 50  0001 C CNN
@@ -3086,10 +3012,10 @@ $EndComp
 Wire Wire Line
 	22200 6750 24450 6750
 $Comp
-L power:GND #PWR0155
+L power:GND #PWR0156
 U 1 1 5DD9E909
 P 24450 6750
-F 0 "#PWR0155" H 24450 6500 50  0001 C CNN
+F 0 "#PWR0156" H 24450 6500 50  0001 C CNN
 F 1 "GND" H 24455 6577 50  0000 C CNN
 F 2 "" H 24450 6750 50  0001 C CNN
 F 3 "" H 24450 6750 50  0001 C CNN
@@ -3124,12 +3050,12 @@ SPI5_SYNC_EXTERNAL1
 Wire Wire Line
 	10800 20050 10800 20150
 $Comp
-L power:GND #PWR0156
+L power:GND #PWR0157
 U 1 1 5E57C536
 P 10800 20150
-AR Path="/5E57C536" Ref="#PWR0156"  Part="1" 
+AR Path="/5E57C536" Ref="#PWR0157"  Part="1" 
 AR Path="/5D337B84/5E57C536" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0156" H 10800 19900 50  0001 C CNN
+F 0 "#PWR0157" H 10800 19900 50  0001 C CNN
 F 1 "GND" H 10805 19977 50  0000 C CNN
 F 2 "" H 10800 20150 50  0001 C CNN
 F 3 "" H 10800 20150 50  0001 C CNN
@@ -3152,9 +3078,9 @@ Text Label 22200 10250 0    50   ~ 0
 Text Label 22200 10350 0    50   ~ 0
 [n]UI_LED_RED[_EXTERNAL]
 Wire Wire Line
-	22200 9950 23500 9950
+	22200 9950 23400 9950
 Wire Wire Line
-	22200 10050 23500 10050
+	22200 10050 23400 10050
 NoConn ~ 22200 9850
 Text GLabel 30300 1450 1    50   Input ~ 0
 MCU_3V3
@@ -3163,23 +3089,23 @@ MCU_3V3
 Wire Wire Line
 	30300 1450 30300 1550
 $Comp
-L Device:R R24
+L Device:R R?
 U 1 1 5EACB331
 P 30300 1700
-F 0 "R24" V 30093 1700 50  0000 C CNN
+F 0 "R?" V 30093 1700 50  0000 C CNN
 F 1 "442K" V 30184 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 30230 1700 50  0001 C CNN
+F 2 "" V 30230 1700 50  0001 C CNN
 F 3 "~" H 30300 1700 50  0001 C CNN
 	1    30300 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L Device:R R?
 U 1 1 5EACBCAA
 P 30700 1700
-F 0 "R26" V 30493 1700 50  0000 C CNN
+F 0 "R?" V 30493 1700 50  0000 C CNN
 F 1 "442K" V 30584 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 30630 1700 50  0001 C CNN
+F 2 "" V 30630 1700 50  0001 C CNN
 F 3 "~" H 30700 1700 50  0001 C CNN
 	1    30700 1700
 	1    0    0    -1  
@@ -3191,23 +3117,23 @@ Wire Wire Line
 Wire Wire Line
 	30300 1850 30300 1950
 $Comp
-L Device:R R25
+L Device:R R?
 U 1 1 5EBE3810
 P 30300 2200
-F 0 "R25" V 30093 2200 50  0000 C CNN
+F 0 "R?" V 30093 2200 50  0000 C CNN
 F 1 "24.9K" V 30184 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 30230 2200 50  0001 C CNN
+F 2 "" V 30230 2200 50  0001 C CNN
 F 3 "~" H 30300 2200 50  0001 C CNN
 	1    30300 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R?
 U 1 1 5EBE3C6F
 P 30700 2200
-F 0 "R27" V 30493 2200 50  0000 C CNN
+F 0 "R?" V 30493 2200 50  0000 C CNN
 F 1 "24.9K" V 30584 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 30630 2200 50  0001 C CNN
+F 2 "" V 30630 2200 50  0001 C CNN
 F 3 "~" H 30700 2200 50  0001 C CNN
 	1    30700 2200
 	1    0    0    -1  
@@ -3247,12 +3173,12 @@ NoConn ~ 11250 3450
 Wire Wire Line
 	22200 9250 24350 9250
 $Comp
-L Device:R R17
+L Device:R R?
 U 1 1 5EF727A4
 P 23050 9350
-F 0 "R17" V 22843 9350 50  0000 C CNN
+F 0 "R?" V 22843 9350 50  0000 C CNN
 F 1 "10K" V 22934 9350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 22980 9350 50  0001 C CNN
+F 2 "" V 22980 9350 50  0001 C CNN
 F 3 "~" H 23050 9350 50  0001 C CNN
 	1    23050 9350
 	0    -1   -1   0   
@@ -3262,23 +3188,23 @@ Wire Wire Line
 Wire Wire Line
 	22200 9550 23400 9550
 $Comp
-L Device:R R18
+L Device:R R?
 U 1 1 5EFAB60F
 P 23300 9450
-F 0 "R18" V 23093 9450 50  0000 C CNN
+F 0 "R?" V 23093 9450 50  0000 C CNN
 F 1 "10K" V 23184 9450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 23230 9450 50  0001 C CNN
+F 2 "" V 23230 9450 50  0001 C CNN
 F 3 "~" H 23300 9450 50  0001 C CNN
 	1    23300 9450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R21
+L Device:R R?
 U 1 1 5F01D3F8
 P 23550 9550
-F 0 "R21" V 23343 9550 50  0000 C CNN
+F 0 "R?" V 23343 9550 50  0000 C CNN
 F 1 "10K" V 23434 9550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 23480 9550 50  0001 C CNN
+F 2 "" V 23480 9550 50  0001 C CNN
 F 3 "~" H 23550 9550 50  0001 C CNN
 	1    23550 9550
 	0    -1   -1   0   
@@ -3295,99 +3221,319 @@ Connection ~ 23800 9450
 Wire Wire Line
 	23800 9450 23800 9350
 $Comp
-L power:GND #PWR0157
+L power:GND #PWR0158
 U 1 1 5F0FFFD7
 P 23800 9450
-F 0 "#PWR0157" H 23800 9200 50  0001 C CNN
+F 0 "#PWR0158" H 23800 9200 50  0001 C CNN
 F 1 "GND" H 23805 9277 50  0000 C CNN
 F 2 "" H 23800 9450 50  0001 C CNN
 F 3 "" H 23800 9450 50  0001 C CNN
 	1    23800 9450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2950 4775 3100 4775
-Text GLabel 3200 4650 2    50   Input ~ 0
-IMU_IO_3V3
-Wire Wire Line
-	3200 4650 3100 4650
-Wire Wire Line
-	3100 4650 3100 4775
-Connection ~ 3100 4775
-Wire Wire Line
-	3100 4775 3175 4775
-$Comp
-L power:GND #PWR0158
-U 1 1 5D67D211
-P 15550 10300
-F 0 "#PWR0158" H 15550 10050 50  0001 C CNN
-F 1 "GND" H 15555 10127 50  0000 C CNN
-F 2 "" H 15550 10300 50  0001 C CNN
-F 3 "" H 15550 10300 50  0001 C CNN
-	1    15550 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15950 8700 15550 8700
-Wire Wire Line
-	15950 10300 15550 10300
-Wire Wire Line
-	15550 8700 15550 10300
-Wire Wire Line
-	16550 9250 16550 9500
-Wire Wire Line
-	16050 8700 16550 8700
-Wire Wire Line
-	16550 8700 16550 8950
-Wire Wire Line
-	16050 10300 16550 10300
-Wire Wire Line
-	16550 10300 16550 10100
-Wire Wire Line
-	16550 9500 16700 9500
-Connection ~ 16550 9500
-Wire Wire Line
-	16550 9500 16550 9800
 $Comp
 L power:GND #PWR0159
-U 1 1 5D67FB5D
-P 16700 9500
-F 0 "#PWR0159" H 16700 9250 50  0001 C CNN
-F 1 "GND" H 16705 9327 50  0000 C CNN
-F 2 "" H 16700 9500 50  0001 C CNN
-F 3 "" H 16700 9500 50  0001 C CNN
-	1    16700 9500
+U 1 1 5DAE60E0
+P 22650 15850
+F 0 "#PWR0159" H 22650 15600 50  0001 C CNN
+F 1 "GND" H 22655 15677 50  0000 C CNN
+F 2 "" H 22650 15850 50  0001 C CNN
+F 3 "" H 22650 15850 50  0001 C CNN
+	1    22650 15850
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:NX3225SA-24.000M-STD-CSR-3 Y1
-U 1 1 5D678EFF
-P 16050 8700
-F 0 "Y1" V 16804 8828 50  0000 L CNN
-F 1 "NX3225SA-24.000M-STD-CSR-1" V 16700 8800 50  0000 L CNN
-F 2 "SamacSys_Parts:NX3225SA12000MHZSTDCSR1" H 17500 8800 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/NX3225SA-24.000M-STD-CSR-3.pdf" H 17500 8700 50  0001 L CNN
-F 4 "NDK 24MHz Crystal Unit SMD 4-Pin 3.2 x 2.5 x 0.55mm" H 17500 8600 50  0001 L CNN "Description"
-F 5 "0.6" H 17500 8500 50  0001 L CNN "Height"
-F 6 "344-NX3225SA24MSTSR3" H 17500 8400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=344-NX3225SA24MSTSR3" H 17500 8300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "NDK" H 17500 8200 50  0001 L CNN "Manufacturer_Name"
-F 9 "NX3225SA-24.000M-STD-CSR-3" H 17500 8100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    16050 8700
+L power:GND #PWR0160
+U 1 1 5D70FB0D
+P 20100 16550
+F 0 "#PWR0160" H 20100 16300 50  0001 C CNN
+F 1 "GND" H 20105 16377 50  0000 C CNN
+F 2 "" H 20100 16550 50  0001 C CNN
+F 3 "" H 20100 16550 50  0001 C CNN
+	1    20100 16550
+	1    0    0    -1  
+$EndComp
+Connection ~ 20100 16550
+$Comp
+L Device:C C?
+U 1 1 5D712BED
+P 4300 2500
+F 0 "C?" V 4250 2400 50  0000 C CNN
+F 1 "47uF" V 4150 2500 50  0000 C CNN
+F 2 "" H 4338 2350 50  0001 C CNN
+F 3 "~" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2350 4300 2300
+Wire Wire Line
+	4300 2300 4575 2300
+Connection ~ 4575 2300
+Wire Wire Line
+	4575 2300 4575 2350
+Wire Wire Line
+	4300 2650 4300 2700
+Wire Wire Line
+	4300 2700 4575 2700
+Connection ~ 4575 2700
+Wire Wire Line
+	4575 2700 4575 2825
+Connection ~ 17100 9950
+Wire Wire Line
+	17450 9450 17450 9850
+Wire Wire Line
+	19300 9950 17100 9950
+Wire Wire Line
+	19300 9850 17450 9850
+Text GLabel 6350 17850 2    50   Input ~ 0
+OTG_P
+Text GLabel 6350 17650 2    50   Input ~ 0
+OTG_N
+Wire Wire Line
+	5350 19700 5500 19700
+Connection ~ 5350 19700
+Wire Wire Line
+	5350 19900 5350 19700
+Wire Wire Line
+	5200 19700 5350 19700
+$Comp
+L power:GND #PWR0161
+U 1 1 5DD7ACE0
+P 5350 19900
+F 0 "#PWR0161" H 5350 19650 50  0001 C CNN
+F 1 "GND" H 5355 19727 50  0000 C CNN
+F 2 "" H 5350 19900 50  0001 C CNN
+F 3 "" H 5350 19900 50  0001 C CNN
+	1    5350 19900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 19400
+NoConn ~ 6100 19300
+NoConn ~ 6100 19100
+NoConn ~ 6100 19000
+NoConn ~ 6100 18800
+NoConn ~ 6100 18700
+NoConn ~ 6100 18500
+NoConn ~ 6100 18400
+NoConn ~ 6100 18200
+NoConn ~ 6100 18100
+NoConn ~ 6100 17400
+NoConn ~ 6100 17300
+Wire Wire Line
+	6350 17100 6100 17100
+Text GLabel 6350 17100 2    50   Input ~ 0
+USB_VCC
+Wire Wire Line
+	6100 17850 6100 17900
+Connection ~ 6100 17850
+Wire Wire Line
+	6350 17850 6100 17850
+Wire Wire Line
+	6100 17650 6100 17700
+Connection ~ 6100 17650
+Wire Wire Line
+	6100 17650 6350 17650
+Wire Wire Line
+	6100 17600 6100 17650
+Wire Wire Line
+	6100 17800 6100 17850
+$Comp
+L Connector:USB_C_Receptacle J?
+U 1 1 5D792FCE
+P 5500 18100
+F 0 "J?" H 5607 19367 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 5607 19276 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 5650 18100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5650 18100 50  0001 C CNN
+	1    5500 18100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5D3A7672
+P 6700 16500
+AR Path="/5D3A7672" Ref="#PWR0128"  Part="1" 
+AR Path="/5D337B84/5D3A7672" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0128" H 6700 16250 50  0001 C CNN
+F 1 "GND" H 6705 16327 50  0000 C CNN
+F 2 "" H 6700 16500 50  0001 C CNN
+F 3 "" H 6700 16500 50  0001 C CNN
+	1    6700 16500
+	1    0    0    -1  
+$EndComp
+Text Notes 6800 15550 0    50   ~ 0
+I/O PWM OUT
+$Comp
+L Flight_Controller-rescue:Conn_10_1-flightController C?
+U 1 1 5D31FA1C
+P 6850 15800
+AR Path="/5D31FA1C" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5D31FA1C" Ref="C?"  Part="1" 
+F 0 "C?" H 6928 15601 50  0000 L CNN
+F 1 "Conn_10_1" H 6928 15510 50  0000 L CNN
+F 2 "" H 7500 16400 50  0001 C CNN
+F 3 "" H 7500 16400 50  0001 C CNN
+	1    6850 15800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flight_Controller-rescue:Conn_10_1-flightController C?
+U 1 1 5D31FA22
+P 5750 15800
+AR Path="/5D31FA22" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5D31FA22" Ref="C?"  Part="1" 
+F 0 "C?" H 5828 15601 50  0000 L CNN
+F 1 "Conn_10_1" H 5828 15510 50  0000 L CNN
+F 2 "" H 6400 16400 50  0001 C CNN
+F 3 "" H 6400 16400 50  0001 C CNN
+	1    5750 15800
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 15550 0    50   ~ 0
+FMU PWM OUT
+Text GLabel 5600 15900 0    50   Input ~ 0
+FMU_CH3
+Text GLabel 5600 16000 0    50   Input ~ 0
+FMU_CH4
+Text GLabel 5600 16100 0    50   Input ~ 0
+FMU_CH5
+Text GLabel 5600 16200 0    50   Input ~ 0
+FMU_CH6
+Text GLabel 5600 16300 0    50   Input ~ 0
+FMU_CH7
+Text GLabel 5600 16400 0    50   Input ~ 0
+FMU_CH8
+$Comp
+L power:GND #PWR0140
+U 1 1 5D38FC37
+P 5600 16500
+AR Path="/5D38FC37" Ref="#PWR0140"  Part="1" 
+AR Path="/5D337B84/5D38FC37" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0140" H 5600 16250 50  0001 C CNN
+F 1 "GND" H 5605 16327 50  0000 C CNN
+F 2 "" H 5600 16500 50  0001 C CNN
+F 3 "" H 5600 16500 50  0001 C CNN
+	1    5600 16500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 15800 0    50   Input ~ 0
+FMU_CH2
+Text GLabel 5600 15700 0    50   Input ~ 0
+FMU_CH1
+$Comp
+L Flight_Controller-rescue:TPS3808 U?
+U 1 1 5E6E21DC
+P 9950 5300
+F 0 "U?" H 9950 5725 50  0000 C CNN
+F 1 "TPS3808" H 9950 5634 50  0000 C CNN
+F 2 "" H 9900 5250 50  0001 C CNN
+F 3 "" H 9900 5250 50  0001 C CNN
+	1    9950 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 5300 2    50   Input ~ 0
+MCU_3V3
+Text GLabel 10700 4700 1    50   Input ~ 0
+MCU_3V3
+$Comp
+L Device:C C?
+U 1 1 5E7DD06D
+P 11100 4800
+F 0 "C?" V 11050 4900 50  0000 C CNN
+F 1 "100nF" V 11250 4800 50  0000 C CNN
+F 2 "" H 11138 4650 50  0001 C CNN
+F 3 "~" H 11100 4800 50  0001 C CNN
+	1    11100 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 4700 10700 4800
+Wire Wire Line
+	10700 5100 10300 5100
+Connection ~ 10700 4800
+Wire Wire Line
+	10700 4800 10700 5100
+Wire Wire Line
+	10700 4800 10950 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5E9561E1
+P 11450 4800
+F 0 "#PWR?" H 11450 4550 50  0001 C CNN
+F 1 "GND" H 11455 4627 50  0000 C CNN
+F 2 "" H 11450 4800 50  0001 C CNN
+F 3 "" H 11450 4800 50  0001 C CNN
+	1    11450 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 4800 11250 4800
+$Comp
+L Device:R R?
+U 1 1 5E9959A6
+P 10650 5300
+F 0 "R?" V 10443 5300 50  0000 C CNN
+F 1 "10K" V 10534 5300 50  0000 C CNN
+F 2 "" V 10580 5300 50  0001 C CNN
+F 3 "~" H 10650 5300 50  0001 C CNN
+	1    10650 5300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	19300 9850 16950 9850
+	10500 5300 10300 5300
 Wire Wire Line
-	16950 9850 16950 8700
+	10800 5300 11000 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5EA15805
+P 9250 5300
+F 0 "#PWR?" H 9250 5050 50  0001 C CNN
+F 1 "GND" H 9255 5127 50  0000 C CNN
+F 2 "" H 9250 5300 50  0001 C CNN
+F 3 "" H 9250 5300 50  0001 C CNN
+	1    9250 5300
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	16950 8700 16550 8700
-Connection ~ 16550 8700
+	9250 5300 9600 5300
+Text GLabel 11000 5500 2    50   Input ~ 0
+MCU_3V3
+$Comp
+L Device:R R?
+U 1 1 5EA565BC
+P 10650 5500
+F 0 "R?" V 10443 5500 50  0000 C CNN
+F 1 "50K" V 10534 5500 50  0000 C CNN
+F 2 "" V 10580 5500 50  0001 C CNN
+F 3 "~" H 10650 5500 50  0001 C CNN
+	1    10650 5500
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	19300 9950 16950 9950
+	10800 5500 11000 5500
 Wire Wire Line
-	16950 9950 16950 10300
+	10500 5500 10300 5500
+Text GLabel 9200 5500 0    50   Input ~ 0
+FMU_RESET
 Wire Wire Line
-	16950 10300 16550 10300
-Connection ~ 16550 10300
+	9200 5500 9600 5500
+Wire Wire Line
+	9600 5100 9150 5100
+Text GLabel 9150 5100 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	22650 14750 22650 15050
+Wire Wire Line
+	22550 15200 22650 15200
+Connection ~ 22650 15200
+Wire Wire Line
+	22650 15200 22650 15350
+Text GLabel 22750 15050 2    50   Input ~ 0
+NRST
+Wire Wire Line
+	22750 15050 22650 15050
+Connection ~ 22650 15050
+Wire Wire Line
+	22650 15050 22650 15200
 $EndSCHEMATC

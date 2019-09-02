@@ -1,9 +1,4 @@
 (sym_lib_table
-  (lib (name Flight_Controller-rescue)(type Legacy)(uri ${KIPRJMOD}/Flight_Controller-rescue.lib)(options "")(descr ""))
-  (lib (name ABS06-32.768KHZ-T)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.lib)(options "")(descr ""))
-  (lib (name KNH16C104DA5TS)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/KNH16C104DA5TS/KNH16C104DA5TS.lib)(options "")(descr ""))
-  (lib (name SamacSys_Parts)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/SamacSys_Parts.lib)(options "")(descr ""))
-  (lib (name TL3305AF160QG)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/TL3305AF160QG/TL3305AF160QG.lib)(options "")(descr ""))
-  (lib (name NX3225SA-24.000M-STD-CSR-3)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/NX3225SA-24.000M-STD-CSR-3-pcb-part-libraries/KiCad/NX3225SA-24.000M-STD-CSR-3.lib)(options "")(descr ""))
-  (lib (name 2019-08-31_04-10-46)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/UL_FM25V02G/KiCAD/2019-08-31_04-10-46/2019-08-31_04-10-46.lib)(options "")(descr ""))
+  (lib (name "Flight_Controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/Flight_Controller-rescue.lib")(options "")(descr ""))
+  (lib (name "ABS06-32.768KHZ-T")(type "Legacy")(uri "C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.lib")(options "")(descr ""))
 )

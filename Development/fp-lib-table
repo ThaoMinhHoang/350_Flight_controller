@@ -1,7 +1,3 @@
 (fp_lib_table
-  (lib (name ABS06-32.768KHZ-T)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.mod)(options "")(descr ""))
-  (lib (name SamacSys_Parts)(type KiCad)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/SamacSys_Parts.pretty)(options "")(descr ""))
-  (lib (name DFN8G-0.5-2X2MM)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/DFN8G-0.5-2X2MM/DFN8G-0.5-2X2MM.mod)(options "")(descr ""))
-  (lib (name MIC5330-SSYML-TR)(type KiCad)(uri C:/Users/dell/Documents/GitHub/350_Flight_controller/PowerSupply/MIC5330-SSYML-TR.pretty)(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/UL_FM25V02G/KiCAD/2019-08-31_04-10-46/footprints.pretty)(options "")(descr ""))
+  (lib (name "ABS06-32.768KHZ-T")(type "Legacy")(uri "C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.mod")(options "")(descr ""))
 )
