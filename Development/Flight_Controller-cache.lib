@@ -346,21 +346,6 @@ X ~ 9 -150 -600 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Flight_Controller-rescue_Conn_3_1-flightController
-#
-DEF Flight_Controller-rescue_Conn_3_1-flightController C 0 40 Y Y 1 F N
-F0 "C" 0 300 50 H V C CNN
-F1 "Flight_Controller-rescue_Conn_3_1-flightController" 0 -100 50 H V C CNN
-F2 "" 650 600 50 H I C CNN
-F3 "" 650 600 50 H I C CNN
-DRAW
-S 50 250 -50 -50 0 1 0 N
-X ~ 1 -150 200 100 R 50 50 1 1 I
-X ~ 2 -150 100 100 R 50 50 1 1 I
-X ~ 3 -150 0 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Flight_Controller-rescue_Conn_4_1-flightController
 #
 DEF Flight_Controller-rescue_Conn_4_1-flightController C 0 40 Y Y 1 F N
@@ -428,26 +413,6 @@ X ~ 4 -150 -100 100 R 50 50 1 1 I
 X ~ 5 -150 -200 100 R 50 50 1 1 I
 X ~ 6 -150 -300 100 R 50 50 1 1 I
 X ~ 7 -150 -400 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Flight_Controller-rescue_Conn_8_1-flightController
-#
-DEF Flight_Controller-rescue_Conn_8_1-flightController C 0 40 Y Y 1 F N
-F0 "C" 0 300 50 H V C CNN
-F1 "Flight_Controller-rescue_Conn_8_1-flightController" 0 -600 50 H V C CNN
-F2 "" 650 600 50 H I C CNN
-F3 "" 650 600 50 H I C CNN
-DRAW
-S 50 250 -50 -550 0 1 0 N
-X ~ 1 -150 200 100 R 50 50 1 1 I
-X ~ 2 -150 100 100 R 50 50 1 1 I
-X ~ 3 -150 0 100 R 50 50 1 1 I
-X ~ 4 -150 -100 100 R 50 50 1 1 I
-X ~ 5 -150 -200 100 R 50 50 1 1 I
-X ~ 6 -150 -300 100 R 50 50 1 1 I
-X ~ 7 -150 -400 100 R 50 50 1 1 I
-X ~ 8 -150 -500 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

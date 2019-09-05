@@ -671,7 +671,7 @@ L Device:C C46
 U 1 1 5D526A4F
 P 16300 5500
 F 0 "C46" V 16048 5500 50  0000 C CNN
-F 1 "8pF" V 16139 5500 50  0000 C CNN
+F 1 "27pF" V 16139 5500 50  0000 C CNN
 F 2 "" H 16338 5350 50  0001 C CNN
 F 3 "~" H 16300 5500 50  0001 C CNN
 	1    16300 5500
@@ -966,337 +966,33 @@ Wire Notes Line
 Wire Notes Line
 	650  13100 8600 13100
 $Comp
-L Flight_Controller-rescue:Conn_3_1-flightController C13
-U 1 1 5D31FA04
-P 2700 18900
-AR Path="/5D31FA04" Ref="C13"  Part="1" 
-AR Path="/5D337B84/5D31FA04" Ref="C?"  Part="1" 
-F 0 "C13" H 2778 19051 50  0000 L CNN
-F 1 "Conn_3_1" H 2778 18960 50  0000 L CNN
-F 2 "" H 3350 19500 50  0001 C CNN
-F 3 "" H 3350 19500 50  0001 C CNN
-	1    2700 18900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_3_1-flightController C4
-U 1 1 5D31FA0A
-P 1300 18900
-AR Path="/5D31FA0A" Ref="C4"  Part="1" 
-AR Path="/5D337B84/5D31FA0A" Ref="C?"  Part="1" 
-F 0 "C4" H 1378 19051 50  0000 L CNN
-F 1 "Conn_3_1" H 1378 18960 50  0000 L CNN
-F 2 "" H 1950 19500 50  0001 C CNN
-F 3 "" H 1950 19500 50  0001 C CNN
-	1    1300 18900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Flight_Controller-rescue:Conn_7_1-flightController C5
 U 1 1 5D31FA16
-P 4050 20100
+P 23350 17500
 AR Path="/5D31FA16" Ref="C5"  Part="1" 
 AR Path="/5D337B84/5D31FA16" Ref="C?"  Part="1" 
-F 0 "C5" H 4128 20051 50  0000 L CNN
-F 1 "Conn_7_1" H 4128 19960 50  0000 L CNN
-F 2 "" H 4700 20700 50  0001 C CNN
-F 3 "" H 4700 20700 50  0001 C CNN
-	1    4050 20100
+F 0 "C5" H 23428 17451 50  0000 L CNN
+F 1 "Conn_7_1" H 23428 17360 50  0000 L CNN
+F 2 "" H 24000 18100 50  0001 C CNN
+F 3 "" H 24000 18100 50  0001 C CNN
+	1    23350 17500
 	1    0    0    -1  
 $EndComp
-Text Notes 1250 18650 0    50   ~ 0
-PPM RC
-Text Notes 4000 19850 0    50   ~ 0
-SPI
+Text Notes 23300 17250 0    50   ~ 0
+SPI5
 $Comp
 L power:GND #PWR05
 U 1 1 5D3A5F3B
-P 3900 20500
+P 23200 17900
 AR Path="/5D3A5F3B" Ref="#PWR05"  Part="1" 
 AR Path="/5D337B84/5D3A5F3B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 3900 20250 50  0001 C CNN
-F 1 "GND" H 3905 20327 50  0000 C CNN
-F 2 "" H 3900 20500 50  0001 C CNN
-F 3 "" H 3900 20500 50  0001 C CNN
-	1    3900 20500
+F 0 "#PWR05" H 23200 17650 50  0001 C CNN
+F 1 "GND" H 23205 17727 50  0000 C CNN
+F 2 "" H 23200 17900 50  0001 C CNN
+F 3 "" H 23200 17900 50  0001 C CNN
+	1    23200 17900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5D40A4CA
-P 1150 18900
-AR Path="/5D40A4CA" Ref="#PWR04"  Part="1" 
-AR Path="/5D337B84/5D40A4CA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 1150 18650 50  0001 C CNN
-F 1 "GND" H 1155 18727 50  0000 C CNN
-F 2 "" H 1150 18900 50  0001 C CNN
-F 3 "" H 1150 18900 50  0001 C CNN
-	1    1150 18900
-	1    0    0    -1  
-$EndComp
-Text GLabel 9950 19900 0    50   Input ~ 0
-nSAFETY_SWITCH_LED_OUT
-Text GLabel 9750 19700 1    50   Input ~ 0
-SAFETY_SWITCH_IN
-$Comp
-L power:GND #PWR010
-U 1 1 5D41392B
-P 2750 20050
-AR Path="/5D41392B" Ref="#PWR010"  Part="1" 
-AR Path="/5D337B84/5D41392B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR010" H 2750 19800 50  0001 C CNN
-F 1 "GND" H 2755 19877 50  0000 C CNN
-F 2 "" H 2750 20050 50  0001 C CNN
-F 3 "" H 2750 20050 50  0001 C CNN
-	1    2750 20050
-	1    0    0    -1  
-$EndComp
-Text GLabel 3900 15900 2    50   Input ~ 0
-I2C4_SDA_EXTERNAL2
-Text GLabel 3900 15800 2    50   Input ~ 0
-I2C4_SCL_EXTERNAL2
-$Comp
-L power:GND #PWR014
-U 1 1 5D390234
-P 3900 16000
-AR Path="/5D390234" Ref="#PWR014"  Part="1" 
-AR Path="/5D337B84/5D390234" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 3900 15750 50  0001 C CNN
-F 1 "GND" H 3905 15827 50  0000 C CNN
-F 2 "" H 3900 16000 50  0001 C CNN
-F 3 "" H 3900 16000 50  0001 C CNN
-	1    3900 16000
-	-1   0    0    -1  
-$EndComp
-Text GLabel 11450 19700 0    50   Input ~ 0
-SDA1_GPS
-Text GLabel 11450 19600 0    50   Input ~ 0
-SCL1_GPS
-Text GLabel 11450 19500 0    50   Input ~ 0
-USART1_RX_GPS1
-Text GLabel 11450 19400 0    50   Input ~ 0
-USART1_TX_GPS1
-Text GLabel 3900 16950 2    50   Input ~ 0
-FMU_CAP3
-Text GLabel 3900 16850 2    50   Input ~ 0
-FMU_CAP2
-Text GLabel 3900 16750 2    50   Input ~ 0
-FMU_CAP1
-Text GLabel 3900 17150 2    50   Input ~ 0
-ADC1_SPARE_1
-Text GLabel 3900 17250 2    50   Input ~ 0
-ADC1_SPARE_2
-$Comp
-L power:GND #PWR015
-U 1 1 5D380898
-P 3900 17350
-AR Path="/5D380898" Ref="#PWR015"  Part="1" 
-AR Path="/5D337B84/5D380898" Ref="#PWR?"  Part="1" 
-F 0 "#PWR015" H 3900 17100 50  0001 C CNN
-F 1 "GND" H 3905 17177 50  0000 C CNN
-F 2 "" H 3900 17350 50  0001 C CNN
-F 3 "" H 3900 17350 50  0001 C CNN
-	1    3900 17350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5D376174
-P 3900 18400
-AR Path="/5D376174" Ref="#PWR016"  Part="1" 
-AR Path="/5D337B84/5D376174" Ref="#PWR?"  Part="1" 
-F 0 "#PWR016" H 3900 18150 50  0001 C CNN
-F 1 "GND" H 3905 18227 50  0000 C CNN
-F 2 "" H 3900 18400 50  0001 C CNN
-F 3 "" H 3900 18400 50  0001 C CNN
-	1    3900 18400
-	-1   0    0    -1  
-$EndComp
-Text GLabel 3900 18100 2    50   Input ~ 0
-USART3_RX_TELEM2
-Text GLabel 3900 18000 2    50   Input ~ 0
-USART3_TX_TELEM2
-Text GLabel 3900 18300 2    50   Input ~ 0
-USART3_RTS_TELEM2
-Text GLabel 3900 18200 2    50   Input ~ 0
-USART3_CTS_TELEM2
-Text Notes 2850 19600 0    50   ~ 0
-DSM/SBUS RC
-Text Notes 2650 18650 0    50   ~ 0
-SBUS OUT
-Text Notes 11550 19250 0    50   ~ 0
-GPS MODULE
-Text Notes 3800 16600 2    50   ~ 0
-CAP & ADC IN
-$Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C30
-U 1 1 5D31FA28
-P 19700 15900
-AR Path="/5D31FA28" Ref="C30"  Part="1" 
-AR Path="/5D337B84/5D31FA28" Ref="C?"  Part="1" 
-F 0 "C30" H 19778 16001 50  0000 L CNN
-F 1 "Conn_4_1" H 19778 15910 50  0000 L CNN
-F 2 "" H 20350 16500 50  0001 C CNN
-F 3 "" H 20350 16500 50  0001 C CNN
-	1    19700 15900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_8_1-flightController C16
-U 1 1 5D31F9FE
-P 3750 16850
-AR Path="/5D31F9FE" Ref="C16"  Part="1" 
-AR Path="/5D337B84/5D31F9FE" Ref="C?"  Part="1" 
-F 0 "C16" H 3828 16751 50  0000 L CNN
-F 1 "Conn_8_1" H 3828 16660 50  0000 L CNN
-F 2 "" H 4400 17450 50  0001 C CNN
-F 3 "" H 4400 17450 50  0001 C CNN
-	1    3750 16850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_5_1-flightController C14
-U 1 1 5D31F9F2
-P 2900 19850
-AR Path="/5D31F9F2" Ref="C14"  Part="1" 
-AR Path="/5D337B84/5D31F9F2" Ref="C?"  Part="1" 
-F 0 "C14" H 2978 19901 50  0000 L CNN
-F 1 "Conn_5_1" H 2978 19810 50  0000 L CNN
-F 2 "" H 3550 20450 50  0001 C CNN
-F 3 "" H 3550 20450 50  0001 C CNN
-	1    2900 19850
-	1    0    0    -1  
-$EndComp
-Text Notes 2650 16650 0    50   ~ 0
-FMU DEBUG
-Text Notes 2650 15650 0    50   ~ 0
-IO DEBUG
-Text Notes 19650 15650 0    50   ~ 0
-CAN2
-Text Notes 19650 14600 0    50   ~ 0
-CAN1
-Text Notes 3800 15650 2    50   ~ 0
-I2CA
-Text Notes 1600 16650 0    50   ~ 0
-I2CB
-Text Notes 3800 17850 2    50   ~ 0
-TELEM2
-$Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C20
-U 1 1 5D31F9E0
-P 19700 14850
-AR Path="/5D31F9E0" Ref="C20"  Part="1" 
-AR Path="/5D337B84/5D31F9E0" Ref="C?"  Part="1" 
-F 0 "C20" H 19778 14951 50  0000 L CNN
-F 1 "Conn_4_1" H 19778 14860 50  0000 L CNN
-F 2 "" H 20350 15450 50  0001 C CNN
-F 3 "" H 20350 15450 50  0001 C CNN
-	1    19700 14850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C15
-U 1 1 5D31F9DA
-P 3750 15900
-AR Path="/5D31F9DA" Ref="C15"  Part="1" 
-AR Path="/5D337B84/5D31F9DA" Ref="C?"  Part="1" 
-F 0 "C15" H 3828 16001 50  0000 L CNN
-F 1 "Conn_4_1" H 3828 15910 50  0000 L CNN
-F 2 "" H 4400 16500 50  0001 C CNN
-F 3 "" H 4400 16500 50  0001 C CNN
-	1    3750 15900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C3
-U 1 1 5D31F9CE
-P 1650 16900
-AR Path="/5D31F9CE" Ref="C3"  Part="1" 
-AR Path="/5D337B84/5D31F9CE" Ref="C?"  Part="1" 
-F 0 "C3" H 1728 16901 50  0000 L CNN
-F 1 "Conn_6_1" H 1728 16810 50  0000 L CNN
-F 2 "" H 2300 17500 50  0001 C CNN
-F 3 "" H 2300 17500 50  0001 C CNN
-	1    1650 16900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C17
-U 1 1 5D31F9C8
-P 3750 18100
-AR Path="/5D31F9C8" Ref="C17"  Part="1" 
-AR Path="/5D337B84/5D31F9C8" Ref="C?"  Part="1" 
-F 0 "C17" H 3828 18101 50  0000 L CNN
-F 1 "Conn_6_1" H 3828 18010 50  0000 L CNN
-F 2 "" H 4400 18700 50  0001 C CNN
-F 3 "" H 4400 18700 50  0001 C CNN
-	1    3750 18100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C12
-U 1 1 5D31F9BC
-P 2700 16900
-AR Path="/5D31F9BC" Ref="C12"  Part="1" 
-AR Path="/5D337B84/5D31F9BC" Ref="C?"  Part="1" 
-F 0 "C12" H 2778 16901 50  0000 L CNN
-F 1 "Conn_6_1" H 2778 16810 50  0000 L CNN
-F 2 "" H 3350 17500 50  0001 C CNN
-F 3 "" H 3350 17500 50  0001 C CNN
-	1    2700 16900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C11
-U 1 1 5D31F9B6
-P 2700 15900
-AR Path="/5D31F9B6" Ref="C11"  Part="1" 
-AR Path="/5D337B84/5D31F9B6" Ref="C?"  Part="1" 
-F 0 "C11" H 2778 15901 50  0000 L CNN
-F 1 "Conn_6_1" H 2778 15810 50  0000 L CNN
-F 2 "" H 3350 16500 50  0001 C CNN
-F 3 "" H 3350 16500 50  0001 C CNN
-	1    2700 15900
-	1    0    0    -1  
-$EndComp
-Text Notes 7500 15725 0    157  ~ 0
-PORTS
-$Comp
-L power:GND #PWR017
-U 1 1 5D380182
-P 3900 19300
-AR Path="/5D380182" Ref="#PWR017"  Part="1" 
-AR Path="/5D337B84/5D380182" Ref="#PWR?"  Part="1" 
-F 0 "#PWR017" H 3900 19050 50  0001 C CNN
-F 1 "GND" H 3905 19127 50  0000 C CNN
-F 2 "" H 3900 19300 50  0001 C CNN
-F 3 "" H 3900 19300 50  0001 C CNN
-	1    3900 19300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C18
-U 1 1 5D31F9AA
-P 3750 19000
-AR Path="/5D31F9AA" Ref="C18"  Part="1" 
-AR Path="/5D337B84/5D31F9AA" Ref="C?"  Part="1" 
-F 0 "C18" H 3828 19001 50  0000 L CNN
-F 1 "Conn_6_1" H 3828 18910 50  0000 L CNN
-F 2 "" H 4400 19600 50  0001 C CNN
-F 3 "" H 4400 19600 50  0001 C CNN
-	1    3750 19000
-	-1   0    0    -1  
-$EndComp
-Text GLabel 3900 19200 2    50   Input ~ 0
-USART2_RTS_TELEM1
-Text GLabel 3900 19100 2    50   Input ~ 0
-USART2_CTS_TELEM1
-Text GLabel 3900 19000 2    50   Input ~ 0
-USART2_RX_TELEM1
-Text GLabel 3900 18900 2    50   Input ~ 0
-USART2_TX_TELEM1
-Text Notes 3800 18800 2    50   ~ 0
-TELEM1
 Wire Wire Line
 	5650 10850 5550 10850
 $Comp
@@ -1636,14 +1332,6 @@ Wire Notes Line
 	32475 11825 32475 14175
 Wire Notes Line
 	29625 14175 29625 11825
-Wire Notes Line
-	8400 15350 8400 20750
-Wire Notes Line
-	8400 20750 1150 20750
-Wire Notes Line
-	600  20700 600  15300
-Wire Notes Line
-	4950 20750 4950 15350
 Wire Wire Line
 	23150 10750 23500 10750
 $Comp
@@ -1748,11 +1436,8 @@ F 3 "~" H 24100 10600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	22250 10800 21800 10800
-Connection ~ 22900 10100
 Wire Wire Line
 	22250 11900 22250 11700
-Wire Wire Line
-	22900 10050 22900 10100
 $Comp
 L Device:R R30
 U 1 1 5DA2535D
@@ -1904,7 +1589,7 @@ F 1 "GND" H 22355 10527 50  0000 C CNN
 F 2 "" H 22350 10700 50  0001 C CNN
 F 3 "" H 22350 10700 50  0001 C CNN
 	1    22350 10700
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	23400 10200 23250 10200
@@ -1975,35 +1660,24 @@ Wire Wire Line
 	21000 11100 21000 11750
 Text GLabel 21000 11750 3    50   Input ~ 0
 VBAT
-Connection ~ 19400 11500
-Wire Wire Line
-	19400 11750 19400 11500
 Wire Wire Line
 	19600 11100 19600 11750
 Text GLabel 19600 11750 3    50   Input ~ 0
 VDDA
 Text GLabel 21700 12300 2    50   Input ~ 0
 MCU_3V3
-Wire Wire Line
-	19500 11500 19400 11500
-Wire Wire Line
-	19400 11100 19400 11500
 Text GLabel 19400 11750 3    50   Input ~ 0
 MCU_3V3
-Wire Wire Line
-	19700 1750 19700 2200
-Wire Wire Line
-	19600 1750 19700 1750
 $Comp
 L power:GND #PWR059
 U 1 1 5D5CE59F
-P 19600 1750
-F 0 "#PWR059" H 19600 1500 50  0001 C CNN
-F 1 "GND" H 19605 1577 50  0000 C CNN
-F 2 "" H 19600 1750 50  0001 C CNN
-F 3 "" H 19600 1750 50  0001 C CNN
-	1    19600 1750
-	0    1    1    0   
+P 19700 1900
+F 0 "#PWR059" H 19700 1650 50  0001 C CNN
+F 1 "GND" H 19705 1727 50  0000 C CNN
+F 2 "" H 19700 1900 50  0001 C CNN
+F 3 "" H 19700 1900 50  0001 C CNN
+	1    19700 1900
+	-1   0    0    1   
 $EndComp
 Text GLabel 22350 10000 2    50   Input ~ 0
 VREF+
@@ -2091,8 +1765,6 @@ Wire Wire Line
 Wire Wire Line
 	18900 6800 18450 6800
 Wire Wire Line
-	18900 6900 18450 6900
-Wire Wire Line
 	18900 7000 18450 7000
 Wire Wire Line
 	18900 7100 18450 7100
@@ -2112,8 +1784,6 @@ Text GLabel 18450 7100 0    50   Input ~ 0
 HW_REV_SENSE
 Text GLabel 18450 7000 0    50   Input ~ 0
 ADC1_SPARE_1
-Text GLabel 18450 6900 0    50   Input ~ 0
-SPI1_DRDY4_ICM20602
 Text GLabel 18450 6800 0    50   Input ~ 0
 nLED_GREEN
 Text GLabel 18450 6700 0    50   Input ~ 0
@@ -2128,18 +1798,10 @@ Text GLabel 18450 6300 0    50   Input ~ 0
 SDMMC1_D3
 Text GLabel 18450 6200 0    50   Input ~ 0
 SDMMC1_CLK
-Text GLabel 22350 7600 2    50   Input ~ 0
-SPI5_CS3_EXTERNAL1
 Text GLabel 22350 7700 2    50   Input ~ 0
 SPI5_CS2_EXTERNAL1
 Text GLabel 22350 7800 2    50   Input ~ 0
 CAN1_RX
-Text GLabel 22350 7900 2    50   Input ~ 0
-SPI6_CS3_EXTERNAL2
-Text GLabel 22350 8000 2    50   Input ~ 0
-SPI6_CS2_EXTERNAL2
-Text GLabel 22350 8100 2    50   Input ~ 0
-SPI6_CS1_EXTERNAL2
 Text GLabel 22350 8200 2    50   Input ~ 0
 RC_INPUT\(aka_PPM_IN)
 Text GLabel 22350 8300 2    50   Input ~ 0
@@ -2164,20 +1826,10 @@ Text GLabel 22350 6700 2    50   Input ~ 0
 I2C3_SCL_EXTERNAL3
 Text GLabel 22350 6800 2    50   Input ~ 0
 FMU_CH7
-Text GLabel 22350 6900 2    50   Input ~ 0
-SPI1_CS5_AUX_MEM
-Text GLabel 22350 7300 2    50   Input ~ 0
-16_MHZ_OUT
-Text GLabel 22350 7400 2    50   Input ~ 0
-16_MHZ_IN
 Text GLabel 22350 4200 2    50   Input ~ 0
 USART6_CTS_TELEM3
 Text GLabel 22350 4300 2    50   Input ~ 0
 USART6_TX_TELEM3\(RC_INPUT)
-Text GLabel 22350 4400 2    50   Input ~ 0
-SPI6_SCK_EXTERNAL2
-Text GLabel 22350 4500 2    50   Input ~ 0
-SPI6_MISO_EXTERNAL2
 Text GLabel 22350 4600 2    50   Input ~ 0
 SPI1_SCK_SENSOR1
 Text GLabel 22350 4700 2    50   Input ~ 0
@@ -2188,10 +1840,6 @@ Text GLabel 22350 4900 2    50   Input ~ 0
 USART6_RTS_TELEM3
 Text GLabel 22350 5000 2    50   Input ~ 0
 VDD_3V3_SD_CARD_EN
-Text GLabel 22350 5100 2    50   Input ~ 0
-VDD_5V_WIFI_EN
-Text GLabel 22350 5200 2    50   Input ~ 0
-VDD_5V_RC_EN
 Text GLabel 22200 5700 2    50   Input ~ 0
 HW_VER_DRIVE
 Text GLabel 22350 2500 2    50   Input ~ 0
@@ -2214,32 +1862,20 @@ Text GLabel 22350 3500 2    50   Input ~ 0
 SPI2_CS_FRAM
 Text GLabel 22350 3600 2    50   Input ~ 0
 SPI1_CS3_BMI055_GYRO
-Text GLabel 22350 3700 2    50   Input ~ 0
-SPI1_CS2_ICM20602
 Text GLabel 22350 3800 2    50   Input ~ 0
 SPI1_CS1_ICM20689
 Text GLabel 22350 3900 2    50   Input ~ 0
 I2C2_SCL_UART4
 Text GLabel 22350 4000 2    50   Input ~ 0
 I2C2_SDA_UART4
-Text GLabel 18450 9300 0    50   Input ~ 0
-CAN3_TX
 Text GLabel 18450 9400 0    50   Input ~ 0
-JTAG-SWCLK
+JTAG_SWCLK
 Text GLabel 18450 9500 0    50   Input ~ 0
-JTAG-SWDIO
-Text GLabel 18450 9600 0    50   Input ~ 0
-USB_DP
-Text GLabel 18450 9700 0    50   Input ~ 0
-USB_DM
+JTAG_SWDIO
 Text GLabel 18450 9800 0    50   Input ~ 0
 FMU_CH2
 Text GLabel 18450 9900 0    50   Input ~ 0
 VBUS
-Text GLabel 18450 10000 0    50   Input ~ 0
-CAN3_RX
-Text GLabel 18450 10100 0    50   Input ~ 0
-HEATER
 Text GLabel 18450 10200 0    50   Input ~ 0
 SPI1_MISO_SENSOR1
 Text GLabel 18450 10300 0    50   Input ~ 0
@@ -2264,8 +1900,6 @@ Text GLabel 18450 7900 0    50   Input ~ 0
 CAN2_RX\(UART5_RX_ESC)
 Text GLabel 18450 8000 0    50   Input ~ 0
 FMU_CAP3
-Text GLabel 18450 8100 0    50   Input ~ 0
-nSPI5_RESET_EXTERNAL1
 Text GLabel 18450 8200 0    50   Input ~ 0
 I2C1_SDA_GPS1
 Text GLabel 18450 8300 0    50   Input ~ 0
@@ -2274,8 +1908,6 @@ Text GLabel 18450 8400 0    50   Input ~ 0
 USART1_RX_GPS1
 Text GLabel 18450 8500 0    50   Input ~ 0
 USART1_TX_GPS1
-Text GLabel 18450 8600 0    50   Input ~ 0
-SPI6_MOSI_EXTERNAL2
 Text GLabel 18450 8700 0    50   Input ~ 0
 SPI1_DRDY1_ICM20689
 Text GLabel 18450 8800 0    50   Input ~ 0
@@ -2286,8 +1918,6 @@ Text GLabel 18450 9100 0    50   Input ~ 0
 RSSI_IN
 Text GLabel 18450 6100 0    50   Input ~ 0
 SPI1_DRDY5_BMI055_GYRO
-Text GLabel 18450 4200 0    50   Input ~ 0
-SPI5_DRDY7_EXTERNAL1
 Text GLabel 18450 4300 0    50   Input ~ 0
 FMU_CH6
 Text GLabel 18450 4400 0    50   Input ~ 0
@@ -2351,23 +1981,9 @@ Wire Wire Line
 Wire Wire Line
 	21800 8300 22350 8300
 Wire Wire Line
-	21800 8100 22350 8100
-Wire Wire Line
-	21800 8000 22350 8000
-Wire Wire Line
-	21800 7900 22350 7900
-Wire Wire Line
 	21800 7800 22350 7800
 Wire Wire Line
 	21800 7700 22350 7700
-Wire Wire Line
-	21800 7600 22350 7600
-Wire Wire Line
-	21800 7400 22350 7400
-Wire Wire Line
-	21800 7300 22350 7300
-Wire Wire Line
-	21800 6900 22350 6900
 Wire Wire Line
 	21800 6800 22350 6800
 Wire Wire Line
@@ -2379,10 +1995,6 @@ Wire Wire Line
 Wire Wire Line
 	21800 5700 22200 5700
 Wire Wire Line
-	21800 5200 22350 5200
-Wire Wire Line
-	21800 5100 22350 5100
-Wire Wire Line
 	21800 5000 22350 5000
 Wire Wire Line
 	21800 4900 22350 4900
@@ -2393,10 +2005,6 @@ Wire Wire Line
 Wire Wire Line
 	21800 4600 22350 4600
 Wire Wire Line
-	21800 4500 22350 4500
-Wire Wire Line
-	21800 4400 22350 4400
-Wire Wire Line
 	21800 4300 22350 4300
 Wire Wire Line
 	21800 4200 22350 4200
@@ -2404,10 +2012,6 @@ Wire Wire Line
 	21800 4000 22350 4000
 Wire Wire Line
 	21800 3900 22350 3900
-Wire Wire Line
-	21800 3800 22350 3800
-Wire Wire Line
-	21800 3700 22350 3700
 Wire Wire Line
 	21800 3600 22350 3600
 Wire Wire Line
@@ -2475,8 +2079,6 @@ Wire Wire Line
 Wire Wire Line
 	19700 11100 19700 11500
 Wire Wire Line
-	19500 11100 19500 11500
-Wire Wire Line
 	18900 10800 18450 10800
 Wire Wire Line
 	18900 10700 18450 10700
@@ -2491,43 +2093,27 @@ Wire Wire Line
 Wire Wire Line
 	18900 10200 18450 10200
 Wire Wire Line
-	18900 10100 18450 10100
-Wire Wire Line
-	18900 10000 18450 10000
-Wire Wire Line
 	18900 9900 18450 9900
 Wire Wire Line
 	18900 9800 18450 9800
-Wire Wire Line
-	18900 9700 18450 9700
-Wire Wire Line
-	18900 9600 18450 9600
 Wire Wire Line
 	18900 9500 18450 9500
 Wire Wire Line
 	18900 9400 18450 9400
 Wire Wire Line
-	18900 9300 18450 9300
-Wire Wire Line
 	18900 9100 18450 9100
 Wire Wire Line
 	18900 9000 18450 9000
 Wire Wire Line
-	18900 8900 18450 8900
-Wire Wire Line
 	18900 8800 18450 8800
 Wire Wire Line
 	18900 8700 18450 8700
-Wire Wire Line
-	18900 8600 18450 8600
 Wire Wire Line
 	18900 8500 18450 8500
 Wire Wire Line
 	18900 8400 18450 8400
 Wire Wire Line
 	18900 8300 18450 8300
-Wire Wire Line
-	18900 8100 18450 8100
 Wire Wire Line
 	18900 8000 18450 8000
 Wire Wire Line
@@ -2568,8 +2154,6 @@ Wire Wire Line
 	18900 4400 18450 4400
 Wire Wire Line
 	18900 4300 18450 4300
-Wire Wire Line
-	18900 4200 18450 4200
 Wire Wire Line
 	18900 2600 18450 2600
 Wire Wire Line
@@ -2759,11 +2343,6 @@ Wire Wire Line
 	31425 13025 31425 12825
 Wire Wire Line
 	31425 12825 31925 12825
-Connection ~ 19700 1750
-Text GLabel 19700 1600 1    50   Input ~ 0
-VSSA
-Wire Wire Line
-	19700 1600 19700 1750
 $Comp
 L Device:Crystal Y1
 U 1 1 5DB3619F
@@ -2812,111 +2391,19 @@ F 3 "" H 16050 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	16050 6000 16150 6000
-Text Notes 16850 6150 3    50   ~ 0
-Not finished
-Text GLabel 3900 18800 2    50   Input ~ 0
-VDD_5V_IN
-Text GLabel 3900 17900 2    50   Input ~ 0
-VDD_5V_IN
-Text GLabel 11450 19300 0    50   Input ~ 0
-VCC
-Text GLabel 11450 20100 0    50   Input ~ 0
-BUZZER_1
-Text GLabel 10350 20050 3    50   Input ~ 0
-IO1_3V3
-$Comp
-L Device:R R10
-U 1 1 5D767299
-P 10150 19800
-F 0 "R10" V 10250 19800 50  0000 C CNN
-F 1 "100" V 10350 19800 50  0000 C CNN
-F 2 "" V 10080 19800 50  0001 C CNN
-F 3 "~" H 10150 19800 50  0001 C CNN
-	1    10150 19800
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	11450 20000 10950 20000
-$Comp
-L power:GND #PWR049
-U 1 1 5D382D95
-P 11450 20200
-AR Path="/5D382D95" Ref="#PWR049"  Part="1" 
-AR Path="/5D337B84/5D382D95" Ref="#PWR?"  Part="1" 
-F 0 "#PWR049" H 11450 19950 50  0001 C CNN
-F 1 "GND" H 11455 20027 50  0000 C CNN
-F 2 "" H 11450 20200 50  0001 C CNN
-F 3 "" H 11450 20200 50  0001 C CNN
-	1    11450 20200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C42
-U 1 1 5D31FA10
-P 11600 19500
-AR Path="/5D31FA10" Ref="C42"  Part="1" 
-AR Path="/5D337B84/5D31FA10" Ref="C?"  Part="1" 
-F 0 "C42" H 11678 19301 50  0000 L CNN
-F 1 "Conn_10_1" H 11678 19210 50  0000 L CNN
-F 2 "" H 12250 20100 50  0001 C CNN
-F 3 "" H 12250 20100 50  0001 C CNN
-	1    11600 19500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 19800 11450 19800
-Text Label 10350 19800 0    50   ~ 0
-SAFETY_IN
-Wire Wire Line
-	11450 19900 10300 19900
-$Comp
-L Device:R R11
-U 1 1 5D88FA54
-P 10150 19900
-F 0 "R11" V 10250 19900 50  0000 C CNN
-F 1 "100" V 10350 19900 50  0000 C CNN
-F 2 "" V 10080 19900 50  0001 C CNN
-F 3 "~" H 10150 19900 50  0001 C CNN
-	1    10150 19900
-	0    1    1    0   
-$EndComp
-Text Label 10350 19900 0    50   ~ 0
-SAFETY_SWITCH_LED
-Wire Wire Line
-	10000 19900 9950 19900
-Wire Wire Line
-	9550 19800 9750 19800
-Wire Wire Line
-	9750 19800 9750 19700
-Connection ~ 9750 19800
-Wire Wire Line
-	9750 19800 10000 19800
-$Comp
-L Device:R R7
-U 1 1 5D985630
-P 9400 19800
-F 0 "R7" V 9500 19800 50  0000 C CNN
-F 1 "1K5" V 9600 19800 50  0000 C CNN
-F 2 "" V 9330 19800 50  0001 C CNN
-F 3 "~" H 9400 19800 50  0001 C CNN
-	1    9400 19800
-	0    1    -1   0   
-$EndComp
 $Comp
 L power:GND #PWR042
 U 1 1 5D985B1F
-P 8850 19800
+P 16100 21900
 AR Path="/5D985B1F" Ref="#PWR042"  Part="1" 
 AR Path="/5D337B84/5D985B1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR042" H 8850 19550 50  0001 C CNN
-F 1 "GND" H 8855 19627 50  0000 C CNN
-F 2 "" H 8850 19800 50  0001 C CNN
-F 3 "" H 8850 19800 50  0001 C CNN
-	1    8850 19800
+F 0 "#PWR042" H 16100 21650 50  0001 C CNN
+F 1 "GND" H 16105 21727 50  0000 C CNN
+F 2 "" H 16100 21900 50  0001 C CNN
+F 3 "" H 16100 21900 50  0001 C CNN
+	1    16100 21900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9250 19800 8850 19800
 $Comp
 L Device:R R37
 U 1 1 5DA1D8AF
@@ -2991,38 +2478,15 @@ Text Label 21850 5400 0    50   ~ 0
 nPOWER_IN_C
 Wire Wire Line
 	21800 5400 22500 5400
-Text Label 23100 7400 0    50   ~ 0
-get_this_clock_done
 Text Label 21800 7000 0    50   ~ 0
 CAN3_SILENT_S2
 Text Label 21800 7100 0    50   ~ 0
-CAN3_SILENT_S1
+CAN2_SILENT_S1
 Text Label 21800 7200 0    50   ~ 0
-CAN3_SILENT_S0
+CAN1_SILENT_S0
 NoConn ~ 21800 7000
-NoConn ~ 21800 7100
-NoConn ~ 21800 7200
 Text Label 21800 5900 0    50   ~ 0
 SPI5_SYNC_EXTERNAL1
-Wire Wire Line
-	10750 20200 10750 20300
-$Comp
-L power:GND #PWR045
-U 1 1 5E57C536
-P 10750 20300
-AR Path="/5E57C536" Ref="#PWR045"  Part="1" 
-AR Path="/5D337B84/5E57C536" Ref="#PWR?"  Part="1" 
-F 0 "#PWR045" H 10750 20050 50  0001 C CNN
-F 1 "GND" H 10755 20127 50  0000 C CNN
-F 2 "" H 10750 20300 50  0001 C CNN
-F 3 "" H 10750 20300 50  0001 C CNN
-	1    10750 20300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 20000 10350 20000
-Wire Wire Line
-	10350 20000 10350 20050
 NoConn ~ 21800 6200
 NoConn ~ 21800 6300
 NoConn ~ 21800 6400
@@ -3241,141 +2705,69 @@ Wire Wire Line
 	18900 6000 16700 6000
 Wire Wire Line
 	18900 5900 17050 5900
-Text GLabel 6300 17850 2    50   Input ~ 0
+Text GLabel 15900 18500 2    50   Input ~ 0
 OTG_P
-Text GLabel 6300 17650 2    50   Input ~ 0
+Text GLabel 15900 18300 2    50   Input ~ 0
 OTG_N
 Wire Wire Line
-	5300 19700 5450 19700
-Connection ~ 5300 19700
+	14900 20350 15050 20350
+Connection ~ 14900 20350
 Wire Wire Line
-	5300 19900 5300 19700
+	14900 20550 14900 20350
 Wire Wire Line
-	5150 19700 5300 19700
+	14750 20350 14900 20350
 $Comp
 L power:GND #PWR024
 U 1 1 5DD7ACE0
-P 5300 19900
-F 0 "#PWR024" H 5300 19650 50  0001 C CNN
-F 1 "GND" H 5305 19727 50  0000 C CNN
-F 2 "" H 5300 19900 50  0001 C CNN
-F 3 "" H 5300 19900 50  0001 C CNN
-	1    5300 19900
+P 14900 20550
+F 0 "#PWR024" H 14900 20300 50  0001 C CNN
+F 1 "GND" H 14905 20377 50  0000 C CNN
+F 2 "" H 14900 20550 50  0001 C CNN
+F 3 "" H 14900 20550 50  0001 C CNN
+	1    14900 20550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6050 19400
-NoConn ~ 6050 19300
-NoConn ~ 6050 19100
-NoConn ~ 6050 19000
-NoConn ~ 6050 18800
-NoConn ~ 6050 18700
-NoConn ~ 6050 18500
-NoConn ~ 6050 18400
-NoConn ~ 6050 18200
-NoConn ~ 6050 18100
-NoConn ~ 6050 17400
-NoConn ~ 6050 17300
+NoConn ~ 15650 20050
+NoConn ~ 15650 19950
+NoConn ~ 15650 19750
+NoConn ~ 15650 19650
+NoConn ~ 15650 19450
+NoConn ~ 15650 19350
+NoConn ~ 15650 19150
+NoConn ~ 15650 19050
+NoConn ~ 15650 18850
+NoConn ~ 15650 18750
+NoConn ~ 15650 18050
+NoConn ~ 15650 17950
 Wire Wire Line
-	6300 17100 6050 17100
-Text GLabel 6300 17100 2    50   Input ~ 0
+	15900 17750 15650 17750
+Text GLabel 15900 17750 2    50   Input ~ 0
 USB_VCC
 Wire Wire Line
-	6050 17850 6050 17900
-Connection ~ 6050 17850
+	15650 18500 15650 18550
+Connection ~ 15650 18500
 Wire Wire Line
-	6300 17850 6050 17850
+	15900 18500 15650 18500
 Wire Wire Line
-	6050 17650 6050 17700
-Connection ~ 6050 17650
+	15650 18300 15650 18350
+Connection ~ 15650 18300
 Wire Wire Line
-	6050 17650 6300 17650
+	15650 18300 15900 18300
 Wire Wire Line
-	6050 17600 6050 17650
+	15650 18250 15650 18300
 Wire Wire Line
-	6050 17800 6050 17850
+	15650 18450 15650 18500
 $Comp
 L Connector:USB_C_Receptacle J1
 U 1 1 5D792FCE
-P 5450 18100
-F 0 "J1" H 5557 19367 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 5557 19276 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 5600 18100 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5600 18100 50  0001 C CNN
-	1    5450 18100
+P 15050 18750
+F 0 "J1" H 15157 20017 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 15157 19926 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 15200 18750 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 15200 18750 50  0001 C CNN
+	1    15050 18750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 5D3A7672
-P 6650 16500
-AR Path="/5D3A7672" Ref="#PWR032"  Part="1" 
-AR Path="/5D337B84/5D3A7672" Ref="#PWR?"  Part="1" 
-F 0 "#PWR032" H 6650 16250 50  0001 C CNN
-F 1 "GND" H 6655 16327 50  0000 C CNN
-F 2 "" H 6650 16500 50  0001 C CNN
-F 3 "" H 6650 16500 50  0001 C CNN
-	1    6650 16500
-	1    0    0    -1  
-$EndComp
-Text Notes 6750 15550 0    50   ~ 0
-I/O PWM OUT
-$Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C31
-U 1 1 5D31FA1C
-P 6800 15800
-AR Path="/5D31FA1C" Ref="C31"  Part="1" 
-AR Path="/5D337B84/5D31FA1C" Ref="C?"  Part="1" 
-F 0 "C31" H 6878 15601 50  0000 L CNN
-F 1 "Conn_10_1" H 6878 15510 50  0000 L CNN
-F 2 "" H 7450 16400 50  0001 C CNN
-F 3 "" H 7450 16400 50  0001 C CNN
-	1    6800 15800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Flight_Controller-rescue:Conn_10_1-flightController C40
-U 1 1 5D31FA22
-P 10350 16200
-AR Path="/5D31FA22" Ref="C40"  Part="1" 
-AR Path="/5D337B84/5D31FA22" Ref="C?"  Part="1" 
-F 0 "C40" H 10428 16001 50  0000 L CNN
-F 1 "Conn_10_1" H 10428 15910 50  0000 L CNN
-F 2 "" H 11000 16800 50  0001 C CNN
-F 3 "" H 11000 16800 50  0001 C CNN
-	1    10350 16200
-	1    0    0    -1  
-$EndComp
-Text Notes 10300 15950 0    50   ~ 0
-FMU PWM OUT
-Text GLabel 10200 16300 0    50   Input ~ 0
-FMU_CH3
-Text GLabel 10200 16400 0    50   Input ~ 0
-FMU_CH4
-Text GLabel 10200 16500 0    50   Input ~ 0
-FMU_CH5
-Text GLabel 10200 16600 0    50   Input ~ 0
-FMU_CH6
-Text GLabel 10200 16700 0    50   Input ~ 0
-FMU_CH7
-Text GLabel 10200 16800 0    50   Input ~ 0
-FMU_CH8
-$Comp
-L power:GND #PWR044
-U 1 1 5D38FC37
-P 10200 16900
-AR Path="/5D38FC37" Ref="#PWR044"  Part="1" 
-AR Path="/5D337B84/5D38FC37" Ref="#PWR?"  Part="1" 
-F 0 "#PWR044" H 10200 16650 50  0001 C CNN
-F 1 "GND" H 10205 16727 50  0000 C CNN
-F 2 "" H 10200 16900 50  0001 C CNN
-F 3 "" H 10200 16900 50  0001 C CNN
-	1    10200 16900
-	1    0    0    -1  
-$EndComp
-Text GLabel 10200 16200 0    50   Input ~ 0
-FMU_CH2
-Text GLabel 10200 16100 0    50   Input ~ 0
-FMU_CH1
 $Comp
 L Flight_Controller-rescue:TPS3808 U9
 U 1 1 5E6E21DC
@@ -3491,17 +2883,6 @@ Wire Wire Line
 Connection ~ 22250 11100
 Wire Wire Line
 	22250 11100 22250 11250
-$Comp
-L Device:EMI_Filter_C LC3
-U 1 1 5D746DD4
-P 10750 20100
-F 0 "LC3" H 10750 20405 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 10750 20314 50  0000 C CNN
-F 2 "" V 10750 20100 50  0001 C CNN
-F 3 "" V 10750 20100 50  0001 C CNN
-	1    10750 20100
-	1    0    0    -1  
-$EndComp
 Text GLabel 26950 5850 0    50   Input ~ 0
 IO1_3V3
 Text GLabel 27000 6550 0    50   Input ~ 0
@@ -3665,88 +3046,6 @@ F 3 "~" H 27950 6450 50  0001 C CNN
 	1    27950 6450
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5E3AE9F4
-P 18900 16000
-AR Path="/5E3AE9F4" Ref="#PWR027"  Part="1" 
-AR Path="/5D337B84/5E3AE9F4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR027" H 18900 15750 50  0001 C CNN
-F 1 "GND" H 18905 15827 50  0000 C CNN
-F 2 "" H 18900 16000 50  0001 C CNN
-F 3 "" H 18900 16000 50  0001 C CNN
-	1    18900 16000
-	-1   0    0    -1  
-$EndComp
-Text GLabel 19550 15800 0    50   Input ~ 0
-CAN_H_2
-Text GLabel 19550 15900 0    50   Input ~ 0
-CAN_L_2
-Text GLabel 19550 14750 0    50   Input ~ 0
-CAN_H_1
-Text GLabel 19550 14850 0    50   Input ~ 0
-CAN_L_1
-Text GLabel 18500 15650 1    50   Input ~ 0
-VCC
-$Comp
-L Device:EMI_Filter_C LC2
-U 1 1 5E3F8115
-P 18900 15800
-F 0 "LC2" H 18900 16105 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 18900 16014 50  0000 C CNN
-F 2 "" V 18900 15800 50  0001 C CNN
-F 3 "" V 18900 15800 50  0001 C CNN
-	1    18900 15800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19550 16000 18900 16000
-Wire Wire Line
-	18900 15900 18900 16000
-Connection ~ 18900 16000
-Wire Wire Line
-	19550 15700 19100 15700
-Wire Wire Line
-	18700 15700 18500 15700
-Wire Wire Line
-	18500 15700 18500 15650
-$Comp
-L power:GND #PWR013
-U 1 1 5E5AE81E
-P 18900 14950
-AR Path="/5E5AE81E" Ref="#PWR013"  Part="1" 
-AR Path="/5D337B84/5E5AE81E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR013" H 18900 14700 50  0001 C CNN
-F 1 "GND" H 18905 14777 50  0000 C CNN
-F 2 "" H 18900 14950 50  0001 C CNN
-F 3 "" H 18900 14950 50  0001 C CNN
-	1    18900 14950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:EMI_Filter_C LC1
-U 1 1 5E5AE824
-P 18900 14750
-F 0 "LC1" H 18900 15055 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 18900 14964 50  0000 C CNN
-F 2 "" V 18900 14750 50  0001 C CNN
-F 3 "" V 18900 14750 50  0001 C CNN
-	1    18900 14750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19550 14950 18900 14950
-Wire Wire Line
-	18900 14850 18900 14950
-Connection ~ 18900 14950
-Wire Wire Line
-	19550 14650 19100 14650
-Wire Wire Line
-	18700 14650 18500 14650
-Text GLabel 18500 14600 1    50   Input ~ 0
-VCC
-Wire Wire Line
-	18500 14650 18500 14600
 $Comp
 L Device:R R28
 U 1 1 5E77472B
@@ -4442,62 +3741,6 @@ Wire Wire Line
 	31400 14800 31350 14800
 Wire Wire Line
 	31350 15100 31350 14800
-$Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C?
-U 1 1 610AB97B
-P 17400 14850
-AR Path="/610AB97B" Ref="C?"  Part="1" 
-AR Path="/5D337B84/610AB97B" Ref="C?"  Part="1" 
-F 0 "C?" H 17478 14951 50  0000 L CNN
-F 1 "Conn_4_1" H 17478 14860 50  0000 L CNN
-F 2 "" H 18050 15450 50  0001 C CNN
-F 3 "" H 18050 15450 50  0001 C CNN
-	1    17400 14850
-	1    0    0    -1  
-$EndComp
-Text Notes 17350 14600 0    50   ~ 0
-I2C4
-$Comp
-L power:GND #PWR?
-U 1 1 610AB982
-P 16300 14950
-AR Path="/610AB982" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/610AB982" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16300 14700 50  0001 C CNN
-F 1 "GND" H 16305 14777 50  0000 C CNN
-F 2 "" H 16300 14950 50  0001 C CNN
-F 3 "" H 16300 14950 50  0001 C CNN
-	1    16300 14950
-	-1   0    0    -1  
-$EndComp
-Text GLabel 17250 14750 0    50   Input ~ 0
-I2C_4_SCL_PORT
-Text GLabel 17250 14850 0    50   Input ~ 0
-I2C_4_SDA_PORT
-$Comp
-L Device:EMI_Filter_C LC?
-U 1 1 610AB98B
-P 16300 14750
-F 0 "LC?" H 16300 15055 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 16300 14964 50  0000 C CNN
-F 2 "" V 16300 14750 50  0001 C CNN
-F 3 "" V 16300 14750 50  0001 C CNN
-	1    16300 14750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17250 14950 16300 14950
-Wire Wire Line
-	16300 14850 16300 14950
-Wire Wire Line
-	16100 14650 15900 14650
-Wire Wire Line
-	15900 14650 15900 14600
-Wire Wire Line
-	16500 14650 17250 14650
-Text GLabel 15900 14600 1    50   Input ~ 0
-VCC
-Connection ~ 16300 14950
 Wire Wire Line
 	29450 15100 29450 14800
 Wire Wire Line
@@ -5963,8 +5206,6 @@ Wire Wire Line
 Wire Wire Line
 	28450 7900 28550 7900
 Connection ~ 28450 7750
-Text GLabel 28850 7750 2    50   Input ~ 0
-FMU_PPM_INPUT
 Text GLabel 28850 7900 2    50   Input ~ 0
 USART6_TX_TELEM3\(RC_INPUT)
 $Comp
@@ -6100,113 +5341,6 @@ Wire Notes Line
 Wire Notes Line
 	12850 6300 650  6300
 $Comp
-L Device:EMI_Filter_C LC?
-U 1 1 5EE0B110
-P 2150 15050
-F 0 "LC?" H 2150 15355 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 2150 15264 50  0000 C CNN
-F 2 "" V 2150 15050 50  0001 C CNN
-F 3 "" V 2150 15050 50  0001 C CNN
-	1    2150 15050
-	1    0    0    -1  
-$EndComp
-Text GLabel 1850 19650 0    50   Input ~ 0
-VDD_5V_IN
-$Comp
-L power:GND #PWR?
-U 1 1 5EFC1659
-P 2500 19450
-AR Path="/5EFC1659" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5EFC1659" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 19200 50  0001 C CNN
-F 1 "GND" H 2505 19277 50  0000 C CNN
-F 2 "" H 2500 19450 50  0001 C CNN
-F 3 "" H 2500 19450 50  0001 C CNN
-	1    2500 19450
-	-1   0    0    1   
-$EndComp
-Text GLabel 1900 19750 0    50   Input ~ 0
-USART6_TX_TELEM3\(RC_INPUT)
-$Comp
-L Device:R R?
-U 1 1 5F208763
-P 2050 19750
-F 0 "R?" V 2150 19750 50  0000 C CNN
-F 1 "100" V 2250 19750 50  0000 C CNN
-F 2 "" V 1980 19750 50  0001 C CNN
-F 3 "~" H 2050 19750 50  0001 C CNN
-	1    2050 19750
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	2200 19750 2750 19750
-Text GLabel 1450 19850 0    50   Input ~ 0
-RSSI_IN
-$Comp
-L Device:R R?
-U 1 1 5F32E85C
-P 2050 19850
-F 0 "R?" V 2150 19850 50  0000 C CNN
-F 1 "100" V 2250 19850 50  0000 C CNN
-F 2 "" V 1980 19850 50  0001 C CNN
-F 3 "~" H 2050 19850 50  0001 C CNN
-	1    2050 19850
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1900 19850 1450 19850
-Wire Wire Line
-	2200 19850 2750 19850
-Text GLabel 1200 20050 0    50   Input ~ 0
-IO1_3V3
-$Comp
-L Device:EMI_Filter_C LC?
-U 1 1 5F613EE2
-P 1700 20150
-F 0 "LC?" H 1800 20150 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 1700 20364 50  0000 C CNN
-F 2 "" V 1700 20150 50  0001 C CNN
-F 3 "" V 1700 20150 50  0001 C CNN
-	1    1700 20150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 20050 1200 20050
-$Comp
-L power:GND #PWR?
-U 1 1 5F7D5531
-P 1700 20250
-AR Path="/5F7D5531" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5F7D5531" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1700 20000 50  0001 C CNN
-F 1 "GND" H 1705 20077 50  0000 C CNN
-F 2 "" H 1700 20250 50  0001 C CNN
-F 3 "" H 1700 20250 50  0001 C CNN
-	1    1700 20250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:EMI_Filter_C LC?
-U 1 1 5F98F4A3
-P 2500 19550
-F 0 "LC?" H 2500 19855 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 2500 19764 50  0000 C CNN
-F 2 "" V 2500 19550 50  0001 C CNN
-F 3 "" V 2500 19550 50  0001 C CNN
-	1    2500 19550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2300 19650 1850 19650
-Wire Wire Line
-	2700 19650 2750 19650
-Wire Wire Line
-	1900 20050 2450 20050
-Wire Wire Line
-	2450 20050 2450 19950
-Wire Wire Line
-	2450 19950 2750 19950
-$Comp
 L Connector:Micro_SD_Card_Det J?
 U 1 1 5D7070DE
 P 26800 14050
@@ -6233,7 +5367,7 @@ Wire Wire Line
 Wire Wire Line
 	25500 13850 25900 13850
 Text GLabel 25500 14050 0    50   Input ~ 0
-SDMMC1_CK
+SDMMC1_CLK
 Wire Wire Line
 	25500 14050 25900 14050
 Text GLabel 25500 14250 0    50   Input ~ 0
@@ -6574,253 +5708,1115 @@ Wire Notes Line
 Text Notes 27300 10200 0    157  ~ 0
 STATUS LEDS
 $Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C2
-U 1 1 5D31F9B0
-P 19700 16950
-AR Path="/5D31F9B0" Ref="C2"  Part="1" 
-AR Path="/5D337B84/5D31F9B0" Ref="C?"  Part="1" 
-F 0 "C2" H 19778 16951 50  0000 L CNN
-F 1 "Conn_6_1" H 19778 16860 50  0000 L CNN
-F 2 "" H 20350 17550 50  0001 C CNN
-F 3 "" H 20350 17550 50  0001 C CNN
-	1    19700 16950
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	1150 15350 8400 15350
-Text Notes 19650 16700 0    50   ~ 0
-UART4
-Text GLabel 18100 16700 1    50   Input ~ 0
-VCC
-$Comp
-L Device:EMI_Filter_C LC?
-U 1 1 5DD668FB
-P 18500 16850
-F 0 "LC?" H 18500 17155 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 18500 17064 50  0000 C CNN
-F 2 "" V 18500 16850 50  0001 C CNN
-F 3 "" V 18500 16850 50  0001 C CNN
-	1    18500 16850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18300 16750 18100 16750
-Wire Wire Line
-	18100 16750 18100 16700
-Wire Wire Line
-	18500 16950 18500 17250
-$Comp
-L power:GND #PWR?
-U 1 1 5DEAB31F
-P 18500 17250
-AR Path="/5DEAB31F" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5DEAB31F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 18500 17000 50  0001 C CNN
-F 1 "GND" H 18505 17077 50  0000 C CNN
-F 2 "" H 18500 17250 50  0001 C CNN
-F 3 "" H 18500 17250 50  0001 C CNN
-	1    18500 17250
-	-1   0    0    -1  
-$EndComp
-Connection ~ 18500 17250
-Text GLabel 19550 16850 0    50   Input ~ 0
-UART4_TX
-Text GLabel 19550 16950 0    50   Input ~ 0
-UART4_RX
-Wire Wire Line
-	18700 16750 19550 16750
-Wire Wire Line
-	18500 17250 19550 17250
-Text GLabel 19550 17050 0    50   Input ~ 0
-I2C_2_SCL_PORT
-Text GLabel 19550 17150 0    50   Input ~ 0
-I2C_2_SDA_PORT
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C?
-U 1 1 5E2911A0
-P 17450 16950
-AR Path="/5E2911A0" Ref="C?"  Part="1" 
-AR Path="/5D337B84/5E2911A0" Ref="C?"  Part="1" 
-F 0 "C?" H 17528 16951 50  0000 L CNN
-F 1 "Conn_6_1" H 17528 16860 50  0000 L CNN
-F 2 "" H 18100 17550 50  0001 C CNN
-F 3 "" H 18100 17550 50  0001 C CNN
-	1    17450 16950
-	1    0    0    -1  
-$EndComp
-Text Notes 17400 16700 0    50   ~ 0
-USART3
-Text GLabel 15850 16700 1    50   Input ~ 0
-VCC
-$Comp
-L Device:EMI_Filter_C LC?
-U 1 1 5E2911A8
-P 16250 16850
-F 0 "LC?" H 16250 17155 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 16250 17064 50  0000 C CNN
-F 2 "" V 16250 16850 50  0001 C CNN
-F 3 "" V 16250 16850 50  0001 C CNN
-	1    16250 16850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16050 16750 15850 16750
-Wire Wire Line
-	15850 16750 15850 16700
-Wire Wire Line
-	16250 16950 16250 17250
-$Comp
-L power:GND #PWR?
-U 1 1 5E2911B1
-P 16250 17250
-AR Path="/5E2911B1" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5E2911B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16250 17000 50  0001 C CNN
-F 1 "GND" H 16255 17077 50  0000 C CNN
-F 2 "" H 16250 17250 50  0001 C CNN
-F 3 "" H 16250 17250 50  0001 C CNN
-	1    16250 17250
-	-1   0    0    -1  
-$EndComp
-Connection ~ 16250 17250
-Text GLabel 17300 16850 0    50   Input ~ 0
-USART3_TX
-Text GLabel 17300 16950 0    50   Input ~ 0
-USART3_RX
-Wire Wire Line
-	16450 16750 17300 16750
-Wire Wire Line
-	16250 17250 17300 17250
-Text GLabel 17300 17050 0    50   Input ~ 0
-USART3_CTS
-Text GLabel 17300 17150 0    50   Input ~ 0
-USART3_RTS
-$Comp
-L Flight_Controller-rescue:Conn_6_1-flightController C?
-U 1 1 5E33743C
-P 17450 15900
-AR Path="/5E33743C" Ref="C?"  Part="1" 
-AR Path="/5D337B84/5E33743C" Ref="C?"  Part="1" 
-F 0 "C?" H 17528 15901 50  0000 L CNN
-F 1 "Conn_6_1" H 17528 15810 50  0000 L CNN
-F 2 "" H 18100 16500 50  0001 C CNN
-F 3 "" H 18100 16500 50  0001 C CNN
-	1    17450 15900
-	1    0    0    -1  
-$EndComp
-Text Notes 17400 15650 0    50   ~ 0
-USART2
-Text GLabel 17300 15700 0    50   Input ~ 0
-VCC
-$Comp
-L power:GND #PWR?
-U 1 1 5E337455
-P 17300 16200
-AR Path="/5E337455" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5E337455" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 17300 15950 50  0001 C CNN
-F 1 "GND" H 17305 16027 50  0000 C CNN
-F 2 "" H 17300 16200 50  0001 C CNN
-F 3 "" H 17300 16200 50  0001 C CNN
-	1    17300 16200
-	-1   0    0    -1  
-$EndComp
-Text GLabel 17300 15800 0    50   Input ~ 0
-USART2_TX
-Text GLabel 17300 15900 0    50   Input ~ 0
-USART2_RX
-Text GLabel 17300 16000 0    50   Input ~ 0
-USART2_CTS
-Text GLabel 17300 16100 0    50   Input ~ 0
-USART2_RTS
-$Comp
-L Flight_Controller-rescue:Conn_4_1-flightController C?
-U 1 1 5E87F82D
-P 17400 13800
-AR Path="/5E87F82D" Ref="C?"  Part="1" 
-AR Path="/5D337B84/5E87F82D" Ref="C?"  Part="1" 
-F 0 "C?" H 17478 13901 50  0000 L CNN
-F 1 "Conn_4_1" H 17478 13810 50  0000 L CNN
-F 2 "" H 18050 14400 50  0001 C CNN
-F 3 "" H 18050 14400 50  0001 C CNN
-	1    17400 13800
-	1    0    0    -1  
-$EndComp
-Text Notes 17350 13550 0    50   ~ 0
-I2C3
-$Comp
-L power:GND #PWR?
-U 1 1 5E87F838
-P 17250 13900
-AR Path="/5E87F838" Ref="#PWR?"  Part="1" 
-AR Path="/5D337B84/5E87F838" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 17250 13650 50  0001 C CNN
-F 1 "GND" H 17255 13727 50  0000 C CNN
-F 2 "" H 17250 13900 50  0001 C CNN
-F 3 "" H 17250 13900 50  0001 C CNN
-	1    17250 13900
-	-1   0    0    -1  
-$EndComp
-Text GLabel 17250 13700 0    50   Input ~ 0
-I2C_3_SCL_PORT
-Text GLabel 17250 13800 0    50   Input ~ 0
-I2C_3_SDA_PORT
-Text GLabel 17250 13600 0    50   Input ~ 0
-I2C2_VCC
-$Comp
 L Flight_Controller-rescue:Conn_4_1-flightController C?
 U 1 1 5EC792B1
-P 17400 12900
+P 21200 17300
 AR Path="/5EC792B1" Ref="C?"  Part="1" 
 AR Path="/5D337B84/5EC792B1" Ref="C?"  Part="1" 
-F 0 "C?" H 17478 13001 50  0000 L CNN
-F 1 "Conn_4_1" H 17478 12910 50  0000 L CNN
-F 2 "" H 18050 13500 50  0001 C CNN
-F 3 "" H 18050 13500 50  0001 C CNN
-	1    17400 12900
+F 0 "C?" H 21278 17401 50  0000 L CNN
+F 1 "Conn_4_1" H 21278 17310 50  0000 L CNN
+F 2 "" H 21850 17900 50  0001 C CNN
+F 3 "" H 21850 17900 50  0001 C CNN
+	1    21200 17300
 	1    0    0    -1  
 $EndComp
-Text Notes 17350 12650 0    50   ~ 0
+Text Notes 21150 17050 0    50   ~ 0
 I2C2
-Text GLabel 17250 12800 0    50   Input ~ 0
+Text GLabel 21050 17200 0    50   Input ~ 0
 I2C_3_SCL_PORT
-Text GLabel 17250 12900 0    50   Input ~ 0
+Text GLabel 21050 17300 0    50   Input ~ 0
 I2C_3_SDA_PORT
 $Comp
 L power:GND #PWR?
 U 1 1 5ED21240
-P 16450 13000
+P 20250 17400
 AR Path="/5ED21240" Ref="#PWR?"  Part="1" 
 AR Path="/5D337B84/5ED21240" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16450 12750 50  0001 C CNN
-F 1 "GND" H 16455 12827 50  0000 C CNN
-F 2 "" H 16450 13000 50  0001 C CNN
-F 3 "" H 16450 13000 50  0001 C CNN
-	1    16450 13000
+F 0 "#PWR?" H 20250 17150 50  0001 C CNN
+F 1 "GND" H 20255 17227 50  0000 C CNN
+F 2 "" H 20250 17400 50  0001 C CNN
+F 3 "" H 20250 17400 50  0001 C CNN
+	1    20250 17400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:EMI_Filter_C LC?
 U 1 1 5ED2124A
-P 16450 12800
-F 0 "LC?" H 16450 13105 50  0000 C CNN
-F 1 "EMI_Filter_LC" H 16450 13014 50  0000 C CNN
-F 2 "" V 16450 12800 50  0001 C CNN
-F 3 "" V 16450 12800 50  0001 C CNN
-	1    16450 12800
+P 20250 17200
+F 0 "LC?" H 20250 17505 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 20250 17414 50  0000 C CNN
+F 2 "" V 20250 17200 50  0001 C CNN
+F 3 "" V 20250 17200 50  0001 C CNN
+	1    20250 17200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16450 12900 16450 13000
+	20250 17300 20250 17400
 Wire Wire Line
-	16250 12700 16050 12700
+	20050 17100 19850 17100
 Wire Wire Line
-	16050 12700 16050 12650
-Text GLabel 16050 12650 1    50   Input ~ 0
+	19850 17100 19850 17050
+Text GLabel 19850 17050 1    50   Input ~ 0
 VCC
 Wire Wire Line
-	16650 12700 17250 12700
+	20450 17100 21050 17100
 Wire Wire Line
-	17250 13000 16450 13000
-Connection ~ 16450 13000
+	21050 17400 20250 17400
+Connection ~ 20250 17400
+$Comp
+L Flight_Controller-rescue:Conn_6_1-flightController C?
+U 1 1 5F3C2BBB
+P 19050 17300
+AR Path="/5F3C2BBB" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5F3C2BBB" Ref="C?"  Part="1" 
+F 0 "C?" H 19128 17401 50  0000 L CNN
+F 1 "Conn_6_1" H 19128 17310 50  0000 L CNN
+F 2 "" H 19700 17900 50  0001 C CNN
+F 3 "" H 19700 17900 50  0001 C CNN
+	1    19050 17300
+	1    0    0    -1  
+$EndComp
+Text Notes 19000 17050 0    50   ~ 0
+DSU7
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C2BC8
+P 18100 17400
+AR Path="/5F3C2BC8" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5F3C2BC8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18100 17150 50  0001 C CNN
+F 1 "GND" H 18105 17227 50  0000 C CNN
+F 2 "" H 18100 17400 50  0001 C CNN
+F 3 "" H 18100 17400 50  0001 C CNN
+	1    18100 17400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5F3C2BD2
+P 18100 17200
+F 0 "LC?" H 18100 17505 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 18100 17414 50  0000 C CNN
+F 2 "" V 18100 17200 50  0001 C CNN
+F 3 "" V 18100 17200 50  0001 C CNN
+	1    18100 17200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18100 17300 18100 17400
+Wire Wire Line
+	17900 17100 17700 17100
+Wire Wire Line
+	17700 17100 17700 17050
+Text GLabel 17700 17050 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	18300 17100 18900 17100
+Text GLabel 18900 17200 0    50   Input ~ 0
+UART7_TX
+Text GLabel 18900 17300 0    50   Input ~ 0
+UART7_RX
+Text GLabel 18900 17400 0    50   Input ~ 0
+JTAG_SWDIO
+Text GLabel 18900 17500 0    50   Input ~ 0
+JTAG_SWCLK
+$Comp
+L power:GND #PWR?
+U 1 1 5F7DF496
+P 18900 17600
+AR Path="/5F7DF496" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5F7DF496" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18900 17350 50  0001 C CNN
+F 1 "GND" H 18905 17427 50  0000 C CNN
+F 2 "" H 18900 17600 50  0001 C CNN
+F 3 "" H 18900 17600 50  0001 C CNN
+	1    18900 17600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18350 21400 18700 21400
+Text GLabel 17750 21350 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	17750 21400 17750 21350
+Wire Wire Line
+	17950 21400 17750 21400
+Wire Wire Line
+	18150 21600 18150 21700
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5FBECE2D
+P 18150 21500
+F 0 "LC?" H 18150 21805 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 18150 21714 50  0000 C CNN
+F 2 "" V 18150 21500 50  0001 C CNN
+F 3 "" V 18150 21500 50  0001 C CNN
+	1    18150 21500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBECE23
+P 18150 21700
+AR Path="/5FBECE23" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5FBECE23" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18150 21450 50  0001 C CNN
+F 1 "GND" H 18155 21527 50  0000 C CNN
+F 2 "" H 18150 21700 50  0001 C CNN
+F 3 "" H 18150 21700 50  0001 C CNN
+	1    18150 21700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 18800 18700 0    50   Input ~ 0
+ADC1_SPARE_2_CHANNEL
+Wire Wire Line
+	17850 18500 18800 18500
+Text GLabel 18800 18600 0    50   Input ~ 0
+ADC1_SPARE_1_CHANNEL
+$Comp
+L power:GND #PWR?
+U 1 1 5F88A104
+P 18800 18800
+AR Path="/5F88A104" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5F88A104" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18800 18550 50  0001 C CNN
+F 1 "GND" H 18805 18627 50  0000 C CNN
+F 2 "" H 18800 18800 50  0001 C CNN
+F 3 "" H 18800 18800 50  0001 C CNN
+	1    18800 18800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 17250 18450 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	17250 18500 17250 18450
+Wire Wire Line
+	17450 18500 17250 18500
+Wire Wire Line
+	17650 18700 17650 18800
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5F88A0F1
+P 17650 18600
+F 0 "LC?" H 17650 18905 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 17650 18814 50  0000 C CNN
+F 2 "" V 17650 18600 50  0001 C CNN
+F 3 "" V 17650 18600 50  0001 C CNN
+	1    17650 18600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88A0E7
+P 17650 18800
+AR Path="/5F88A0E7" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5F88A0E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 17650 18550 50  0001 C CNN
+F 1 "GND" H 17655 18627 50  0000 C CNN
+F 2 "" H 17650 18800 50  0001 C CNN
+F 3 "" H 17650 18800 50  0001 C CNN
+	1    17650 18800
+	-1   0    0    -1  
+$EndComp
+Text Notes 18900 18450 0    50   ~ 0
+ADC3/5
+$Comp
+L Flight_Controller-rescue:Conn_4_1-flightController C?
+U 1 1 5F88A0DC
+P 18950 18700
+AR Path="/5F88A0DC" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5F88A0DC" Ref="C?"  Part="1" 
+F 0 "C?" H 19028 18801 50  0000 L CNN
+F 1 "Conn_4_1" H 19028 18710 50  0000 L CNN
+F 2 "" H 19600 19300 50  0001 C CNN
+F 3 "" H 19600 19300 50  0001 C CNN
+	1    18950 18700
+	1    0    0    -1  
+$EndComp
+Text GLabel 20950 18100 0    50   Input ~ 0
+I2C2_VCC
+Text GLabel 20950 18300 0    50   Input ~ 0
+I2C_3_SDA_PORT
+Text GLabel 20950 18200 0    50   Input ~ 0
+I2C_3_SCL_PORT
+$Comp
+L power:GND #PWR?
+U 1 1 5E87F838
+P 20950 18400
+AR Path="/5E87F838" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5E87F838" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20950 18150 50  0001 C CNN
+F 1 "GND" H 20955 18227 50  0000 C CNN
+F 2 "" H 20950 18400 50  0001 C CNN
+F 3 "" H 20950 18400 50  0001 C CNN
+	1    20950 18400
+	-1   0    0    -1  
+$EndComp
+Text Notes 21050 18050 0    50   ~ 0
+I2C3
+$Comp
+L Flight_Controller-rescue:Conn_4_1-flightController C?
+U 1 1 5E87F82D
+P 21100 18300
+AR Path="/5E87F82D" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5E87F82D" Ref="C?"  Part="1" 
+F 0 "C?" H 21178 18401 50  0000 L CNN
+F 1 "Conn_4_1" H 21178 18310 50  0000 L CNN
+F 2 "" H 21750 18900 50  0001 C CNN
+F 3 "" H 21750 18900 50  0001 C CNN
+	1    21100 18300
+	1    0    0    -1  
+$EndComp
+Text GLabel 21000 20600 0    50   Input ~ 0
+USART2_RTS
+Text GLabel 21000 20500 0    50   Input ~ 0
+USART2_CTS
+Text GLabel 21000 20400 0    50   Input ~ 0
+USART2_RX
+Text GLabel 21000 20300 0    50   Input ~ 0
+USART2_TX
+$Comp
+L power:GND #PWR?
+U 1 1 5E337455
+P 21000 20700
+AR Path="/5E337455" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5E337455" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 21000 20450 50  0001 C CNN
+F 1 "GND" H 21005 20527 50  0000 C CNN
+F 2 "" H 21000 20700 50  0001 C CNN
+F 3 "" H 21000 20700 50  0001 C CNN
+	1    21000 20700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 21000 20200 0    50   Input ~ 0
+VCC
+Text Notes 21100 20150 0    50   ~ 0
+USART2
+$Comp
+L Flight_Controller-rescue:Conn_6_1-flightController C?
+U 1 1 5E33743C
+P 21150 20400
+AR Path="/5E33743C" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5E33743C" Ref="C?"  Part="1" 
+F 0 "C?" H 21228 20401 50  0000 L CNN
+F 1 "Conn_6_1" H 21228 20310 50  0000 L CNN
+F 2 "" H 21800 21000 50  0001 C CNN
+F 3 "" H 21800 21000 50  0001 C CNN
+	1    21150 20400
+	1    0    0    -1  
+$EndComp
+Text GLabel 21000 21650 0    50   Input ~ 0
+USART3_RTS
+Text GLabel 21000 21550 0    50   Input ~ 0
+USART3_CTS
+Wire Wire Line
+	19950 21750 21000 21750
+Wire Wire Line
+	20150 21250 21000 21250
+Text GLabel 21000 21450 0    50   Input ~ 0
+USART3_RX
+Text GLabel 21000 21350 0    50   Input ~ 0
+USART3_TX
+Connection ~ 19950 21750
+$Comp
+L power:GND #PWR?
+U 1 1 5E2911B1
+P 19950 21750
+AR Path="/5E2911B1" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5E2911B1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19950 21500 50  0001 C CNN
+F 1 "GND" H 19955 21577 50  0000 C CNN
+F 2 "" H 19950 21750 50  0001 C CNN
+F 3 "" H 19950 21750 50  0001 C CNN
+	1    19950 21750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19950 21450 19950 21750
+Wire Wire Line
+	19550 21250 19550 21200
+Wire Wire Line
+	19750 21250 19550 21250
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5E2911A8
+P 19950 21350
+F 0 "LC?" H 19950 21655 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 19950 21564 50  0000 C CNN
+F 2 "" V 19950 21350 50  0001 C CNN
+F 3 "" V 19950 21350 50  0001 C CNN
+	1    19950 21350
+	1    0    0    -1  
+$EndComp
+Text GLabel 19550 21200 1    50   Input ~ 0
+VCC
+Text Notes 21100 21200 0    50   ~ 0
+USART3
+$Comp
+L Flight_Controller-rescue:Conn_6_1-flightController C?
+U 1 1 5E2911A0
+P 21150 21450
+AR Path="/5E2911A0" Ref="C?"  Part="1" 
+AR Path="/5D337B84/5E2911A0" Ref="C?"  Part="1" 
+F 0 "C?" H 21228 21451 50  0000 L CNN
+F 1 "Conn_6_1" H 21228 21360 50  0000 L CNN
+F 2 "" H 21800 22050 50  0001 C CNN
+F 3 "" H 21800 22050 50  0001 C CNN
+	1    21150 21450
+	1    0    0    -1  
+$EndComp
+Text GLabel 23250 21650 0    50   Input ~ 0
+I2C_2_SDA_PORT
+Text GLabel 23250 21550 0    50   Input ~ 0
+I2C_2_SCL_PORT
+Wire Wire Line
+	22200 21750 23250 21750
+Wire Wire Line
+	22400 21250 23250 21250
+Text GLabel 23250 21450 0    50   Input ~ 0
+UART4_RX
+Text GLabel 23250 21350 0    50   Input ~ 0
+UART4_TX
+Connection ~ 22200 21750
+$Comp
+L power:GND #PWR?
+U 1 1 5DEAB31F
+P 22200 21750
+AR Path="/5DEAB31F" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5DEAB31F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 22200 21500 50  0001 C CNN
+F 1 "GND" H 22205 21577 50  0000 C CNN
+F 2 "" H 22200 21750 50  0001 C CNN
+F 3 "" H 22200 21750 50  0001 C CNN
+	1    22200 21750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	22200 21450 22200 21750
+Wire Wire Line
+	21800 21250 21800 21200
+Wire Wire Line
+	22000 21250 21800 21250
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5DD668FB
+P 22200 21350
+F 0 "LC?" H 22200 21655 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 22200 21564 50  0000 C CNN
+F 2 "" V 22200 21350 50  0001 C CNN
+F 3 "" V 22200 21350 50  0001 C CNN
+	1    22200 21350
+	1    0    0    -1  
+$EndComp
+Text GLabel 21800 21200 1    50   Input ~ 0
+VCC
+Text Notes 23350 21200 0    50   ~ 0
+UART4
+$Comp
+L Flight_Controller-rescue:Conn_6_1-flightController C2
+U 1 1 5D31F9B0
+P 23400 21450
+AR Path="/5D31F9B0" Ref="C2"  Part="1" 
+AR Path="/5D337B84/5D31F9B0" Ref="C?"  Part="1" 
+F 0 "C2" H 23478 21451 50  0000 L CNN
+F 1 "Conn_6_1" H 23478 21360 50  0000 L CNN
+F 2 "" H 24050 22050 50  0001 C CNN
+F 3 "" H 24050 22050 50  0001 C CNN
+	1    23400 21450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18350 20050 18650 20050
+Wire Wire Line
+	18350 20150 18350 20050
+Wire Wire Line
+	17800 20150 18350 20150
+Wire Wire Line
+	18600 19750 18650 19750
+Wire Wire Line
+	18200 19750 17750 19750
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5F98F4A3
+P 18400 19650
+F 0 "LC?" H 18400 19955 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 18400 19864 50  0000 C CNN
+F 2 "" V 18400 19650 50  0001 C CNN
+F 3 "" V 18400 19650 50  0001 C CNN
+	1    18400 19650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7D5531
+P 17600 20350
+AR Path="/5F7D5531" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5F7D5531" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 17600 20100 50  0001 C CNN
+F 1 "GND" H 17605 20177 50  0000 C CNN
+F 2 "" H 17600 20350 50  0001 C CNN
+F 3 "" H 17600 20350 50  0001 C CNN
+	1    17600 20350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17400 20150 17100 20150
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5F613EE2
+P 17600 20250
+F 0 "LC?" H 17700 20250 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 17600 20464 50  0000 C CNN
+F 2 "" V 17600 20250 50  0001 C CNN
+F 3 "" V 17600 20250 50  0001 C CNN
+	1    17600 20250
+	1    0    0    -1  
+$EndComp
+Text GLabel 17100 20150 0    50   Input ~ 0
+IO1_3V3
+Wire Wire Line
+	18100 19950 18650 19950
+Wire Wire Line
+	17800 19950 17350 19950
+$Comp
+L Device:R R?
+U 1 1 5F32E85C
+P 17950 19950
+F 0 "R?" V 18050 19950 50  0000 C CNN
+F 1 "100" V 18150 19950 50  0000 C CNN
+F 2 "" V 17880 19950 50  0001 C CNN
+F 3 "~" H 17950 19950 50  0001 C CNN
+	1    17950 19950
+	0    -1   1    0   
+$EndComp
+Text GLabel 17350 19950 0    50   Input ~ 0
+RSSI_IN
+Wire Wire Line
+	18100 19850 18650 19850
+$Comp
+L Device:R R?
+U 1 1 5F208763
+P 17950 19850
+F 0 "R?" V 18050 19850 50  0000 C CNN
+F 1 "100" V 18150 19850 50  0000 C CNN
+F 2 "" V 17880 19850 50  0001 C CNN
+F 3 "~" H 17950 19850 50  0001 C CNN
+	1    17950 19850
+	0    1    -1   0   
+$EndComp
+Text GLabel 17800 19850 0    50   Input ~ 0
+USART6_TX_TELEM3\(RC_INPUT)
+$Comp
+L power:GND #PWR?
+U 1 1 5EFC1659
+P 18400 19550
+AR Path="/5EFC1659" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5EFC1659" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18400 19300 50  0001 C CNN
+F 1 "GND" H 18405 19377 50  0000 C CNN
+F 2 "" H 18400 19550 50  0001 C CNN
+F 3 "" H 18400 19550 50  0001 C CNN
+	1    18400 19550
+	-1   0    0    1   
+$EndComp
+Text GLabel 17750 19750 0    50   Input ~ 0
+VDD_5V_IN
+Connection ~ 20000 19450
+Text GLabel 19600 19100 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	20200 19150 20950 19150
+Wire Wire Line
+	19600 19150 19600 19100
+Wire Wire Line
+	19800 19150 19600 19150
+Wire Wire Line
+	20000 19350 20000 19450
+Wire Wire Line
+	20950 19450 20000 19450
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 610AB98B
+P 20000 19250
+F 0 "LC?" H 20000 19555 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 20000 19464 50  0000 C CNN
+F 2 "" V 20000 19250 50  0001 C CNN
+F 3 "" V 20000 19250 50  0001 C CNN
+	1    20000 19250
+	1    0    0    -1  
+$EndComp
+Text GLabel 20950 19350 0    50   Input ~ 0
+I2C_4_SDA_PORT
+Text GLabel 20950 19250 0    50   Input ~ 0
+I2C_4_SCL_PORT
+$Comp
+L power:GND #PWR?
+U 1 1 610AB982
+P 20000 19450
+AR Path="/610AB982" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/610AB982" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20000 19200 50  0001 C CNN
+F 1 "GND" H 20005 19277 50  0000 C CNN
+F 2 "" H 20000 19450 50  0001 C CNN
+F 3 "" H 20000 19450 50  0001 C CNN
+	1    20000 19450
+	-1   0    0    -1  
+$EndComp
+Text Notes 21050 19100 0    50   ~ 0
+I2C4
+$Comp
+L Flight_Controller-rescue:Conn_4_1-flightController C?
+U 1 1 610AB97B
+P 21100 19350
+AR Path="/610AB97B" Ref="C?"  Part="1" 
+AR Path="/5D337B84/610AB97B" Ref="C?"  Part="1" 
+F 0 "C?" H 21178 19451 50  0000 L CNN
+F 1 "Conn_4_1" H 21178 19360 50  0000 L CNN
+F 2 "" H 21750 19950 50  0001 C CNN
+F 3 "" H 21750 19950 50  0001 C CNN
+	1    21100 19350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22200 19150 22200 19100
+Text GLabel 22200 19100 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	22400 19150 22200 19150
+Wire Wire Line
+	23250 19150 22800 19150
+Connection ~ 22600 19450
+Wire Wire Line
+	22600 19350 22600 19450
+Wire Wire Line
+	23250 19450 22600 19450
+$Comp
+L Device:EMI_Filter_C LC1
+U 1 1 5E5AE824
+P 22600 19250
+F 0 "LC1" H 22600 19555 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 22600 19464 50  0000 C CNN
+F 2 "" V 22600 19250 50  0001 C CNN
+F 3 "" V 22600 19250 50  0001 C CNN
+	1    22600 19250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E5AE81E
+P 22600 19450
+AR Path="/5E5AE81E" Ref="#PWR013"  Part="1" 
+AR Path="/5D337B84/5E5AE81E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 22600 19200 50  0001 C CNN
+F 1 "GND" H 22605 19277 50  0000 C CNN
+F 2 "" H 22600 19450 50  0001 C CNN
+F 3 "" H 22600 19450 50  0001 C CNN
+	1    22600 19450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	22200 20200 22200 20150
+Wire Wire Line
+	22400 20200 22200 20200
+Wire Wire Line
+	23250 20200 22800 20200
+Connection ~ 22600 20500
+Wire Wire Line
+	22600 20400 22600 20500
+Wire Wire Line
+	23250 20500 22600 20500
+$Comp
+L Device:EMI_Filter_C LC2
+U 1 1 5E3F8115
+P 22600 20300
+F 0 "LC2" H 22600 20605 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 22600 20514 50  0000 C CNN
+F 2 "" V 22600 20300 50  0001 C CNN
+F 3 "" V 22600 20300 50  0001 C CNN
+	1    22600 20300
+	1    0    0    -1  
+$EndComp
+Text GLabel 22200 20150 1    50   Input ~ 0
+VCC
+Text GLabel 23250 19350 0    50   Input ~ 0
+CAN_L_1
+Text GLabel 23250 19250 0    50   Input ~ 0
+CAN_H_1
+Text GLabel 23250 20400 0    50   Input ~ 0
+CAN_L_2
+Text GLabel 23250 20300 0    50   Input ~ 0
+CAN_H_2
+$Comp
+L power:GND #PWR027
+U 1 1 5E3AE9F4
+P 22600 20500
+AR Path="/5E3AE9F4" Ref="#PWR027"  Part="1" 
+AR Path="/5D337B84/5E3AE9F4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR027" H 22600 20250 50  0001 C CNN
+F 1 "GND" H 22605 20327 50  0000 C CNN
+F 2 "" H 22600 20500 50  0001 C CNN
+F 3 "" H 22600 20500 50  0001 C CNN
+	1    22600 20500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_C LC3
+U 1 1 5D746DD4
+P 18000 22200
+F 0 "LC3" H 18000 22505 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 18000 22414 50  0000 C CNN
+F 2 "" V 18000 22200 50  0001 C CNN
+F 3 "" V 18000 22200 50  0001 C CNN
+	1    18000 22200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17600 22100 17600 22150
+Wire Wire Line
+	17800 22100 17600 22100
+$Comp
+L power:GND #PWR045
+U 1 1 5E57C536
+P 18000 22400
+AR Path="/5E57C536" Ref="#PWR045"  Part="1" 
+AR Path="/5D337B84/5E57C536" Ref="#PWR?"  Part="1" 
+F 0 "#PWR045" H 18000 22150 50  0001 C CNN
+F 1 "GND" H 18005 22227 50  0000 C CNN
+F 2 "" H 18000 22400 50  0001 C CNN
+F 3 "" H 18000 22400 50  0001 C CNN
+	1    18000 22400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18000 22300 18000 22400
+Wire Wire Line
+	16500 21900 16100 21900
+$Comp
+L Device:R R7
+U 1 1 5D985630
+P 16650 21900
+F 0 "R7" V 16750 21900 50  0000 C CNN
+F 1 "1K5" V 16850 21900 50  0000 C CNN
+F 2 "" V 16580 21900 50  0001 C CNN
+F 3 "~" H 16650 21900 50  0001 C CNN
+	1    16650 21900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	17000 21900 17250 21900
+Connection ~ 17000 21900
+Wire Wire Line
+	17000 21900 17000 21800
+Wire Wire Line
+	16800 21900 17000 21900
+Wire Wire Line
+	17250 22000 17200 22000
+Text Label 17600 22000 0    50   ~ 0
+SAFETY_SWITCH_LED
+$Comp
+L Device:R R11
+U 1 1 5D88FA54
+P 17400 22000
+F 0 "R11" V 17500 22000 50  0000 C CNN
+F 1 "100" V 17600 22000 50  0000 C CNN
+F 2 "" V 17330 22000 50  0001 C CNN
+F 3 "~" H 17400 22000 50  0001 C CNN
+	1    17400 22000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18700 22000 17550 22000
+Text Label 17600 21900 0    50   ~ 0
+SAFETY_IN
+Wire Wire Line
+	17550 21900 18700 21900
+$Comp
+L Flight_Controller-rescue:Conn_10_1-flightController C42
+U 1 1 5D31FA10
+P 18850 21600
+AR Path="/5D31FA10" Ref="C42"  Part="1" 
+AR Path="/5D337B84/5D31FA10" Ref="C?"  Part="1" 
+F 0 "C42" H 18928 21401 50  0000 L CNN
+F 1 "Conn_10_1" H 18928 21310 50  0000 L CNN
+F 2 "" H 19500 22200 50  0001 C CNN
+F 3 "" H 19500 22200 50  0001 C CNN
+	1    18850 21600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5D382D95
+P 18700 22300
+AR Path="/5D382D95" Ref="#PWR049"  Part="1" 
+AR Path="/5D337B84/5D382D95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR049" H 18700 22050 50  0001 C CNN
+F 1 "GND" H 18705 22127 50  0000 C CNN
+F 2 "" H 18700 22300 50  0001 C CNN
+F 3 "" H 18700 22300 50  0001 C CNN
+	1    18700 22300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18700 22100 18200 22100
+$Comp
+L Device:R R10
+U 1 1 5D767299
+P 17400 21900
+F 0 "R10" V 17500 21900 50  0000 C CNN
+F 1 "100" V 17600 21900 50  0000 C CNN
+F 2 "" V 17330 21900 50  0001 C CNN
+F 3 "~" H 17400 21900 50  0001 C CNN
+	1    17400 21900
+	0    1    -1   0   
+$EndComp
+Text GLabel 17600 22150 3    50   Input ~ 0
+IO1_3V3
+Text GLabel 18700 22200 0    50   Input ~ 0
+BUZZER_1
+$Comp
+L Flight_Controller-rescue:Conn_4_1-flightController C20
+U 1 1 5D31F9E0
+P 23400 19350
+AR Path="/5D31F9E0" Ref="C20"  Part="1" 
+AR Path="/5D337B84/5D31F9E0" Ref="C?"  Part="1" 
+F 0 "C20" H 23478 19451 50  0000 L CNN
+F 1 "Conn_4_1" H 23478 19360 50  0000 L CNN
+F 2 "" H 24050 19950 50  0001 C CNN
+F 3 "" H 24050 19950 50  0001 C CNN
+	1    23400 19350
+	1    0    0    -1  
+$EndComp
+Text Notes 23350 19100 0    50   ~ 0
+CAN1
+Text Notes 23350 20150 0    50   ~ 0
+CAN2
+$Comp
+L Flight_Controller-rescue:Conn_5_1-flightController C14
+U 1 1 5D31F9F2
+P 18800 19950
+AR Path="/5D31F9F2" Ref="C14"  Part="1" 
+AR Path="/5D337B84/5D31F9F2" Ref="C?"  Part="1" 
+F 0 "C14" H 18878 20001 50  0000 L CNN
+F 1 "Conn_5_1" H 18878 19910 50  0000 L CNN
+F 2 "" H 19450 20550 50  0001 C CNN
+F 3 "" H 19450 20550 50  0001 C CNN
+	1    18800 19950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Flight_Controller-rescue:Conn_4_1-flightController C30
+U 1 1 5D31FA28
+P 23400 20400
+AR Path="/5D31FA28" Ref="C30"  Part="1" 
+AR Path="/5D337B84/5D31FA28" Ref="C?"  Part="1" 
+F 0 "C30" H 23478 20501 50  0000 L CNN
+F 1 "Conn_4_1" H 23478 20410 50  0000 L CNN
+F 2 "" H 24050 21000 50  0001 C CNN
+F 3 "" H 24050 21000 50  0001 C CNN
+	1    23400 20400
+	1    0    0    -1  
+$EndComp
+Text Notes 18800 21350 0    50   ~ 0
+GPS MODULE
+Text Notes 18750 19700 0    50   ~ 0
+DSM/SBUS RC
+Text GLabel 18700 21500 0    50   Input ~ 0
+GPS1_TX1
+Text GLabel 18700 21600 0    50   Input ~ 0
+GPS1_RX1
+Text GLabel 18700 21700 0    50   Input ~ 0
+SCL1_GPS
+Text GLabel 18700 21800 0    50   Input ~ 0
+SDA1_GPS
+$Comp
+L power:GND #PWR010
+U 1 1 5D41392B
+P 18650 20150
+AR Path="/5D41392B" Ref="#PWR010"  Part="1" 
+AR Path="/5D337B84/5D41392B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR010" H 18650 19900 50  0001 C CNN
+F 1 "GND" H 18655 19977 50  0000 C CNN
+F 2 "" H 18650 20150 50  0001 C CNN
+F 3 "" H 18650 20150 50  0001 C CNN
+	1    18650 20150
+	1    0    0    -1  
+$EndComp
+Text GLabel 17000 21800 1    50   Input ~ 0
+SAFETY_SWITCH_IN
+Text GLabel 17200 22000 0    50   Input ~ 0
+nSAFETY_SWITCH_LED_OUT
+Wire Notes Line
+	23950 22800 23950 16600
+Text Notes 14150 16850 0    157  ~ 0
+PORTS
+Text GLabel 28850 7750 2    50   Input ~ 0
+RC_INPUT\(aka_PPM_IN)
+Wire Wire Line
+	21850 17300 21850 17250
+Text GLabel 21850 17250 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	22050 17300 21850 17300
+Wire Wire Line
+	22250 17500 22250 17600
+$Comp
+L Device:EMI_Filter_C LC?
+U 1 1 5E15585F
+P 22250 17400
+F 0 "LC?" H 22250 17705 50  0000 C CNN
+F 1 "EMI_Filter_LC" H 22250 17614 50  0000 C CNN
+F 2 "" V 22250 17400 50  0001 C CNN
+F 3 "" V 22250 17400 50  0001 C CNN
+	1    22250 17400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E155869
+P 22250 17600
+AR Path="/5E155869" Ref="#PWR?"  Part="1" 
+AR Path="/5D337B84/5E155869" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 22250 17350 50  0001 C CNN
+F 1 "GND" H 22255 17427 50  0000 C CNN
+F 2 "" H 22250 17600 50  0001 C CNN
+F 3 "" H 22250 17600 50  0001 C CNN
+	1    22250 17600
+	-1   0    0    -1  
+$EndComp
+Text GLabel 23200 17400 0    50   Input ~ 0
+SPI5_SCK_EXTERNAL1
+Wire Wire Line
+	22450 17300 23200 17300
+Text GLabel 23200 17500 0    50   Input ~ 0
+SPI5_MISO_EXTERNAL1
+Text GLabel 23200 17600 0    50   Input ~ 0
+SPI5_MOSI_EXTERNAL1
+Text GLabel 23200 17700 0    50   Input ~ 0
+SPI5_CS1_EXTERNAL1
+Text GLabel 23200 17800 0    50   Input ~ 0
+SPI5_CS2_EXTERNAL1
+NoConn ~ 21800 4400
+NoConn ~ 21800 4500
+Text Label 21800 4400 0    50   ~ 0
+SPI6_SCK_EXTERNAL2
+Text Label 21800 4500 0    50   ~ 0
+SPI6_MISO_EXTERNAL2
+Text Label 21800 7900 0    50   ~ 0
+SPI6_CS3_EXTERNAL2
+Text Label 21800 8000 0    50   ~ 0
+SPI6_CS2_EXTERNAL2
+Text Label 21800 8100 0    50   ~ 0
+SPI6_CS1_EXTERNAL2
+NoConn ~ 21800 7900
+NoConn ~ 21800 8000
+NoConn ~ 21800 8100
+NoConn ~ 18900 8600
+Text Label 18900 8600 2    50   ~ 0
+SPI6_MOSI_EXTERNAL2
+Wire Notes Line
+	14100 22800 23950 22800
+Wire Notes Line
+	14100 16600 23950 16600
+Wire Notes Line
+	14100 16600 14100 22800
+Text Label 18900 4200 2    50   ~ 0
+SPI5_DRDY7_EXTERNAL1
+NoConn ~ 18900 4200
+NoConn ~ 21800 7600
+Text Label 21800 7600 0    50   ~ 0
+SPI5_CS3_EXTERNAL1
+Wire Wire Line
+	21800 3800 22350 3800
+NoConn ~ 21800 3700
+Text Label 21800 3700 0    50   ~ 0
+SPI1_CS2_ICM20602
+NoConn ~ 21800 5100
+Text Label 21800 5100 0    50   ~ 0
+VDD_5V_WIFI_EN
+NoConn ~ 21800 5200
+Text Label 21800 5200 0    50   ~ 0
+VDD_5V_RC_EN
+NoConn ~ 21800 6900
+Text Label 21800 6900 0    50   ~ 0
+SPI1_CS5_AUX_MEM
+NoConn ~ 18900 9300
+NoConn ~ 18900 9600
+NoConn ~ 18900 9700
+NoConn ~ 18900 10000
+NoConn ~ 18900 10100
+Text Label 18900 10000 2    50   ~ 0
+CAN3_RX
+Text Label 18900 10100 2    50   ~ 0
+HEATER
+Text Label 18900 9300 2    50   ~ 0
+CAN3_TX
+Text Label 18900 9600 2    50   ~ 0
+USB_DP
+Text Label 18900 9700 2    50   ~ 0
+USB_DM
+Text Label 18900 8900 2    50   ~ 0
+BOOT1
+$Comp
+L Device:R R?
+U 1 1 6121DBC6
+P 17850 8900
+F 0 "R?" V 17643 8900 50  0000 C CNN
+F 1 "10K" V 17734 8900 50  0000 C CNN
+F 2 "" V 17780 8900 50  0001 C CNN
+F 3 "~" H 17850 8900 50  0001 C CNN
+	1    17850 8900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	18000 8900 18900 8900
+$Comp
+L power:GND #PWR?
+U 1 1 616065C5
+P 17700 8900
+F 0 "#PWR?" H 17700 8650 50  0001 C CNN
+F 1 "GND" H 17705 8727 50  0000 C CNN
+F 2 "" H 17700 8900 50  0001 C CNN
+F 3 "" H 17700 8900 50  0001 C CNN
+	1    17700 8900
+	0    1    1    0   
+$EndComp
+NoConn ~ 18900 8100
+Text Label 18900 8100 2    50   ~ 0
+nSPI5_RESET_EXTERNAL1
+NoConn ~ 18900 6900
+Text Label 18900 6900 2    50   ~ 0
+SPI1_DRDY4_ICM20602
+Text Label 18900 6000 2    50   ~ 0
+32KHz_IN
+Text Label 18900 5900 2    50   ~ 0
+32KHz_OUT
+$Comp
+L Device:R R?
+U 1 1 61DDF6E2
+P 19700 2050
+F 0 "R?" V 19493 2050 50  0000 C CNN
+F 1 "0R" V 19584 2050 50  0000 C CNN
+F 2 "" V 19630 2050 50  0001 C CNN
+F 3 "~" H 19700 2050 50  0001 C CNN
+	1    19700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19400 11100 19400 11750
+Wire Wire Line
+	19500 12300 19700 12300
+Wire Wire Line
+	19500 11100 19500 12300
+NoConn ~ 7175 2075
+NoConn ~ 7175 2275
+Text Label 21800 7300 0    50   ~ 0
+16_MHZ_OUT
+Text Label 21800 7400 0    50   ~ 0
+16_MHZ_IN
+Wire Wire Line
+	21800 7300 23700 7300
+Wire Wire Line
+	21800 7400 23700 7400
+$Comp
+L Device:R R?
+U 1 1 625AB0EE
+P 23850 7350
+F 0 "R?" V 23643 7350 50  0000 C CNN
+F 1 "1M" V 23734 7350 50  0000 C CNN
+F 2 "" V 23780 7350 50  0001 C CNN
+F 3 "~" H 23850 7350 50  0001 C CNN
+	1    23850 7350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	23700 7300 23700 7200
+Wire Wire Line
+	23700 7200 23850 7200
+Wire Wire Line
+	23700 7400 23700 7500
+Wire Wire Line
+	23700 7500 23850 7500
+$Comp
+L Device:C C?
+U 1 1 628F478E
+P 24850 7600
+F 0 "C?" V 24598 7600 50  0000 C CNN
+F 1 "12pF" V 24689 7600 50  0000 C CNN
+F 2 "" H 24888 7450 50  0001 C CNN
+F 3 "~" H 24850 7600 50  0001 C CNN
+	1    24850 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 628F4798
+P 24850 7100
+F 0 "C?" V 24598 7100 50  0000 C CNN
+F 1 "12pF" V 24689 7100 50  0000 C CNN
+F 2 "" H 24888 6950 50  0001 C CNN
+F 3 "~" H 24850 7100 50  0001 C CNN
+	1    24850 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 628F47A2
+P 24450 7350
+F 0 "Y?" H 24450 7618 50  0000 C CNN
+F 1 "Crystal" H 24450 7527 50  0000 C CNN
+F 2 "" H 24450 7350 50  0001 C CNN
+F 3 "~" H 24450 7350 50  0001 C CNN
+	1    24450 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24450 7200 24450 7100
+Wire Wire Line
+	24450 7500 24450 7600
+Wire Wire Line
+	24450 7600 24700 7600
+Connection ~ 24450 7600
+Wire Wire Line
+	24700 7100 24450 7100
+$Comp
+L power:GND #PWR?
+U 1 1 628F47B2
+P 25100 7600
+F 0 "#PWR?" H 25100 7350 50  0001 C CNN
+F 1 "GND" H 25105 7427 50  0000 C CNN
+F 2 "" H 25100 7600 50  0001 C CNN
+F 3 "" H 25100 7600 50  0001 C CNN
+	1    25100 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25000 7600 25100 7600
+$Comp
+L power:GND #PWR?
+U 1 1 628F47BD
+P 25100 7100
+F 0 "#PWR?" H 25100 6850 50  0001 C CNN
+F 1 "GND" H 25105 6927 50  0000 C CNN
+F 2 "" H 25100 7100 50  0001 C CNN
+F 3 "" H 25100 7100 50  0001 C CNN
+	1    25100 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	25100 7100 25000 7100
+Wire Wire Line
+	24450 7100 24050 7100
+Wire Wire Line
+	24050 7100 24050 7200
+Connection ~ 24450 7100
+Wire Wire Line
+	23850 7200 24050 7200
+Connection ~ 23850 7200
+Wire Wire Line
+	23850 7500 24050 7500
+Connection ~ 23850 7500
+Wire Wire Line
+	24050 7500 24050 7600
+Wire Wire Line
+	24050 7600 24450 7600
 $EndSCHEMATC
