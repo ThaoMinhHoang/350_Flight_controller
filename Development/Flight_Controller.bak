@@ -6819,4 +6819,16 @@ Wire Wire Line
 	24050 7500 24050 7600
 Wire Wire Line
 	24050 7600 24450 7600
+Wire Notes Line width 39 rgb(255, 0, 0)
+	7100 2750 7100 3850
+Wire Notes Line width 39 rgb(255, 0, 0)
+	7100 3850 7800 3850
+Wire Notes Line width 39 rgb(255, 0, 0)
+	7800 3850 7800 3300
+Wire Notes Line width 39 rgb(255, 0, 0)
+	9300 3300 9300 2750
+Wire Notes Line width 39 rgb(255, 0, 0)
+	7800 3300 9300 3300
+Wire Notes Line width 39 rgb(255, 0, 0)
+	9300 2750 7100 2750
 $EndSCHEMATC
