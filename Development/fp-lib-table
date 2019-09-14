@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name ABS06-32.768KHZ-T)(type Legacy)(uri C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.mod)(options "")(descr ""))
-  (lib (name FLIGHTFOOT)(type KiCad)(uri "/Users/paulie/Downloads/FC Sep 5/FLIGHTFOOT.pretty")(options "")(descr ""))
+  (lib (name FLIGHTFOOT)(type KiCad)(uri C:/Users/dell/Documents/GitHub/350_Flight_controller/FLIGHTFOOT.pretty)(options "")(descr ""))
+  (lib (name Newfootprint)(type KiCad)(uri C:/Users/dell/Documents/GitHub/350_Flight_controller/Newfootprint)(options "")(descr ""))
 )

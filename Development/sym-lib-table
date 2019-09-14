@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name "Flight_Controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/Flight_Controller-rescue.lib")(options "")(descr ""))
-  (lib (name "ABS06-32.768KHZ-T")(type "Legacy")(uri "C:/Users/dell/Documents/GitHub/footprint_snapEDA/ABS06-32.768KHZ-T/ABS06-32.768KHZ-T.lib")(options "")(descr ""))
+  (lib (name Flight_Controller-rescue)(type Legacy)(uri ${KIPRJMOD}/Flight_Controller-rescue.lib)(options "")(descr ""))
 )
