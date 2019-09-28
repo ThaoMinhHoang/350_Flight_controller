@@ -3,4 +3,5 @@
   (lib (name FLIGHTFOOT)(type KiCad)(uri "/Users/paulie/Downloads/FC Sep 19/FLIGHTFOOT.pretty")(options "")(descr ""))
   (lib (name UL_PAS414HRVE5R)(type KiCad)(uri C:/Users/dell/Documents/GitHub/350_Flight_controller-master/UL_PAS414HRVE5R/KiCAD/2019-09-17_15-09-48/UL_PAS414HRVE5R.pretty)(options "")(descr ""))
   (lib (name Newfootprint)(type KiCad)(uri "/Users/paulie/Downloads/FC Sep 19/Newfootprint")(options "")(descr ""))
+  (lib (name EMI)(type KiCad)(uri "/Users/paulie/Downloads/FC Sep 26/footprint")(options "")(descr ""))
 )
